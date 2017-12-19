@@ -1,0 +1,18 @@
+
+.vuep{
+    flex-direction: column;
+    height: initial;
+}
+
+.vuep-editor, .vuep-preview, .vuep-error{
+    width: 100%;
+    height: initial;
+}
+
+.markdown-section{
+    max-width: 929px;
+}
+
+.vuep-preview, .vuep-error{
+    padding: 8px;
+}
