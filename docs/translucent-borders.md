@@ -11,7 +11,8 @@
   main{
     width: 100%;
     padding: 60px 80px 80px;
-    background: #4fc08d;
+    /* background: #4fc08d; */
+    background: #b4a078;
   }
   div{
     padding: 12px;
@@ -19,6 +20,9 @@
     background: white;
     background-clip: padding-box;
     border: 10px solid hsla(0, 0%, 100%, .5);
+  }
+  label{
+    color: #f4f0ea;
   }
   input:checked ~ div{
     background-clip: border-box;

@@ -1,6 +1,6 @@
 ## 背景定位
 
-?> 背景知识：:point_right: [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position), [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position), [calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
+?> 背景知识：:point_right: [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position), [background-origin](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-origin), [calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
 
 
 
@@ -11,16 +11,16 @@
   main{
     width: 100%;
     padding: 80px 0px;
-    background: #4fc08d;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   div{
-    width: 260px; height: 160px;
+    width: 229px; height: 139px;
     margin: auto;
+    color: #f4f0ea;
     padding: 16px 29px 28px 20px;
-    background: #292a2b url('/images/player_logo@2x.png') no-repeat bottom right / 78px 21px;
+    background: #b4a078 url('_images/player_logo@2x.png') no-repeat bottom right / 78px 21px;
   }
   div:nth-of-type(1){
     background-position: right 29px bottom 28px;
