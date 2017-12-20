@@ -15,17 +15,17 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'You-need-to-know-css',
+      name: 'You-need-to-know-css-tricks',
       repo: 'https://github.com/l-hammer/You-need-to-know-css',
       loadSidebar: true,
       homepage: 'translucent-borders.md',
       search: {
         noData: {
-          '/': 'No results!'
+          '/': '找不到结果!'
         },
         paths: 'auto',
         placeholder: {
-          '/': 'Search'
+          '/': '搜索'
         }
       },
     }
@@ -36,6 +36,7 @@
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
   <script>
     const gitalk = new Gitalk({
       clientID: '8b7cffeb4ae285e0e3e4',
@@ -44,6 +45,7 @@
       owner: 'l-hammer',
       admin: ['l-hammer'],
       id: 'CSSTricks',
+      ga: 'UA-111446331-1',
       // facebook-like distraction free mode
       distractionFreeMode: true
     })
