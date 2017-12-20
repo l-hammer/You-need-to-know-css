@@ -1,3 +1,5 @@
 - **边框与背景**
 	- [半透明边框](/translucent-borders.md)
 	- [多重边框](/multiple-borders.md)
+	- [边框内圆角](/inner-rounding.md)
+	- [灵活的背景定位](/extended-bg-position.md)

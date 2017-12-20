@@ -16,3 +16,7 @@
 .vuep-preview, .vuep-error{
     padding: 8px;
 }
+
+label{
+    user-select: none;
+}
