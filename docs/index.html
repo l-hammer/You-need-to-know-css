@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="//unpkg.com/vuep/dist/vuep.css">
-  <link rel="stylesheet" href="https://unpkg.com/codemirror/theme/neo.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -34,5 +34,19 @@
   <script src="//unpkg.com/vue/dist/vue.min.js"></script>
   <script src="//unpkg.com/vuep/dist/vuep.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '8b7cffeb4ae285e0e3e4',
+      clientSecret: '8dc411cd6552c0b61e06179dcfadd391fead2e7f',
+      repo: 'You-need-to-know-css',
+      owner: 'l-hammer',
+      admin: ['l-hammer'],
+      // facebook-like distraction free mode
+      distractionFreeMode: true
+    })
+    gitalk.render('gitalk-container')
+  </script>
 </body>
 </html>
