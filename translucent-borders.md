@@ -1,4 +1,4 @@
-## 半透明边框
+# 半透明边框
 
 ?> 背景知识：:point_right: [background-clip](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-clip)
 

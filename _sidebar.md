@@ -1,6 +1,5 @@
 - **介绍**
-	- [关于CSS Tricks]()
-	- [关于CSS编程技巧]()
+	- [关于CSS Tricks](/introduce.md)
 - **边框与背景**
 	- [半透明边框](/translucent-borders.md)
 	- [多重边框](/multiple-borders.md)
