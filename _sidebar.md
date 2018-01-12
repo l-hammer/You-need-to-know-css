@@ -8,6 +8,6 @@
 	- [条纹背景](/stripes-background.md)
 - **形状**
 	- [圆与椭圆](/ellipse.md)
-	- [自适应菱形](/diamond.md)
+	- [parallel四边形](/parallelogram.md)
 	- [切角效果](/bevel-corners.md)
 	- [简易饼图](/pie-chart.md)

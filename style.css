@@ -25,3 +25,8 @@ label{
         background-position: 200% 0;
     }
 }
+
+.orderoptions[align="center"]{
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
