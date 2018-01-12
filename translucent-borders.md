@@ -37,4 +37,8 @@
 </script>
 </script>
 
+### 浏览器支持
+
+<iframe src="//caniuse.bitsofco.de/embed/index.html?feat=background-img-opts&amp;periods=future_2,future_1,current,past_1,past_2,past_3" frameborder="0" width="100%" height="518px"></iframe>
+
 

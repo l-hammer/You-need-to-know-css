@@ -32,12 +32,12 @@
       },
       plugins: [
         function(hook, vm) {
-          hook.beforeEach(function (html) {
-            var editHtml = '<p class="ciu_embed" data-feature="once-event-listener" data-periods="future_1,current,past_1,past_2,past_3">\
-                           <a href="http://caniuse.com/#feat=once-event-listener">Can I Use once-event-listener?</a> Data on support for the once-event-listener feature across the major browsers from caniuse.com.\
-                           </p>\n';
-            return html + '\n----\n' + editHtml;
-          })
+          // hook.afterEach(function (html, next) {
+          //   var editHtml = '<p class="ciu_embed" data-feature="once-event-listener" data-periods="future_1,current,past_1,past_2,past_3">\
+          //                  <a href="http://caniuse.com/#feat=once-event-listener">Can I Use once-event-listener?</a> Data on support for the once-event-listener feature across the major browsers from caniuse.com.\
+          //                  </p>\n';
+          //   next(html + '\n----\n' + editHtml);
+          // })
         }
       ]
     }
@@ -49,8 +49,7 @@
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>
-  <script src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script>
     const gitalk = new Gitalk({
@@ -61,7 +60,7 @@
       admin: ['l-hammer'],
       id: 'CSSTricks',
       // facebook-like distraction free mode
-      distractionFreeMode: true
+      distractionFreeMode: false
     })
 
   </script>
