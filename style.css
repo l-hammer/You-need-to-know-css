@@ -19,3 +19,9 @@
 label{
     user-select: none;
 }
+
+@keyframes panoramic{
+    to {
+        background-position: 200% 0;
+    }
+}

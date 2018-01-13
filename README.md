@@ -1,6 +1,6 @@
 # You-need-to-know-css-tricks
 
-> 一个为了方便Web开发者复制粘贴常用CSS小样式的文档
+> Just一个为了方便Web开发者复制粘贴常用CSS小样式的文档
 
 ## Contributing
 

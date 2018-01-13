@@ -4,4 +4,10 @@
 	- [半透明边框](/translucent-borders.md)
 	- [多重边框](/multiple-borders.md)
 	- [边框内圆角](/inner-rounding.md)
-	- [灵活的背景定位](/extended-bg-position.md)
+	- [背景定位](/extended-bg-position.md)
+	- [条纹背景](/stripes-background.md)
+- **形状**
+	- [自适应椭圆](/ellipse.md)
+	- [自适应菱形](/diamond.md)
+	- [切角效果](/bevel-corners.md)
+	- [简易饼图](/pie-chart.md)
