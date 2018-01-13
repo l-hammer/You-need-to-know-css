@@ -19,14 +19,14 @@
     margin: 29px auto;
     padding: 8px 16px;
     border-radius: 8px;
-    background: #BCAAA4;
-    outline: 6px solid #4E342E;
+    background: #f4f0ea;
+    outline: 6px solid #b4a078;
   }
   input{
     margin-left: calc(50% - 45px);
   }
   input:checked ~ div{
-    box-shadow: 0 0 0 6px #4E342E;
+    box-shadow: 0 0 0 6px #b4a078;
   }
 </style>
 <template>

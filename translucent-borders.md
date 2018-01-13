@@ -22,14 +22,14 @@
   label{
     color: #f4f0ea;
   }
-  input:checked ~ div{
+  input[id="pb"]:checked ~ div{
     background-clip: padding-box;
   }
 </style>
 <template>
   <main>
-    <input id="ck" type="checkbox" checked/>
-    <label for="ck">padding-box(默认)</label>
+    <input id="pb" type="checkbox" checked/>
+    <label for="pb">padding-box(默认)</label>
     <div>A paragraph of filler text. La la la de dah de dah de dah de la.</div>
   </main>
 </template>

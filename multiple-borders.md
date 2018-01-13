@@ -22,16 +22,16 @@
     width: 60px; height: 60px;
     border-radius: 50%;
     background: #fafafa;
-    box-shadow: 0 0 0 10px #efebe9, 0 0 0 20px #d7ccc8, 
-                0 0 0 30px #bcaaa4, 0 0 0 40px #a1887f,  
-                0 0 0 50px #8d6e63, 0 0 0 60px #795548,  
-                0 0 0 70px #6d4c41, 0 0 0 80px #5d4037;
+    box-shadow: 0 0 0 10px #E8E2D6, 0 0 0 20px #E1D9C9,  
+                0 0 0 30px #D9CFBB, 0 0 0 40px #D2C6AE,  
+                0 0 0 50px #CABCA0, 0 0 0 60px #C3B393,
+                0 0 0 70px #BBA985, 0 0 0 80px #B4A078;
   }
   div:nth-of-type(2){
     width: 200px; height: 120px;
     background: #efebe9;
-    border: 5px solid #4e342e;
-    outline: #4e342e dashed 1px;
+    border: 5px solid #B4A078;
+    outline: #B4A078 dashed 1px;
     outline-offset: -10px;
   }
 </style>
