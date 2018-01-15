@@ -11,17 +11,19 @@
 <style>
   main{
     width: 100%;
-    padding: 60px 0 80px;
+    padding: 60px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
   div{
     width: 200px; height: 150px;
     background: #f4bb3a;
+    margin-bottom: 30px;
   }
   .ellipse:nth-of-type(1){
     width: 300px; height: 150px; 
-		border-radius: 50% / 100% 100% 0 0;
+    border-radius: 50% / 100% 100% 0 0;
   }
   .ellipse:nth-of-type(2){
     width: 150px; height: 150px;
@@ -34,9 +36,19 @@
     width: 100px;
     border-radius: 100% 0 0 0;
   }
+  .ellipse:nth-of-type(5){
+    width: 300px;
+    border-radius: 50% / 0 100%;
+  }
+  .ellipse:nth-of-type(6){
+    width: 300px;
+    border-radius: 50% / 100% 0;
+  }
 </style>
 <template>
   <main>
+    <div class="ellipse"></div>
+    <div class="ellipse"></div>
     <div class="ellipse"></div>
     <div class="ellipse"></div>
     <div class="ellipse"></div>
