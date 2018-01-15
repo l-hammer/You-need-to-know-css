@@ -7,7 +7,7 @@
 	- [背景定位](/extended-bg-position.md)
 	- [条纹背景](/stripes-background.md)
 - **形状**
-	- [自适应椭圆](/ellipse.md)
+	- [圆与椭圆](/ellipse.md)
 	- [自适应菱形](/diamond.md)
 	- [切角效果](/bevel-corners.md)
 	- [简易饼图](/pie-chart.md)
