@@ -17,6 +17,7 @@
   }
   .diamond{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 20px;
     margin-bottom: 20px;
