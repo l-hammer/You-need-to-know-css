@@ -6,8 +6,13 @@
 	- [边框内圆角](/inner-rounding.md)
 	- [背景定位](/extended-bg-position.md)
 	- [条纹背景](/stripes-background.md)
-- **形状**
+- **常见形状**
 	- [圆与椭圆](/ellipse.md)
 	- [parallel四边形](/parallelogram.md)
 	- [切角效果](/bevel-corners.md)
 	- [简易饼图](/pie-chart.md)
+- **视觉效果**
+- **用户体验**
+- **结构布局**
+- **动画过渡**
+	- [掘金沸点点赞效果](hotspot-like)
