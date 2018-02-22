@@ -13,6 +13,8 @@
 	- [简易饼图](/pie-chart.md)
 	- [其他多边形](/polygon.md)
 - **视觉效果**
+	- [常见投影](/single-projection.md)
+	- [不规则投影](/irregular-projection.md)
 - **用户体验**
 - **结构布局**
 - **动画过渡**
