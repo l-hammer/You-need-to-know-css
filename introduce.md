@@ -83,5 +83,5 @@ input:focus + .callout{
 
 为了保持文档中示例的一致性，文档中所有示例配色均参考使用网易严选设计规范。
 
-![color](_images/colors_guide.jpeg)
+![color](static/colors_guide.jpeg)
 

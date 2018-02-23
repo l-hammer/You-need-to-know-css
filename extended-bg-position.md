@@ -20,7 +20,7 @@
     margin: auto;
     color: #f4f0ea;
     padding: 16px 29px 28px 20px;
-    background: #b4a078 url('_images/player_logo@2x.png') no-repeat bottom right / 78px 21px;
+    background: #b4a078 url('static/player_logo@2x.png') no-repeat bottom right / 78px 21px;
   }
   div:nth-of-type(1){
     background-position: right 29px bottom 28px;

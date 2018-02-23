@@ -5,7 +5,7 @@
 
 <!-- 某些情况下，为了避免标签嵌套过多，我们使用伪元素给元素增加背景、边框等样式会方便很多。比如下方的这张图，需要文字左对齐，划过时每一项背景的内边距`padding`相同，这是
 
-<div align="center" class="orderoptions"><img src="_images/orderoptions.jpeg" width="100%" align="center"/></div> -->
+<div align="center" class="orderoptions"><img src="static/orderoptions.jpeg" width="100%" align="center"/></div> -->
 
 <vuep template="#demo1"></vuep>
 
@@ -83,7 +83,7 @@
     </div>
     <div class="diamond">
       <div>diamond</div>
-      <img src="_images/dog2018.jpg" alt="">
+      <img src="static/dog2018.jpg" alt="">
     </div>
   </main>
 </template>

@@ -8,7 +8,7 @@
 
 <!-- !> 假设设计给了你这样一张图片，在你说完 **shit** 之后，你会怎么去做？`改图？` `NONONO~` -->
 
-<div align="center"><img src="_images/progress.jpg" width="600" align="center"/></div>
+<div align="center"><img src="static/progress.jpg" width="600" align="center"/></div>
 
 > Work overtime today.
 
@@ -60,7 +60,7 @@
 
 <!-- !> 假设设计又给了你这样一张图片，在你说完 **shit and fu*k** 之后，你又会怎么去做？ -->
 
-<div align="center"><img src="_images/coupon.jpeg" width="100%" align="center"/></div>
+<div align="center"><img src="static/coupon.jpeg" width="100%" align="center"/></div>
 
 <!-- **Q:** 卡片划过的阴影暂先不考虑，你可能会说，这和条纹有毛关系啊？
 
