@@ -55,3 +55,11 @@ label{
 @keyframes pie-chart-per3{
     to { stroke-dasharray: 32 100; }
 }
+@keyframes text-blink-effect {
+    50% {
+        text-shadow: 0 0 .1em, 0 0 .3em;
+    }
+    to {
+        text-shadow: 0 0 .1em;
+    }
+}
