@@ -2,7 +2,7 @@
 
 ?> 背景知识：:point_right: [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position), [background-origin](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-origin), [calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
 
-这个没有什么好说的，我们可以在`background`简写属性增加`bottom right`定位值来提供回退。
+<!-- 这个没有什么好说的，我们可以在`background`简写属性增加`bottom right`定位值来提供回退。 -->
 
 <vuep template="#demo1"></vuep>
 

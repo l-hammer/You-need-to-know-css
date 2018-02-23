@@ -2,15 +2,15 @@
 
 ?> 背景知识：:point_right: [gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient), [linear-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/linear-gradient), [radial-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/radial-gradient), [repeating-linear-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/repeating-linear-gradient)
 
-线性渐变`linear-gradient`是CSS3非常重要的一个模块，但在真实的开发中，我们并不常用，在这里，我举两个自己经常会用到的场景，分别是`进度条`和`不规则卡片`。
+<!-- 线性渐变`linear-gradient`是CSS3非常重要的一个模块，但在真实的开发中，我们并不常用，在这里，我举两个自己经常会用到的场景，分别是`进度条`和`不规则卡片`。 -->
 
 ## 进度条
 
-!> 假设设计给了你这样一张图片，在你说完 **shit** 之后，你会怎么去做？`改图？` `NONONO~`
+<!-- !> 假设设计给了你这样一张图片，在你说完 **shit** 之后，你会怎么去做？`改图？` `NONONO~` -->
 
 <div align="center"><img src="_images/progress.jpg" width="600" align="center"/></div>
 
-> work overtime today.
+> Work overtime today.
 
 <vuep template="#demo1"></vuep>
 
@@ -58,13 +58,15 @@
 
 ## 不规则卡片
 
-!> 假设设计又给了你这样一张图片，在你说完 **shit and fu*k** 之后，你又会怎么去做？
+<!-- !> 假设设计又给了你这样一张图片，在你说完 **shit and fu*k** 之后，你又会怎么去做？ -->
 
 <div align="center"><img src="_images/coupon.jpeg" width="100%" align="center"/></div>
 
-**Q:** 卡片划过的阴影暂先不考虑，你可能会说，这和条纹有毛关系啊？
+<!-- **Q:** 卡片划过的阴影暂先不考虑，你可能会说，这和条纹有毛关系啊？
 
-**A:** 其实卡片顶部凹进来的弧形我们可以通过径向渐变`radial-gradient`来实现
+**A:** 其实卡片顶部凹进来的弧形我们可以通过径向渐变`radial-gradient`来实现 -->
+
+> Today's work is seriously overtime.
 
 <vuep template="#demo2"></vuep>
 
