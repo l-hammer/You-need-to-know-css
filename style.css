@@ -63,3 +63,8 @@ label{
         text-shadow: 0 0 .1em;
     }
 }
+@keyframes circular-text-rotate {
+    to {
+        transform: rotate(1turn);
+    }
+}
