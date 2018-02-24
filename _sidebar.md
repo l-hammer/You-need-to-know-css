@@ -25,6 +25,7 @@
 	- [自定义复选框](/custom-checkbox.md)
 	- [自定义单选框](/custom-radio.md)
 	- [通过阴影弱化背景](/shadow-weaken-background.md)
+	- [通过模糊弱化背景](/blurry-weaken-background.md)
 - **结构布局**
 - **动画过渡**
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
