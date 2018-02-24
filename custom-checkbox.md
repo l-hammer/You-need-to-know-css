@@ -2,9 +2,9 @@
 
 ?> 背景知识：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 
-<vuep template="#extend-hit-area"></vuep>
+<vuep template="#custom-checkbox"></vuep>
 
-<script v-pre type="text/x-template" id="extend-hit-area">
+<script v-pre type="text/x-template" id="custom-checkbox">
 <style>
   main {
     width: 100%;
