@@ -22,6 +22,7 @@
 - **用户体验**
 	- [选择合适的鼠标光标](/mouse-cursor.md)
 	- [扩大可点击区域](/extend-hit-area.md)
+	- [自定义复选框](/custom-checkbox.md)
 - **结构布局**
 - **动画过渡**
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
