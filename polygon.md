@@ -18,9 +18,10 @@
     flex-wrap: wrap;
   }
   main > div.item{
-    width: 33.333%; height: 200px;
+    min-width: 199px; height: 200px;
     padding: 20px;
     border: 1px solid #f5f5f5;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;

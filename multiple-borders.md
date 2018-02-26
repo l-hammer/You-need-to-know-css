@@ -11,8 +11,7 @@
 <style>
   main{
     width: 100%;
-    min-height: 459px;
-    padding: 20px 10vh;
+    padding: 0 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -22,6 +21,7 @@
     width: 60px; height: 60px;
     border-radius: 50%;
     background: #fafafa;
+    margin: 105px 29px;
     box-shadow: 0 0 0 10px #E8E2D6, 0 0 0 20px #E1D9C9,  
                 0 0 0 30px #D9CFBB, 0 0 0 40px #D2C6AE,  
                 0 0 0 50px #CABCA0, 0 0 0 60px #C3B393,
@@ -33,6 +33,7 @@
     border: 5px solid #B4A078;
     outline: #B4A078 dashed 1px;
     outline-offset: -10px;
+    margin-bottom: 20px;
   }
 </style>
 <template>

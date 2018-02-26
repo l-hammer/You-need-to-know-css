@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     user-select: none;
     font: 14px / 1 Helvetica, sans-serif;
   }

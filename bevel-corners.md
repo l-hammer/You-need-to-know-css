@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient), [clip-path](https://developer.mozilla.org/zh-CN/docs/Web/CSS/clip-path)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#bevel-corners"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="bevel-corners">
 <style>
   main{
     width: 100%;
@@ -16,6 +16,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 20px;
   }
   .bevel-corners > div{

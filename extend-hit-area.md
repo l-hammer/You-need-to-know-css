@@ -12,6 +12,7 @@
     padding: 60px 0;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     user-select: none;
   }
   main > div {

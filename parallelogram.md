@@ -13,7 +13,7 @@
 <style>
   main{
     width: 100%;
-    padding: 60px 0;
+    padding: 29px 0 0;
   }
   .diamond{
     display: flex;
@@ -47,7 +47,9 @@
     background: #b4a078;
   }
   .diamond:nth-of-type(3) > div{
-    width: 120px; height: 120px;
+    width: 105px; height: 105px;
+    border: 29px solid transparent;
+    box-sizing: content-box;
   }
   .diamond:nth-of-type(3) > div::before{
     content: "";
@@ -60,6 +62,7 @@
   .diamond:nth-of-type(3){
     margin-bottom: 0;
     align-items: center;
+    justify-content: space-around;
     border-bottom-color: transparent;
   }
   .diamond:nth-of-type(3) > img{

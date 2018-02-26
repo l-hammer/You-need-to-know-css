@@ -26,7 +26,7 @@
     background: rgba(0, 0, 0, .8);
   }
   main > section .lightbox {
-    width: 400px; height: 51px;
+    width: 60%; height: 51px;
     background-color: #FFF;
     border-radius: 8px;
     display: flex;
@@ -37,12 +37,12 @@
   main > section:nth-of-type(1) .lightbox {
     position: absolute;
     top: 50%; left: 50%;
-    margin: -25px -200px;
+    transform: translate(-50%, -50%);
   }
   main > section:nth-of-type(2) .lightbox {
     position: absolute;
     top: 50%; left: 50%;
-    margin: -25px -200px;
+    transform: translate(-50%, -50%);
     box-shadow: 0 0 0 50vmax rgba(0, 0, 0, .8);
   }
   main > section dialog{
