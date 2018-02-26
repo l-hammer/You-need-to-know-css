@@ -23,10 +23,12 @@
   input[type="checkbox"] + label {
     cursor: pointer;
     position: relative;
+    line-height: 12px;
     user-select: none;
   }
   input[type="checkbox"] + label:not(:nth-of-type(1)) {
-    margin-left: 3em;
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
   input[type="checkbox"]:checked + label{
     color: #ff8819;
@@ -38,10 +40,9 @@
   input[type="checkbox"] + label::before{
     content: "";
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 10px; height: 10px;
     border-radius: 2px;
-    vertical-align: -1px;
+    vertical-align: top;
     margin-right: .2em;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -58,7 +59,7 @@
     border-top: 0;
     border-left: 0;
     position: absolute;
-    left: 4px; top: 2px;
+    left: 4px; top: 1px;
     transform: rotate(45deg) scale(0);
     transition: all .2s ease-in-out;
   }

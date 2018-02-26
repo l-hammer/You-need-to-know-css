@@ -23,10 +23,12 @@
   input[type="radio"] + label{
     cursor: pointer;
     position: relative;
+    line-height: 12px;
     user-select: none;
   }
   input[type="radio"] + label:not(:nth-of-type(6)){
-    margin-left: 3em;
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
   input[type="radio"]:disabled + label{
     cursor: not-allowed;
@@ -37,7 +39,7 @@
     display: inline-block;
     width: 10px; height: 10px;
     border-radius: 8px;
-    vertical-align: -1px;
+    vertical-align: top;
     margin-right: .2em;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -58,11 +60,11 @@
     border-radius: 4px;
     position: absolute;
     left: 4px; top: 50%;
-    transform: translateY(-2px) scale(0);
+    transform: translateY(-50%) scale(0);
     transition: transform .2s ease-in-out;
   }
   input[type="radio"]:checked + label::after{
-    transform: translateY(-2px) scale(1);
+    transform: translateY(-50%) scale(1);
     transition: transform .2s ease-in-out;
   }
   input[type="radio"]:disabled + label::before, input[type="radio"]:disabled.checked + label::before{
@@ -71,7 +73,7 @@
   input[type="radio"]:disabled.checked + label::after{
     border-color: #ccc;
     background-color: #ccc;
-    transform: translateY(-2px) scale(1);
+    transform: translateY(-50%) scale(1);
   }
 </style>
 <template>
