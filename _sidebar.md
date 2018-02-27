@@ -26,6 +26,7 @@
 	- [自定义单选框](/custom-radio.md)
 	- [通过阴影弱化背景](/shadow-weaken-background.md)
 	- [通过模糊弱化背景](/blurry-weaken-background.md)
+	- [交互式图片对比控件](/image-slider.md)
 - **结构布局**
 - **动画过渡**
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
