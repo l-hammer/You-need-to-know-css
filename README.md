@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/You-need-to-know-css/Lobby](https://badges.gitter.im/You-need-to-know-css/Lobby.svg)](https://gitter.im/You-need-to-know-css/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[![GitHub license](https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg)](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE)
+
 > Just一个为了方便Web开发者复制粘贴常用CSS小样式的文档
 
 ## Contributing
