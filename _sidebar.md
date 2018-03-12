@@ -29,6 +29,7 @@
 	- [交互式图片对比控件](/image-slider.md)
 - **结构布局**
 	- [全背景等宽内容居中](/fluid-fixed.md)
+	- [绝对底部](/sticky-footer.md)
 	- [水平垂直居中](/centering-known.md)
 - **动画过渡**
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
