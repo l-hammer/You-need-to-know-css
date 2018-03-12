@@ -12,10 +12,14 @@
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-  <div id="app"></div>
-  
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script>
+  <div id="app">
+
+    <p class="ciu_embed" data-feature="once-event-listener" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
+      <a href="http://caniuse.com/#feat=once-event-listener">Can I Use once-event-listener?</a> Data on support for the once-event-listener feature across the major browsers from caniuse.com.
+    </p>
+  </div>
+
+  <!-- <script>
     window.$docsify = {
       name: 'You-need-to-know-css',
       repo: 'https://github.com/l-hammer/You-need-to-know-css',
@@ -40,6 +44,10 @@
             var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
             
             return editHtml + html;
+          })
+          hook.afterEach(function(html, next) {
+            console.log(document.querySelectorAll("iframe"));
+            next(html);
           })
           hook.doneEach(function(){
 
@@ -66,8 +74,10 @@
         }
       ]
     }
-  </script>
+  </script> -->
+  <script src="./assets/index.js"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="//unpkg.com/vue/dist/vue.min.js"></script>
   <script src="//unpkg.com/vuep/dist/vuep.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>

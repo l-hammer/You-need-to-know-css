@@ -3,6 +3,10 @@
     height: initial;
 }
 
+.CodeMirror-hscrollbar {
+    overflow: hidden;
+}
+
 .vuep-editor, .vuep-preview, .vuep-error{
     width: 100%;
     height: initial;
