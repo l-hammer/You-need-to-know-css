@@ -76,3 +76,41 @@ label{
         transform: rotate(1turn);
     }
 }
+
+/* cover gitalk.css */
+
+.gt-container a {
+  color: #42B983;
+}
+.gt-container a:hover {
+  color: #67C79B;
+  border-color: #67C79B;
+}
+
+.gt-container .gt-svg svg {
+  fill: #42B983;
+}
+.gt-container .gt-spinner::before {
+  border-top-color: #42B983;
+}
+.gt-container .gt-btn {
+  background-color: #42B983;
+}
+.gt-container .gt-btn:hover {
+  background-color: #67C79B;
+}
+.gt-container .gt-link {
+  border-bottom: 1px dotted #42B983;
+}
+.gt-container .gt-user .is--poping .gt-ico svg {
+  fill: #42B983;
+}
+.gt-container .gt-popup .gt-action.is--active:before {
+  background: #42B983;
+}
+.gt-container .gt-header-controls-tip {
+  color: #42B983;
+}
+.gt-container .gt-comment-username {
+  color: #42B983;
+}
