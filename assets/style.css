@@ -12,6 +12,14 @@
     max-width: 929px;
 }
 
+.markdown-section a {
+    text-decoration: none;
+}
+
+.markdown-section iframe {
+    border: none;
+}
+
 .vuep-preview, .vuep-error{
     padding: 8px;
 }
