@@ -36,4 +36,5 @@
 	- [闪烁效果](/blink.md)
 	- [打字效果](/typing.md)
 	- [抖动效果](/shake.md)
+	- [无缝平滑效果](/smooth.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
