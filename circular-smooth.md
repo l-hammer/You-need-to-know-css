@@ -31,7 +31,7 @@
   .avatar {
     width: 50px;
     position: absolute;
-    top: 125px; left: 125px;
+    top: 124px; left: 124px;
     animation: circular-smooth-spin 7.5s infinite linear;
     animation-play-state: running;
   }
@@ -77,11 +77,11 @@
   }
   @keyframes circular-smooth-spin {
     from {
-      transform: rotate(0turn) translateY(-125px) rotate(1turn)
+      transform: rotate(0turn) translateY(-124px) rotate(1turn)
     }
     to {
       opacity: 1;
-      transform: rotate(1turn) translateY(-125px) rotate(0turn)
+      transform: rotate(1turn) translateY(-124px) rotate(0turn)
     }
   }
 </style>
