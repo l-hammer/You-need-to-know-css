@@ -33,4 +33,5 @@
 	- [水平垂直居中](/centering-known.md)
 - **动画过渡**
 	- [弹性过度](/elastic.md)
+	- [闪烁效果](/blink.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->

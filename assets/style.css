@@ -1,84 +1,84 @@
 .vuep{
-    flex-direction: column;
-    height: initial;
+  flex-direction: column;
+  height: initial;
 }
 
 .CodeMirror-hscrollbar {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .vuep-editor, .vuep-preview, .vuep-error{
-    width: 100%;
-    height: initial;
+  width: 100%;
+  height: initial;
 }
 
 .markdown-section{
-    max-width: 929px;
+  max-width: 929px;
 }
 
 .markdown-section a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .markdown-section iframe {
-    border: none;
+  border: none;
 }
 
 .vuep-preview, .vuep-error{
-    padding: 8px;
+  padding: 8px;
 }
 
 label{
-    user-select: none;
+  user-select: none;
 }
 
 @keyframes panoramic{
-    to {
-        background-position: 200% 0;
-    }
+  to {
+    background-position: 200% 0;
+  }
 }
 
 .orderoptions[align="center"]{
-    border: 1px solid #eee;
-    margin-bottom: 20px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
 }
 
 @keyframes pie-chart-spin1 {
-    to { transform: rotate(.5turn); }
+  to { transform: rotate(.5turn); }
 }
 @keyframes pie-chart-bg1 {
-    to { background: #b4a078; }
+  to { background: #b4a078; }
 }
 @keyframes pie-chart-spin2 {
-    to { transform: rotate(.5turn); }
+  to { transform: rotate(.5turn); }
 }
 @keyframes pie-chart-bg2 {
-    50% { background: #b4a078; }
+  50% { background: #b4a078; }
 }
 @keyframes pie-chart-fillup{
-    to { stroke-dasharray: 100 100; }
+  to { stroke-dasharray: 100 100; }
 }
 @keyframes pie-chart-per1{
-    to { stroke-dasharray: 37 100; }
+  to { stroke-dasharray: 37 100; }
 }
 @keyframes pie-chart-per2{
-    to { stroke-dasharray: 32 100; }
+  to { stroke-dasharray: 32 100; }
 }
 @keyframes pie-chart-per3{
-    to { stroke-dasharray: 32 100; }
+  to { stroke-dasharray: 32 100; }
 }
 @keyframes text-blink-effect {
-    50% {
-        text-shadow: 0 0 .1em, 0 0 .3em;
-    }
-    to {
-        text-shadow: 0 0 .1em;
-    }
+  50% {
+    text-shadow: 0 0 .1em, 0 0 .3em;
+  }
+  to {
+      text-shadow: 0 0 .1em;
+  }
 }
 @keyframes circular-text-rotate {
-    to {
-        transform: rotate(1turn);
-    }
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 /* cover gitalk.css */
@@ -120,21 +120,33 @@ label{
 }
 
 /* elastic */
-@keyframes elastic-grow{
-    from {
-        transform: scale(0);
-    }
-    70% {
-        transform: scale(1.1);
-        animation-timing-function: cubic-bezier(.1, .25, .1, .25);
-    }
+@keyframes elastic-grow {
+  from {
+      transform: scale(0);
   }
-  @keyframes elastic-dec{
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(0);
-        animation-timing-function: cubic-bezier(.25, .1, .25, .1);
-    }
+  70% {
+      transform: scale(1.1);
+      animation-timing-function: cubic-bezier(.1, .25, .1, .25);
   }
+}
+@keyframes elastic-dec {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(0);
+      animation-timing-function: cubic-bezier(.25, .1, .25, .1);
+  }
+}
+
+/* blink */
+@keyframes blink-normal {
+  50% {
+    color: transparent;
+  }
+}
+@keyframes blink-alternate {
+  to {
+    color: transparent;
+  }
+}
