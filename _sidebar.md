@@ -34,4 +34,5 @@
 - **动画过渡**
 	- [弹性过度](/elastic.md)
 	- [闪烁效果](/blink.md)
+	- [打字效果](/typing.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
