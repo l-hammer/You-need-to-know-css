@@ -32,4 +32,5 @@
 	- [绝对底部](/sticky-footer.md)
 	- [水平垂直居中](/centering-known.md)
 - **动画过渡**
+	- [弹性过度](/elastic.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->

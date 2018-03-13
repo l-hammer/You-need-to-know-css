@@ -118,3 +118,23 @@ label{
 .gt-container .gt-comment-username {
   color: #42B983;
 }
+
+/* elastic */
+@keyframes elastic-grow{
+    from {
+        transform: scale(0);
+    }
+    70% {
+        transform: scale(1.1);
+        animation-timing-function: cubic-bezier(.1, .25, .1, .25);
+    }
+  }
+  @keyframes elastic-dec{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+        animation-timing-function: cubic-bezier(.25, .1, .25, .1);
+    }
+  }
