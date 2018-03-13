@@ -3,7 +3,9 @@
 
 ?> 背景知识：:point_right: [display](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display), [calc()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc), [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
 
-!> “44 年前我们就把人类送上月球了，但现在我们仍然无法在 CSS 中实现垂直居中。”        [——James Anderson](/centering-known)
+> “44 年前我们就把人类送上月球了，但现在我们仍然无法在 CSS 中实现垂直居中。”        [——James Anderson](/centering-known)
+
+以下的所有实现方案，笔者都在项目中验证过，每种方法都有自己的利与弊，大家可以根据具体的需求，选择最适合的方案。
 
 > `display: flex` + `margin: auto` 不限定宽高 :thumbsup:
 
