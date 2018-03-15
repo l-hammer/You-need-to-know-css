@@ -83,7 +83,7 @@ label{
 
 /* cover gitalk.css */
 
-.gt-container a {
+/* .gt-container a {
   color: #42B983;
 }
 .gt-container a:hover {
@@ -117,6 +117,42 @@ label{
 }
 .gt-container .gt-comment-username {
   color: #42B983;
+} */
+
+.gt-container a {
+  color: #b4a078;
+}
+.gt-container a:hover {
+  color: #C3B393;
+  border-color: #C3B393;
+}
+
+.gt-container .gt-svg svg {
+  fill: #b4a078;
+}
+.gt-container .gt-spinner::before {
+  border-top-color: #b4a078;
+}
+.gt-container .gt-btn {
+  background-color: #b4a078;
+}
+.gt-container .gt-btn:hover {
+  background-color: #C3B393;
+}
+.gt-container .gt-link {
+  border-bottom: 1px dotted #b4a078;
+}
+.gt-container .gt-user .is--poping .gt-ico svg {
+  fill: #b4a078;
+}
+.gt-container .gt-popup .gt-action.is--active:before {
+  background: #b4a078;
+}
+.gt-container .gt-header-controls-tip {
+  color: #b4a078;
+}
+.gt-container .gt-comment-username {
+  color: #b4a078;
 }
 
 /* elastic */

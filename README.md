@@ -1,7 +1,7 @@
 
 <p align="center">
     <a href="https://l-hammer.github.io/You-need-to-know-css/#/">
-        <img src="./static/YNTKC-logo.png" width="152">
+        <img src="./static/logo.png" width="152">
     </a>
     <h3 align="center">You-need-to-know-css</h3>
     <p align="center">
