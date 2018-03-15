@@ -1,19 +1,39 @@
-# You-need-to-know-css-tricks
 
-[![Join the chat at https://gitter.im/You-need-to-know-css/Lobby](https://badges.gitter.im/You-need-to-know-css/Lobby.svg)](https://gitter.im/You-need-to-know-css/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<p align="center">
+    <a href="https://getbootstrap.com/">
+        <img src="./static/YNTKC.png" width="129">
+    </a>
+    <h3 align="center">You-need-to-know-css</h3>
+    <p align="center">
+        <a href="https://gitter.im/You-need-to-know-css/Lobby"><img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
+        <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg"></a>
+    </p>
+    <p align="center">
+        CSS Tricks you need to know for web developer
+        <br>
+    </p>
+</p>
 
-[![GitHub license](https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg)](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE)
+## View online
 
-> Just一个为了方便Web开发者复制粘贴常用CSS小样式的文档
+[You-need-to-know-css](https://l-hammer.github.io/You-need-to-know-css/#/)
+
+## Quick start
+
+Several quick start options are available:
+
+- Clone the repo: `https://github.com/l-hammer/YDTemplate.git`
+- Install docsify with [docsify](https://docsify.js.org/#/): `npm install docsify-cli -g`
+- Development Run `docsify serve`
+- Open `http://localhost:3000` in your browser.
 
 ## Contributing
 
-> 零技术含量，一个人人都可以参与贡献的项目
+- :fork_and_knife:Fork it!
+- :wrench:Create your branch: `git checkout -b new-branch`
+- :building_construction:Make your changes
+- :memo:Commit your changes: `git commit -am 'Add some feature'`
+- :rocket:Push to the branch: `git push origin new-branch`
+- :tada:Submit a pull request
 
-- :fork_and_knife:先 Fork 一份代码到自己的项目下
-- :wrench:新建一个分支: `git checkout -b new-branch`
-- :memo:提交 changes: `git commit -am 'Add some feature'`
-- :rocket:推送你的分支: `git push origin new-branch`
-- :tada:提交 pull request
-
-或者创建一个 [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - 任何一点帮助都可以 :smile:
+or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any help can be :stuck_out_tongue_winking_eye:
