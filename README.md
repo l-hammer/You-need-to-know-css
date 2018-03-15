@@ -10,7 +10,7 @@
     </p>
     <p align="center">
         CSS Tricks you need to know for web developer
-        <br><br>
+        <br>
     </p>
 </p>
 
