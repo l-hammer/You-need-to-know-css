@@ -32,15 +32,10 @@ Several quick start options are available:
 
 ## What's included
 
-[![translucent-borders](https://img.shields.io/badge/translucent%20borders-%E5%8D%8A%E9%80%8F%E6%98%8E%E8%BE%B9%E6%A1%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/translucent-borders)
-
-[![multiple-borders](https://img.shields.io/badge/multiple%20borders-%E5%A4%9A%E9%87%8D%E8%BE%B9%E6%A1%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/multiple-borders)
-
-[![inner-rounding](https://img.shields.io/badge/inner%20rounding-%E8%BE%B9%E6%A1%86%E5%86%85%E5%9C%86%E8%A7%92-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/inner-rounding)
-
-[![background-position](https://img.shields.io/badge/background%20position-%E8%83%8C%E6%99%AF%E5%AE%9A%E4%BD%8D-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/extended-bg-position)
-
-[![stripes-background](https://img.shields.io/badge/stripes%20background-%E6%9D%A1%E7%BA%B9%E8%83%8C%E6%99%AF-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/stripes-background)
+|   |   |   |
+|---|---|---|
+| [![translucent-borders](https://img.shields.io/badge/translucent%20borders-%E5%8D%8A%E9%80%8F%E6%98%8E%E8%BE%B9%E6%A1%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/translucent-borders) | [![multiple-borders](https://img.shields.io/badge/multiple%20borders-%E5%A4%9A%E9%87%8D%E8%BE%B9%E6%A1%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/multiple-borders) | [![inner-rounding](https://img.shields.io/badge/inner%20rounding-%E8%BE%B9%E6%A1%86%E5%86%85%E5%9C%86%E8%A7%92-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/inner-rounding)|
+| [![background-position](https://img.shields.io/badge/background%20position-%E8%83%8C%E6%99%AF%E5%AE%9A%E4%BD%8D-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/extended-bg-position) | [![stripes-background](https://img.shields.io/badge/stripes%20background-%E6%9D%A1%E7%BA%B9%E8%83%8C%E6%99%AF-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/stripes-background) | [![ellipse](https://img.shields.io/badge/ellipse-%E5%9C%86%2F%E6%A4%AD%E5%9C%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/ellipse) |
 
 
 ## Contributing
