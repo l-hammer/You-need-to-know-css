@@ -24,6 +24,7 @@
 	- [扩大可点击区域](/extend-hit-area.md)
 	- [自定义复选框](/custom-checkbox.md)
 	- [自定义单选框](/custom-radio.md)
+	- [输入框完美居中](/input-align.md)
 	- [通过阴影弱化背景](/shadow-weaken-background.md)
 	- [通过模糊弱化背景](/blurry-weaken-background.md)
 	- [交互式图片对比控件](/image-slider.md)
