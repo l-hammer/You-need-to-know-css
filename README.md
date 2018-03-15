@@ -1,7 +1,7 @@
 
 <p align="center">
     <a href="https://l-hammer.github.io/You-need-to-know-css/#/">
-        <img src="./static/YNTKC.png" width="252">
+        <img src="./static/YNTKC-logo.png" width="229">
     </a>
     <h3 align="center">You-need-to-know-css</h3>
     <p align="center">
@@ -33,7 +33,7 @@ Several quick start options are available:
 ## What's included
 
 | [![translucent-borders](https://img.shields.io/badge/translucent%20borders-%E5%8D%8A%E9%80%8F%E6%98%8E%E8%BE%B9%E6%A1%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/translucent-borders) | [![multiple-borders](https://img.shields.io/badge/multiple%20borders-%E5%A4%9A%E9%87%8D%E8%BE%B9%E6%A1%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/multiple-borders) | [![inner-rounding](https://img.shields.io/badge/inner%20rounding-%E8%BE%B9%E6%A1%86%E5%86%85%E5%9C%86%E8%A7%92-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/inner-rounding)|
-|---|---|---|
+|:--|:--|:--|
 | [![background-position](https://img.shields.io/badge/background%20position-%E8%83%8C%E6%99%AF%E5%AE%9A%E4%BD%8D-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/extended-bg-position) | [![stripes-background](https://img.shields.io/badge/stripes%20background-%E6%9D%A1%E7%BA%B9%E8%83%8C%E6%99%AF-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/stripes-background) | [![ellipse](https://img.shields.io/badge/ellipse-%E5%9C%86%2F%E6%A4%AD%E5%9C%86-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/ellipse) | 
 |[![parallelogram](https://img.shields.io/badge/parallelogram-%E5%B9%B3%E8%A1%8C%E5%9B%9B%E8%BE%B9%E5%BD%A2-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/parallelogram) | [![bevel-corners](https://img.shields.io/badge/bevel%20corners-%E5%88%87%E8%A7%92%E6%95%88%E6%9E%9C-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/bevel-corners) | [![pie-chart](https://img.shields.io/badge/pie%20chart-%E7%AE%80%E6%98%93%E9%A5%BC%E5%9B%BE-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/pie-chart) |
 |[![polygon](https://img.shields.io/badge/polygon-%E5%85%B6%E4%BB%96%E5%A4%9A%E8%BE%B9%E5%BD%A2-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/polygon) | [![single-projection](https://img.shields.io/badge/single%20projection-%E5%B8%B8%E8%A7%81%E6%8A%95%E5%BD%B1-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/single-projection) | [![不规则投影](https://img.shields.io/badge/irregular%20projection-%E4%B8%8D%E8%A7%84%E5%88%99%E6%8A%95%E5%BD%B1-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/irregular-projection) |
