@@ -9,8 +9,7 @@
         <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg"></a>
     </p>
     <p align="center">
-        CSS Tricks you need to know for web developer
-        <br>
+        CSS tricks web developers need to know<br>
     </p>
 </p>
 
@@ -55,4 +54,10 @@ Several quick start options are available:
 - :rocket:Push to the branch: `git push origin new-branch`
 - :tada:Submit a pull request
 
-or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any help can be :stuck_out_tongue_winking_eye:
+or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any helpful suggestions are welcomed. :stuck_out_tongue_winking_eye:
+
+## license
+
+See [license](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE)
+
+MIT © 2018 LHammer
