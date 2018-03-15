@@ -46,11 +46,11 @@
     transition: border-color .2s ease-in-out, background-color .2s ease-in-out;
   }
   input[type="radio"]:not(:disabled) + label:hover::before{
-    border-color: #ff8819;
+    border-color: #b4a078;
   }
   input[type="radio"]:checked + label::before{
-    border-color: #ff8819 !important;
-    background-color: #ff8819;
+    border-color: #b4a078 !important;
+    background-color: #b4a078;
   }
   input[type="radio"] + label::after{
     content: "";

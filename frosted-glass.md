@@ -39,13 +39,17 @@
   main > div cite{
     font-style: normal;
   }
+  main footer {
+    text-align: right;
+  }
 </style>
 <template>
   <main class="main">
     <div>
-      “The only way to get rid of a temptation is to yield to it. Resist it, and your soul grows sick with longing for the things it has forbidden to itself, with desire for what its monstrous laws have made monstrous and unlawful.”
+      "O God, I could be bounded in a nutshell and count myself a king of infinite space, were it not that I have bad dreams."<br>
+      “即使我身处果壳之中，我仍以为自己是宇宙之王”
       <footer>——
-        <cite>Oscar Wilde, The Picture of Dorian Gray</cite>
+        <cite>William Shakespeare</cite>
       </footer>
     </div>
   </main>
