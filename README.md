@@ -50,7 +50,7 @@ Several quick start options are available:
 
 - :fork_and_knife:Fork it!
 - :wrench:Create your branch: `git checkout -b new-branch`
-- :building_construction: Make your changes
+- 🏗 Make your changes
 - :memo:Commit your changes: `git commit -am 'Add some feature'`
 - :rocket:Push to the branch: `git push origin new-branch`
 - :tada:Submit a pull request
