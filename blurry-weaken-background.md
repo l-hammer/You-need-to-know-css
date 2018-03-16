@@ -1,4 +1,4 @@
-# 通过阴影弱化背景
+# 通过模糊弱化背景
 
 ?> 背景知识：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
 
