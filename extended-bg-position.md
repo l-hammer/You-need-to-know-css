@@ -27,7 +27,7 @@
   }
   div:nth-of-type(2){
     background-origin: content-box;
-    margin: 29px 0;
+    margin: 29px 0; /* 移动端纵向排列上下间距 */
   }
   div:nth-of-type(3){
     background-position: calc(100% - 29px) calc(100% - 28px);
