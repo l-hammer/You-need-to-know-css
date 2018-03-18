@@ -278,3 +278,15 @@ label{
     transform: rotate(1turn) translateY(-125px) rotate(0turn)
   }
 }
+/* text-underline */
+@keyframes text-underline-slideInLeft {
+  from {
+    background-position-x: -432px;
+  }
+  50% {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 432px;
+  }
+}

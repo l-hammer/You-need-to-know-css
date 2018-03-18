@@ -19,6 +19,7 @@
 	- [斑马条纹](/zebra-stripes.md)
 	- [文字特效](/text-effects.md)
 	- [环形文字](/circular-text.md)
+	- [图片对比控件](/image-slider.md)
 - **用户体验**
 	- [选择合适的鼠标光标](/mouse-cursor.md)
 	- [扩大可点击区域](/extend-hit-area.md)
@@ -27,7 +28,7 @@
 	- [输入框完美居中](/input-align.md)
 	- [通过阴影弱化背景](/shadow-weaken-background.md)
 	- [通过模糊弱化背景](/blurry-weaken-background.md)
-	- [交互式图片对比控件](/image-slider.md)
+	- [自定义文字下划线](/text-underline.md)
 - **结构布局**
 	- [全背景等宽内容居中](/fluid-fixed.md)
 	- [绝对底部](/sticky-footer.md)
