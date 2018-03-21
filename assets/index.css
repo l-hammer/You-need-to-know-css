@@ -1,48 +1,47 @@
-.vuep{
-  flex-direction: column;
-  height: initial;
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
 }
-
+label{
+  user-select: none;
+}
 .CodeMirror-hscrollbar {
   overflow: hidden;
 }
 
+/* vuep */
+.vuep{
+  flex-direction: column;
+  height: initial;
+}
 .vuep-editor, .vuep-preview, .vuep-error{
   width: 100%;
   height: initial;
 }
 
+/* markdown */
 .markdown-section{
   max-width: 929px;
 }
-
 .markdown-section a {
   text-decoration: none;
 }
-
 .markdown-section iframe {
   border: none;
 }
-
 .vuep-preview, .vuep-error{
   padding: 8px;
 }
 
-label{
-  user-select: none;
-}
-
+/* stripes-background */
 @keyframes panoramic{
   to {
     background-position: 200% 0;
   }
 }
 
-.orderoptions[align="center"]{
-  border: 1px solid #eee;
-  margin-bottom: 20px;
-}
-
+/* pie-chart */
 @keyframes pie-chart-spin1 {
   to { transform: rotate(.5turn); }
 }
@@ -81,44 +80,7 @@ label{
   }
 }
 
-/* cover gitalk.css */
-
-/* .gt-container a {
-  color: #42B983;
-}
-.gt-container a:hover {
-  color: #67C79B;
-  border-color: #67C79B;
-}
-
-.gt-container .gt-svg svg {
-  fill: #42B983;
-}
-.gt-container .gt-spinner::before {
-  border-top-color: #42B983;
-}
-.gt-container .gt-btn {
-  background-color: #42B983;
-}
-.gt-container .gt-btn:hover {
-  background-color: #67C79B;
-}
-.gt-container .gt-link {
-  border-bottom: 1px dotted #42B983;
-}
-.gt-container .gt-user .is--poping .gt-ico svg {
-  fill: #42B983;
-}
-.gt-container .gt-popup .gt-action.is--active:before {
-  background: #42B983;
-}
-.gt-container .gt-header-controls-tip {
-  color: #42B983;
-}
-.gt-container .gt-comment-username {
-  color: #42B983;
-} */
-
+/* gitalk */
 .gt-container a {
   color: #b4a078;
 }
@@ -126,7 +88,6 @@ label{
   color: #C3B393;
   border-color: #C3B393;
 }
-
 .gt-container .gt-svg svg {
   fill: #b4a078;
 }
@@ -278,6 +239,7 @@ label{
     transform: rotate(1turn) translateY(-125px) rotate(0turn)
   }
 }
+
 /* text-underline */
 @keyframes text-underline-slideInLeft {
   from {
