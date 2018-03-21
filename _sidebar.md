@@ -34,6 +34,7 @@
 	- [全背景等宽内容居中](/fluid-fixed.md)
 	- [绝对底部](/sticky-footer.md)
 	- [水平垂直居中](/centering-known.md)
+	- [有趣的布局](/interesting-layout.md)
 - **动画过渡**
 	- [弹性过度](/elastic.md)
 	- [闪烁效果](/blink.md)
