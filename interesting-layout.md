@@ -1,7 +1,7 @@
 
 # 类订单布局
 
-?> 背景知识：:point_right: [hsla/rgba](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value), [水平垂直居中](/centering-known)
+?> 背景知识：:point_right: [水平垂直居中](/centering-known)
 
 此布局一般的需求是左侧高度不固定，右侧自适应高度并且居中。
 
