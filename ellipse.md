@@ -18,7 +18,7 @@
   }
   div{
     width: 200px; height: 150px;
-    background: #f4bb3a;
+    background: #b4a078;
     margin-bottom: 30px;
   }
   .ellipse:nth-of-type(1){

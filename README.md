@@ -26,7 +26,7 @@ Several quick start options are available:
 
 - Clone the repo: `https://github.com/l-hammer/You-need-to-know-css.git`
 - Install docsify with [docsify](https://docsify.js.org/#/): `cd You-need-to-know-css && npm install docsify-cli -g`
-- Development Run `docsify serve`
+- Development run `docsify serve`
 - Open `http://localhost:3000` in your browser.
 
 
@@ -59,6 +59,6 @@ or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - 
 
 ## license
 
-See [license](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css?ref=badge_small)
 
-MIT © 2018 LHammer
+[MIT](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE) © 2018 LHammer
