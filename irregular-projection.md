@@ -20,7 +20,6 @@
     background: #b4a078;
     position: relative;
   }
-  
   .row1 > .projection:nth-of-type(1) {
     border-radius: 5px;
     filter: drop-shadow(2px 2px 2px rgba(180,160,120,.9));
