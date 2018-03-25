@@ -11,6 +11,7 @@
 	- [parallel四边形](/parallelogram.md)
 	- [切角效果](/bevel-corners.md)
 	- [简易饼图](/pie-chart.md)
+	- [气泡提示](/poptip.md)
 	- [其他多边形](/polygon.md)
 - **视觉效果**
 	- [常见投影](/single-projection.md)
