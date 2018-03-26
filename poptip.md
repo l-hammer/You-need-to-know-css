@@ -1,7 +1,7 @@
 
-# 气泡提示
+# 提示气泡
 
-?> 背景知识：:point_right: [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter), [radial-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/radial-gradient), [border-image](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-image)
+?> 背景知识：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 
 <vuep template="#poptip"></vuep>
 
@@ -18,9 +18,10 @@
     text-align: center;
     line-height: 52px;
     border-radius: 8px;
-    background: rgba(180,160,120,.1);
+    background: #F7F5F1;
     cursor: pointer;
     position: relative;
+    border-color: #b4a078;
   }
   .cell.empty {
     background: transparent;
@@ -34,6 +35,16 @@
   .cell:hover {
     color: #b4a078;
     font-weight: 900;
+  }
+  .cell[class*=poptip--]::before, .cell[class*=poptip--]::after {
+    visibility: hidden;
+    opacity: 0;
+    transform: translate3d(0,0,0);
+    transition: all .3s ease .05s;
+  }
+  .cell[class*=poptip--]:hover::before, .cell[class*=poptip--]:hover::after {
+    visibility: visible;
+    opacity: 1;
   }
   .cell[class*=poptip--]::before {
     content: '';
@@ -51,48 +62,88 @@
     line-height: 12px;
     padding: 6px 12px;
     white-space: nowrap;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px #b4a078;
   }
   .cell[class*=poptip--top]::before {
-    border-top-color: #b4a078;
+    border-top-color: inherit;
   }
   .cell[class*=poptip--right]::before {
-    border-right-color: #b4a078;
+    border-right-color: inherit;
   }
   .cell[class*=poptip--bottom]::before {
-    border-bottom-color: #b4a078;
+    border-bottom-color: inherit;
   }
   .cell[class*=poptip--left]::before {
-    border-left-color: #b4a078;
+    border-left-color: inherit;
+  }
+  /* top && bottom */
+  .cell[class*=poptip--top]::before, .cell[class*=poptip--bottom]::before {
+    left: calc(50% - 6px);
+  }
+  .cell[class*=poptip--top]::after, .cell[class*=poptip--bottom]::after {
+    left: 50%;
+    transform: translateX(-50%);
   }
   .cell[class*=poptip--top]::before {
-    top: -10px; left: calc(50% - 6px);
+    top: 0px;
+  }
+  .cell[class*=poptip--top]:hover::before {
+    transform: translateX(0%) translateY(-10px);
   }
   .cell[class*=poptip--top]::after {
-    top: -33px; left: 50%;
-    transform: translateX(-50%);
+    bottom: 100%;
+    margin-bottom: -1px;
+  }
+  .cell[class*=poptip--top]:hover::after {
+    transform: translateX(-50%) translateY(-10px);
   }
   .cell[class*=poptip--bottom]::before {
-    bottom: -10px; left: calc(50% - 6px);
+    bottom: 0;
+  }
+  .cell[class*=poptip--bottom]:hover::before {
+    transform: translateX(0%) translateY(10px);
   }
   .cell[class*=poptip--bottom]::after {
-    bottom: -33px; left: 50%;
-    transform: translateX(-50%);
+    top: 100%;
+    margin-top: -1px;
   }
-  .cell[class*=poptip--left]::before {
-    left: -10px; top: calc(50% - 6px);
+  .cell[class*=poptip--bottom]:hover::after {
+    transform: translateX(-50%) translateY(10px);
   }
-  .cell[class*=poptip--left]::after {
-    right: 100%; top: 50%;
-    margin-right: 9px;
+  /* left && right */
+  .cell[class*=poptip--right]::before, .cell[class*=poptip--left]::before {
+    top: calc(50% - 6px);
+  }
+  .cell[class*=poptip--right]::after, .cell[class*=poptip--left]::after {
+    top: 50%;
     transform: translateY(-50%);
   }
   .cell[class*=poptip--right]::before {
-    right: -10px; top: calc(50% - 6px);
+    right: 0;
+  }
+  .cell[class*=poptip--right]:hover::before {
+    transform: translateX(10px) translateY(0%);
   }
   .cell[class*=poptip--right]::after {
-    left: 100%; top: 50%;
-    margin-left: 9px;
-    transform: translateY(-50%);
+    left: 100%;
+    margin-left: -1px;
+  }
+  .cell[class*=poptip--right]:hover::after {
+    transform: translateX(10px) translateY(-50%);;
+  }
+  .cell[class*=poptip--left]::before {
+    left: 0;
+  }
+  .cell[class*=poptip--left]:hover::before {
+    transform: translateX(-10px) translateY(0%);
+  }
+  .cell[class*=poptip--left]::after {
+    right: 100%;
+    margin-right: -1px;
+  }
+  .cell[class*=poptip--left]:hover::after {
+    transform: translateX(-10px) translateY(-50%);;
   }
 </style>
 <template>
@@ -114,8 +165,6 @@
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-filters&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
+<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms3d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
-
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=border-image&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="432px"></iframe>
