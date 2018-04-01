@@ -9,7 +9,9 @@ label{
 .CodeMirror-hscrollbar {
   overflow: hidden;
 }
-
+input[type="range"] {
+  margin: 0;
+}
 /* vuep */
 .vuep{
   flex-direction: column;
