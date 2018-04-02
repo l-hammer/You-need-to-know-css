@@ -1,5 +1,5 @@
 
-# 圣杯布局
+# 双飞翼布局
 
 此布局的需求同[圣杯布局](https://l-hammer.github.io/You-need-to-know-css/#/holy-grail-layout)一样，都为两边等宽，中间自适应的三栏布局，源自淘宝UED
 
