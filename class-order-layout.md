@@ -9,9 +9,9 @@
 
 > 伪元素 `:after` + `vertical-align:middle` 方案
 
-<vuep template="#layout-vertical"></vuep>
+<vuep template="#class-order-layout"></vuep>
 
-<script v-pre type="text/x-template" id="layout-vertical">
+<script v-pre type="text/x-template" id="class-order-layout">
 <style>
   main {
     width: 100%;
