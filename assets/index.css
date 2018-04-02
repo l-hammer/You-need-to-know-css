@@ -21,6 +21,9 @@ input[type="range"] {
   width: 100%;
   height: initial;
 }
+.vuep-editor pre{
+  font-family: Roboto Mono, Monaco, courier, monospace;
+}
 
 /* markdown */
 .markdown-section{
