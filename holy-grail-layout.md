@@ -27,6 +27,7 @@
     padding: 29px 12px;
     text-align: center;
     float: left;
+    color: white;
     background: #b4a078;
   }
   section .left, section .right {
