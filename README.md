@@ -7,7 +7,7 @@
     <p align="center">
         <a href="https://gitter.im/You-need-to-know-css/Lobby"><img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
         <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg"></a>
-        <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.1k%20%E5%96%9C%E6%AC%A2-b4a078.svg"></a>
+        <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
     </p>
     <p align="center">
         CSS tricks web developers need to know<br>
@@ -45,6 +45,7 @@ Several quick start options are available:
 |[![弹性过度](https://img.shields.io/badge/elastic-%E5%BC%B9%E6%80%A7%E8%BF%87%E5%BA%A6-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/elastic) | [![闪烁效果](https://img.shields.io/badge/blink-%E9%97%AA%E7%83%81%E6%95%88%E6%9E%9C-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/blink) | [![打字效果](https://img.shields.io/badge/typing-%E6%89%93%E5%AD%97%E6%95%88%E6%9E%9C-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/typing) |
 |[![抖动效果](https://img.shields.io/badge/shake-%E6%8A%96%E5%8A%A8%E6%95%88%E6%9E%9C-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/shake) | [![无缝平滑效果](https://img.shields.io/badge/smooth-%E6%97%A0%E7%BC%9D%E5%B9%B3%E6%BB%91%E6%95%88%E6%9E%9C-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/smooth) | [![延轨迹平滑效果](https://img.shields.io/badge/circular%20smooth-%E5%BB%B6%E8%BD%A8%E8%BF%B9%E5%B9%B3%E6%BB%91%E6%95%88%E6%9E%9C-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/circular-smooth) |
 |[![自定义文字下划线](https://img.shields.io/badge/custom%20text%20underline-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E5%AD%97%E4%B8%8B%E5%88%92%E7%BA%BF-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/text-underline) | [![提示气泡](https://img.shields.io/badge/poptip-%E6%8F%90%E7%A4%BA%E6%B0%94%E6%B3%A1-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/poptip) | [![自定义滚动条](https://img.shields.io/badge/custom%20scrollbar-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%BB%9A%E5%8A%A8%E6%9D%A1-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/scrollbar) |
+|[![圣杯布局](https://img.shields.io/badge/holy%20grail%20layout-%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/holy-grail-layout) | [![双飞翼布局](https://img.shields.io/badge/double%20wing%20layout-%E5%8F%8C%E9%A3%9E%E7%BF%BC%E5%B8%83%E5%B1%80-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/double-wing-layout) | [![类订单布局](https://img.shields.io/badge/class%20order%20layout-%E7%B1%BB%E8%AE%A2%E5%8D%95%E5%B8%83%E5%B1%80-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/class-order-layout) |
 
 
 ## Contributing
