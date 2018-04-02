@@ -3,9 +3,9 @@
 
 此布局一般的需求为两边等宽，中间自适应的三栏布局。
 
-<vuep template="#layout-vertical"></vuep>
+<vuep template="#holy-grail-layout"></vuep>
 
-<script v-pre type="text/x-template" id="layout-vertical">
+<script v-pre type="text/x-template" id="holy-grail-layout">
 <style>
   main {
     width: 100%;
