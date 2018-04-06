@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [animation-timing-function](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-timing-function)
 
-<vuep template="#blink"></vuep>
+<vuep template="#typing"></vuep>
 
-<script v-pre type="text/x-template" id="blink">
+<script v-pre type="text/x-template" id="typing">
 <style>
   main {
     width: 100%; height: 229px;
