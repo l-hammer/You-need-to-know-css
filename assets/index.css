@@ -257,3 +257,15 @@ input[type="range"] {
     background-position-x: 432px;
   }
 }
+
+/* one-pixel-line */
+/* @media (min-resolution: 2dppx) {
+  main > div.one-pixel-line:nth-of-type(1) span::after {
+    box-shadow: 0 0 0 .5px;
+  }
+}
+@media (min-resolution: 3dppx) {
+  main > div.one-pixel-line:nth-of-type(1) span::after {
+    box-shadow: 0 0 0 .333333px;
+  }
+} */
