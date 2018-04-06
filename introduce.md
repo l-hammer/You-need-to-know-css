@@ -87,3 +87,4 @@ input:focus + .popTips{
 
 ![color](static/colors_guide.jpeg)
 
+!> 文档中的示例样式兼没有添加浏览器前缀做兼容，建议使用Chrome，Firefox等主流浏览器访问，在生产环境中请使用[Autoprefixer](https://www.npmjs.com/package/autoprefixer)做兼容处理。

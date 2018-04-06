@@ -9,7 +9,9 @@ label{
 .CodeMirror-hscrollbar {
   overflow: hidden;
 }
-
+input[type="range"] {
+  margin: 0;
+}
 /* vuep */
 .vuep{
   flex-direction: column;
@@ -18,6 +20,9 @@ label{
 .vuep-editor, .vuep-preview, .vuep-error{
   width: 100%;
   height: initial;
+}
+.vuep-editor pre{
+  font-family: Roboto Mono, Monaco, courier, monospace;
 }
 
 /* markdown */
