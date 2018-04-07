@@ -6,7 +6,7 @@
 	- [边框内圆角](/inner-rounding.md)
 	- [背景定位](/extended-bg-position.md)
 	- [条纹背景](/stripes-background.md)
-	- [1px线条](/one-pixel-line.md)
+	- [1px 线/边](/one-pixel-line.md)
 - **常见形状**
 	- [圆与椭圆](/ellipse.md)
 	- [parallel四边形](/parallelogram.md)

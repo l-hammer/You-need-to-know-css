@@ -259,13 +259,61 @@ input[type="range"] {
 }
 
 /* one-pixel-line */
-/* @media (min-resolution: 2dppx) {
-  main > div.one-pixel-line:nth-of-type(1) span::after {
-    box-shadow: 0 0 0 .5px;
+@media (min-resolution: 2dppx) {
+  main.main > span.one-pixel-line.shadow::after {
+    box-shadow: 0 0 0 .5px #b4a078;
   }
 }
 @media (min-resolution: 3dppx) {
-  main > div.one-pixel-line:nth-of-type(1) span::after {
-    box-shadow: 0 0 0 .333333px;
+  main.mian > span.one-pixel-line.shadow::after {
+    box-shadow: 0 0 0 .333333px #b4a078;
   }
-} */
+}
+@media (min-resolution: 2dppx) {
+  main.main > span.one-pixel-line.top::before {
+    width: 200%;
+    transform: scale(.5) translateZ(0);
+  }
+}
+@media (min-resolution: 3dppx) {
+  main.main > span.one-pixel-line.top::before {
+    width: 300%;
+    transform: scale(.333333) translateZ(0);
+  }
+}
+@media (min-resolution: 2dppx) {
+  main.main > span.one-pixel-line.right::after {
+    height: 200%;
+    transform: scale(.5) translateZ(0);
+  }
+}
+@media (min-resolution: 3dppx) {
+  main.main > span.one-pixel-line.right::after {
+    height: 300%;
+    transform: scale(.333333) translateZ(0);
+  }
+}
+@media (min-resolution: 2dppx) {
+  main.main > span.one-pixel-line.bottom::after {
+    width: 200%;
+    transform: scale(.5) translateZ(0);
+  }
+}
+@media (min-resolution: 3dppx) {
+  main.main > span.one-pixel-line.bottom::after {
+    width: 300%;
+    transform: scale(.333333) translateZ(0);
+  }
+}
+@media (min-resolution: 2dppx) {
+  main.main > span.one-pixel-line.left::before {
+    height: 200%;
+    transform: scale(.5) translateZ(0);
+  }
+}
+@media (min-resolution: 3dppx) {
+  main.main > span.one-pixel-line.left::before {
+    height: 300%;
+    transform: scale(.333333) translateZ(0);
+  }
+}
