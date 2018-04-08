@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation)
 
-<vuep template="#shakeBaidu"></vuep>
+<vuep template="#single-projection"></vuep>
 
-<script v-pre type="text/x-template" id="shakeBaidu">
+<script v-pre type="text/x-template" id="single-projection">
 <style>
   main {
     width: 100%; height: 329px;

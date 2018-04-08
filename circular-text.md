@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#circular-text"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="circular-text">
 <style>
   main {
     width: 289px; height: 289px;

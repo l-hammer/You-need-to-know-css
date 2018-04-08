@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#text-effects"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="text-effects">
 <style>
   main {
     width: 100%;

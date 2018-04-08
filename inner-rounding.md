@@ -6,9 +6,9 @@
 
 !>关于扩张半径的取值？假设圆角`border-radius`的半径为`r`,根据勾股定理，扩张半径的最小值应等于`(2−1)r`。
 
-<vuep template="#demo1"></vuep>
+<vuep template="#inner-rounding"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="inner-rounding">
 <style>
   main{
     width: 100%;

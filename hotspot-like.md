@@ -5,9 +5,9 @@
 
 > *{ box-sizing: border-box; }
 
-<vuep template="#demo1"></vuep>
+<vuep template="#hotspot-like"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="hotspot-like">
 <style>
   main{
     width: 100%;

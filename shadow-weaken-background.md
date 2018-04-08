@@ -2,9 +2,9 @@
 
 ?> 背景知识：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
 
-<vuep template="#custom-radio"></vuep>
+<vuep template="#shadow-weaken-background"></vuep>
 
-<script v-pre type="text/x-template" id="custom-radio">
+<script v-pre type="text/x-template" id="shadow-weaken-background">
 <style>
   main {
     width: 100%;

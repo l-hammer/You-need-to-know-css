@@ -4,9 +4,9 @@
 
 <!-- 这个没有什么好说的，我们可以在`background`简写属性增加`bottom right`定位值来提供回退。 -->
 
-<vuep template="#demo1"></vuep>
+<vuep template="#extended-bg-position"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="extended-bg-position">
 <style>
   main{
     width: 100%;

@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter), [radial-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/radial-gradient), [border-image](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-image)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#irregular-projection"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="irregular-projection">
 <style>
   main {
     width: 100%;

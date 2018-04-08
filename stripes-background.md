@@ -12,9 +12,9 @@
 
 > Work overtime today.
 
-<vuep template="#demo1"></vuep>
+<vuep template="#stripes-background-linear"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="stripes-background-linear">
 <style>
   main {
     width: 100%;
@@ -68,9 +68,9 @@
 
 > Today's work is seriously overtime.
 
-<vuep template="#demo2"></vuep>
+<vuep template="#stripes-background-radial"></vuep>
 
-<script v-pre type="text/x-template" id="demo2">
+<script v-pre type="text/x-template" id="stripes-background-radial">
 <style>
   main {
     width: 100%;

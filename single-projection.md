@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#single-projection"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="single-projection">
 <style>
   main {
     width: 100%;

@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [linear-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/linear-gradient)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#zebra-stripes"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="zebra-stripes">
 <style>
   main {
     width: 100%;

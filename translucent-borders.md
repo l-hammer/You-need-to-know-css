@@ -4,9 +4,9 @@
 
 默认情况下，背景的颜色会延伸至边框下层，这意味着我们设置的透明边框效果会被覆盖掉，在css3中，我们可以通过设置`background-clip:padding-box`来改变背景的默认行为，达到我们想要的效果。
 
-<vuep template="#demo1"></vuep>
+<vuep template="#translucent-borders"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="translucent-borders">
 <style>
   main{
     width: 100%;

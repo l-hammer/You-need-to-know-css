@@ -5,9 +5,9 @@
 
 <!-- !> stroke-dashoffset = percentage | length | inherit <br> stroke-dasharray = dasharray | inherit -->
 
-<vuep template="#demo1"></vuep>
+<vuep template="#pie-chart"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="pie-chart">
 
 <style>
   main{

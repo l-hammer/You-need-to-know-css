@@ -3,9 +3,9 @@
 
 ?> 背景知识：:point_right: [hsla/rgba](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value)
 
-<vuep template="#demo1"></vuep>
+<vuep template="#frosted-glass"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="frosted-glass">
 <style>
   main{
     width: 100%;

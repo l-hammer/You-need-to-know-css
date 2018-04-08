@@ -5,9 +5,9 @@
 
 通常我们一般使用`border-radius`来时实现圆角效果，其实`border-radius`是可以单独指定它的半长轴和半短轴，只需要用“/”分割即可。我们可以通过这个属性轻松实现半圆、半椭圆、四分之一圆及四分之一圆等常见的图形。
 
-<vuep template="#demo1"></vuep>
+<vuep template="#ellipse"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="ellipse">
 <style>
   main{
     width: 100%;

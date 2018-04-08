@@ -5,9 +5,9 @@
 
 > *{ box-sizing: border-box; }
 
-<vuep template="#demo1"></vuep>
+<vuep template="#polygon"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="polygon">
 <style>
   main{
     width: 100%;

@@ -7,9 +7,9 @@
 
 <div align="center" class="orderoptions"><img src="static/orderoptions.jpeg" width="100%" align="center"/></div> -->
 
-<vuep template="#demo1"></vuep>
+<vuep template="#parallelogram"></vuep>
 
-<script v-pre type="text/x-template" id="demo1">
+<script v-pre type="text/x-template" id="parallelogram">
 <style>
   main{
     width: 100%;
