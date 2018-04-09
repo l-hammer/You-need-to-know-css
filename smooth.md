@@ -12,11 +12,11 @@
     display: flex;
     background: url('./static/full-fire-cloud.jpg') repeat-x 0 center/auto 100%;
     animation: smooth 10s linear infinite;
-    animation-play-state: paused;
-  }
-  main:hover, main:focus {
     animation-play-state: running;
   }
+  /* main:hover, main:focus {
+    animation-play-state: running;
+  } */
   @keyframes smooth {
     to {
       background-position: 1970px center;

@@ -9,7 +9,7 @@
 <style>
   main {
     width: 289px; height: 289px;
-    margin: 29px auto;
+    margin: 80px auto;
     font-size: 12px;
   }
   main svg {
