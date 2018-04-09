@@ -21,6 +21,7 @@
 	- [斑马条纹](/zebra-stripes.md)
 	- [文字特效](/text-effects.md)
 	- [环形文字](/circular-text.md)
+	- [插入换行](line-breaks.md)
 	- [图片对比控件](/image-slider.md)
 - **用户体验**
 	- [选择合适的鼠标光标](/mouse-cursor.md)
