@@ -41,6 +41,7 @@
 	- [双飞翼布局](/double-wing-layout.md)
 	- [类订单布局](/class-order-layout.md)
 - **动画过渡**
+	- [弹跳效果](/bounce.md)
 	- [弹性过度](/elastic.md)
 	- [闪烁效果](/blink.md)
 	- [打字效果](/typing.md)

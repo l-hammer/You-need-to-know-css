@@ -317,3 +317,23 @@ input[type="range"] {
     transform: scale(.333333) translateZ(0);
   }
 }
+
+/* bounce */
+@keyframes bounce {
+  40%,
+  60%,
+  80%,
+  to {
+      transform: translateY(380px);
+      animation-timing-function: ease;
+  }
+  50% {
+      transform: translateY(260px);
+  }
+  70% {
+      transform: translateY(300px);
+  }
+  90% {
+      transform: translateY(360px);
+  }
+} 
