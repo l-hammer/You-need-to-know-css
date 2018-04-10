@@ -18,7 +18,7 @@
 
 ## View online
 
-[You-need-to-know-css](https://l-hammer.github.io/You-need-to-know-css/#/)
+🌏 [You-need-to-know-css](https://l-hammer.github.io/You-need-to-know-css/#/)
 
 
 ## Quick start
@@ -52,8 +52,8 @@ Several quick start options are available:
 ## Contributing
 
 - :fork_and_knife:Fork it!
-- :wrench:Create your branch: `git checkout -b new-branch`
-- 🏗 Make your changes
+- :twisted_rightwards_arrows:Create your branch: `git checkout -b new-branch`
+- :wrench:Make your changes
 - :memo:Commit your changes: `git commit -am 'Add some feature'`
 - :rocket:Push to the branch: `git push origin new-branch`
 - :tada:Submit a pull request
