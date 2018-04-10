@@ -5,9 +5,9 @@
 
 在[Unicode](http://www.ssec.wisc.edu/~tomw/java/unicode.html)中，`0x000A`字符是专门控制换行的。在`CSS`中，我们可以写为`\000A`或`\A`,我们可以用它来作为`::after`伪元素的内容，并将其添加到指定元素的尾部，实现换行效果。
 
-<vuep template="#single-projection"></vuep>
+<vuep template="#line-breaks"></vuep>
 
-<script v-pre type="text/x-template" id="single-projection">
+<script v-pre type="text/x-template" id="line-breaks">
 <style>
   main{
     width: 100%;
