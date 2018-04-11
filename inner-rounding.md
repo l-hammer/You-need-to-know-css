@@ -4,7 +4,7 @@
 
 我们知道`box-shadow`是会紧贴`border-radius`圆角边的，但是，描边`outline`并不会与圆角边`border-radius`贴合，我们可以将两者组合，通过`box-shadow`去填补描边`outline`所产生的间隙来达到我们想要的效果。
 
-!>关于扩张半径的取值？假设圆角`border-radius`的半径为`r`,根据勾股定理，扩张半径的最小值应等于`(2−1)r`。
+!>关于扩张半径的取值？假设圆角`border-radius`的半径为`r`,根据勾股定理，扩张半径的最小值应等于`(√2−1)r ~= 3.314`，最大值不能超过描边宽度，即`6px`。
 
 <vuep template="#inner-rounding"></vuep>
 
@@ -15,7 +15,7 @@
     padding: 60px 80px 80px;
   }
   div{
-    width: 209px; 
+    width: 209px;
     margin: 29px auto;
     padding: 8px 16px;
     border-radius: 8px;
@@ -26,7 +26,7 @@
     margin-left: calc(50% - 45px);
   }
   input:checked ~ div{
-    box-shadow: 0 0 0 6px #b4a078;
+    box-shadow: 0 0 0 5px #b4a078;
   }
 </style>
 <template>
