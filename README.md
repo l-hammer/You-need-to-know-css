@@ -49,7 +49,7 @@ Several quick start options are available:
 |[![圣杯布局](https://img.shields.io/badge/holy%20grail%20layout-%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/holy-grail-layout) | [![双飞翼布局](https://img.shields.io/badge/double%20wing%20layout-%E5%8F%8C%E9%A3%9E%E7%BF%BC%E5%B8%83%E5%B1%80-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/double-wing-layout) | [![类订单布局](https://img.shields.io/badge/class%20order%20layout-%E7%B1%BB%E8%AE%A2%E5%8D%95%E5%B8%83%E5%B1%80-b4a078.svg)](https://l-hammer.github.io/You-need-to-know-css/#/class-order-layout) |
 
 
-## Contributing
+## Contributing ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true&style=flat-square)
 
 - :fork_and_knife:Fork it!
 - :twisted_rightwards_arrows:Create your branch: `git checkout -b new-branch`
