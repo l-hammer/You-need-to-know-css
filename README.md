@@ -8,6 +8,7 @@
         <a href="https://gitter.im/You-need-to-know-css/Lobby"><img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
         <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg??colorB=brightgreen"></a>
         <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
+        <a href="https://codeclimate.com/github/l-hammer/You-need-to-know-css/maintainability"><img src="https://api.codeclimate.com/v1/badges/dfba02247f296387a1a7/maintainability" /></a>
         <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
     </p>
     <p align="center">
