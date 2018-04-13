@@ -50,7 +50,17 @@ window.$docsify = {
         divEle.className = "gitalk-container";
         divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
         domObj.appendTo(domObj.find(".content"), divEle);
-        gitalk = new Gitalk(Object.assign(gitalkConfig, {id: !label ? "home" : label}))
+        console.log(Object.assign(gitalkConfig, {id: !label ? "home" : label}));
+        // gitalk = new Gitalk(Object.assign(gitalkConfig, {id: !label ? "home" : label}))
+        gitalk = new Gitalk({
+          clientID: '8b7cffeb4ae285e0e3e4',
+          clientSecret: '58d06f5220e953d6dac7d6723daf225177cc7bb3',
+          repo: 'You-need-to-know-css',
+          owner: 'l-hammer',
+          admin: ['l-hammer'],
+          id: !label ? "home" : label,
+          distractionFreeMode: false
+        });
         gitalk.render('gitalk-container-' + label)
       })
     }
