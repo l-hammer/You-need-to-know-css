@@ -53,8 +53,8 @@ window.$docsify = {
         console.log(Object.assign(gitalkConfig, {id: !label ? "home" : label}));
         // gitalk = new Gitalk(Object.assign(gitalkConfig, {id: !label ? "home" : label}))
         gitalk = new Gitalk({
-          clientID: '8b7cffeb4ae285e0e3e4',
-          clientSecret: '58d06f5220e953d6dac7d6723daf225177cc7bb3',
+          clientID: '1a0d64cda8ccc875d8b0',
+          clientSecret: 'd94139ffa06c5651f8af8569fe1ffc9418f50983',
           repo: 'You-need-to-know-css',
           owner: 'l-hammer',
           admin: ['l-hammer'],
