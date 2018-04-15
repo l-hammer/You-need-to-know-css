@@ -40,7 +40,7 @@
 	- [圣杯布局](/holy-grail-layout.md)
 	- [双飞翼布局](/double-wing-layout.md)
 	- [类订单布局](/class-order-layout.md)
-	<!-- - [Flex布局](/flexbox-layout.md) -->
+	- [Flex布局](/flexbox-layout.md)
 - **动画过渡**
 	- [弹跳效果](/bounce.md)
 	- [弹性过度](/elastic.md)
