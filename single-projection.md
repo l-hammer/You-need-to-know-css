@@ -65,7 +65,7 @@
       <div></div>
     </div>
     <div class="projection">
-      <p>③ 领边投影</p>
+      <p>③ 邻边投影</p>
       <div></div>
     </div>
     <div class="projection">
