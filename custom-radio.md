@@ -21,9 +21,13 @@
     clip: rect(0, 0, 0, 0);
   }
   input[type="radio"] + label{
+    display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    /* 小写英文开头 */
+    /* line-height: 10px; */
     cursor: pointer;
     position: relative;
-    line-height: 12px;
     user-select: none;
   }
   input[type="radio"] + label:not(:nth-of-type(6)){
