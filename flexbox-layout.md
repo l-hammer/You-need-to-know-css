@@ -20,7 +20,7 @@ https://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
 
 ### Flexbox 原理演示
 
-[A Visual Guide to CSS3 Flexbox Properties](https://l-hammer.github.io/Flexbox/ ':include :type=iframe width=100% height=791px')
+[A Visual Guide to CSS3 Flexbox Properties](https://lhammer.cn/Flexbox/ ':include :type=iframe width=100% height=791px')
 
 > **感谢：**以上演示Fork自[xluos](https://github.com/xluos)的[Flexbox演示站](https://xluos.github.io/demo/flexbox/)~
 
