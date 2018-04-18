@@ -47,7 +47,7 @@
     left: 129px;
     margin-left: -119px;
   }
-  /* inout range */
+  /* input range */
   input[type="range"] {
     width: 100%;
     cursor: ew-resize;

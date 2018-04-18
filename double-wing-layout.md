@@ -49,7 +49,7 @@
   section .right {
     margin-left: -119px;
   }
-  /* inout range */
+  /* input range */
   input[type="range"] {
     width: 100%;
     cursor: ew-resize;
