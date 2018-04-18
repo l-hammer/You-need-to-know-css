@@ -37,8 +37,8 @@
 	- [全背景等宽内容居中](/fluid-fixed.md)
 	- [绝对底部](/sticky-footer.md)
 	- [水平垂直居中](/centering-known.md)
-	- [圣杯布局](/holy-grail-layout.md)
-	- [双飞翼布局](/double-wing-layout.md)
+	- [圣杯布局](/holy-grail-layout.md?v=1)
+	- [双飞翼布局](/double-wing-layout.md?v=1)
 	- [类订单布局](/class-order-layout.md)
 	- [Flex布局](/flexbox-layout.md)
 - **动画过渡**
