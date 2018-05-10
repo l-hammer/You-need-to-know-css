@@ -182,7 +182,7 @@ justify-content: flex-start | flex-end | center | space-between | space-round;
 ```
 > * flex-start：默认值，左对齐
 > * flex-end：右对齐
-> * cente：居中
+> * center：居中
 > * space-between：两端对齐，项目之间间隔相等
 > * space-around：每个项目两侧间隔相等
 
