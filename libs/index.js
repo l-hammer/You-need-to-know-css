@@ -16,7 +16,7 @@ window.$docsify = {
   loadSidebar: true,
   subMaxLevel: 2,
   homepage: 'README.md',
-  ga: 'UA-111446331-1',
+  ga: 'UA-122081516-1',
   search: {
     noData: {
       '/': '找不到结果!'
