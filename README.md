@@ -27,7 +27,7 @@
 Several quick start options are available:
 
 - Clone the repo: `https://github.com/l-hammer/You-need-to-know-css.git`
-- Install docsify with [docsify](https://docsify.js.org/#/): `cd You-need-to-know-css && npm install docsify-cli -g`
+- Install docsify with [docsify](https://docsify.js.org/#/): `npm install docsify-cli -g (or yarn global add docsify-cli)`
 - Development run `docsify serve`
 - Open `http://localhost:3000` in your browser.
 
