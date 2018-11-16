@@ -133,7 +133,7 @@
   }
   /* left line */
   span.one-pixel-line.left::before {
-    width: 100%;
+    height: 100%;
     top: 0; left: 0;
     border-left: 1px solid #b4a078;
     transform-origin: 0 left;
