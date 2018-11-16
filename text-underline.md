@@ -91,6 +91,17 @@
   p > a:hover{
     animation: text-underline-slideInLeft 1.2s linear infinite forwards;
   }
+  @keyframes text-underline-slideInLeft {
+    from {
+      background-position-x: -432px;
+    }
+    50% {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: 432px;
+    }
+  }
 </style>
 <template>
   <main ref="main">
@@ -124,6 +135,17 @@
   }
   p > a:hover{
     animation: text-underline-slideInLeft 1.2s linear infinite forwards;
+  }
+  @keyframes text-underline-slideInLeft {
+    from {
+      background-position-x: -432px;
+    }
+    50% {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: 432px;
+    }
   }
 </style>
 <template>

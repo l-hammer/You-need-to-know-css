@@ -103,6 +103,30 @@
     stroke-dashoffset: 0;
     animation: pie-chart-per3 2s linear 1 forwards;
   }
+  @keyframes pie-chart-spin1 {
+    to { transform: rotate(.5turn); }
+  }
+  @keyframes pie-chart-bg1 {
+    to { background: #b4a078; }
+  }
+  @keyframes pie-chart-spin2 {
+    to { transform: rotate(.5turn); }
+  }
+  @keyframes pie-chart-bg2 {
+    50% { background: #b4a078; }
+  }
+  @keyframes pie-chart-fillup{
+    to { stroke-dasharray: 100 100; }
+  }
+  @keyframes pie-chart-per1{
+    to { stroke-dasharray: 37 100; }
+  }
+  @keyframes pie-chart-per2{
+    to { stroke-dasharray: 32 100; }
+  }
+  @keyframes pie-chart-per3{
+    to { stroke-dasharray: 32 100; }
+  }
 </style>
 <template>
   <main>

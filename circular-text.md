@@ -25,6 +25,11 @@
   main text {
     fill: #b4a078;
   }
+  @keyframes circular-text-rotate {
+    to {
+      transform: rotate(1turn);
+    }
+  }
 </style>
 <template>
   <main>

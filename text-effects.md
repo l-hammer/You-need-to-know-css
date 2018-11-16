@@ -102,6 +102,14 @@
     text-shadow:  1px 1px hsl(40, 28.57% , 28.82%), 2px 2px hsl(40, 28.57% , 28.82%),
                   3px 3px hsl(40, 28.57% , 28.82%), 4px 4px hsl(40, 28.57% , 28.82%);
   }
+  @keyframes text-blink-effect {
+    50% {
+      text-shadow: 0 0 .1em, 0 0 .3em;
+    }
+    to {
+        text-shadow: 0 0 .1em;
+    }
+  }
 </style>
 <template>
   <main class="main">

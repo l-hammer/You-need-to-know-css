@@ -41,6 +41,11 @@
     background-size: 16px 16px;
     animation: panoramic 20s linear infinite;
   }
+  @keyframes panoramic{
+    to {
+      background-position: 200% 0;
+    }
+  }
 </style>
 <template>
   <main>
