@@ -1,0 +1,15 @@
+input {
+  display: block;
+  width: 229px;
+  padding: .8em;
+  outline: none;
+  border: 1px solid #e3e3e3;
+  border-radius: 2px;
+}
+input:hover {
+  border: 1px solid #b4a078;
+}
+input:focus {
+  border: 1px solid #b4a078;
+  box-shadow: 0 0 0 2px rgba(180, 160, 120, 0.2);
+}

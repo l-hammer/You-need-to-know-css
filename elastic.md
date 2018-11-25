@@ -86,7 +86,7 @@
   <main class="main">
     <label>
       用户名:
-      <input id="username" />
+      <input id="username" autocomplete="off"/>
       <span class="poptip">仅支持字母、数字和下划线组合！</span>
     </label>
   </main>
@@ -157,7 +157,7 @@
   <main class="main">
     <label>
       用户名:
-      <input id="username" />
+      <input id="username" autocomplete="off"/>
       <span class="poptip">仅支持字母、数字和下划线组合！</span>
     </label>
   </main>

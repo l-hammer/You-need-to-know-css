@@ -50,3 +50,6 @@
 	- [无缝平滑效果](/smooth.md)
 	- [延轨迹平滑效果](/circular-smooth.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
+- **其他**
+	- [自定义变量](/custom-variables.md)
+	- [有趣的玩法](/interesting-usage.md)

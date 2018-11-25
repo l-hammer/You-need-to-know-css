@@ -107,7 +107,7 @@
 
 《CSS揭秘》作者[Lea Verou](http://lea.verou.me/about/)使用CSS3渐变实现的图案库[Patterns Gallery](http://verou.me/css3patterns/#)，还有它的SVG版本[SVG Patterns Gallery](https://philiprogers.com/svgpatterns/)，有兴趣的可以去研究一下作者的实现原理。
 
-[cinwell website](https://verou.me/css3patterns ':include :type=iframe width=100% height=429px')
+[Patterns Gallery](https://verou.me/css3patterns ':include :type=iframe width=100% height=429px')
 
 ### 浏览器支持
 
