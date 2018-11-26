@@ -52,4 +52,4 @@
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
 - **其他**
 	- [自定义变量](/custom-variables.md)
-	- [有趣的玩法](/interesting-usage.md)
+	- [有趣的项目](/interesting-usage.md)
