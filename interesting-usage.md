@@ -26,13 +26,13 @@ CSS 加载动画
 
 ?> **GitHub:** [colorswall/CSS-file-icons](https://github.com/colorswall/CSS-file-icons)
 
-### THE COLOUR CLOCK
+<!-- ### THE COLOUR CLOCK
 
 颜色时钟
 
 [THE COLOUR CLOCK](http://thecolourclock.co.uk/ ':include :type=iframe width=100% height=429px')
 
-?> 与之类似还有一个[hex color clock](http://www.jacopocolo.com/hexclock/), **GitHub:** [jacopocolo/Hex-clock](https://github.com/jacopocolo/Hex-clock)
+?> 与之类似还有一个[hex color clock](http://www.jacopocolo.com/hexclock/), **GitHub:** [jacopocolo/Hex-clock](https://github.com/jacopocolo/Hex-clock) -->
 
 ### magic
 
