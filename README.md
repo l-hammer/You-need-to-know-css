@@ -67,7 +67,10 @@ or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - 
 
 If you find this project useful, you can buy me a coffee ☕, Thank you! 🙏🏻 🙏 🙏🏿
 
-<img src="./static/reward-code.png" width="280">
+<img src="./static/reward-code.png" width="280"> <br><br>
+<a href="https://github.com/fqs617" target="_blank"><img src="https://avatars3.githubusercontent.com/u/23302051?s=460&v=4" width="29" style="border-radius: 50%"></a>
+<a href="https://github.com/ElivesHuangGit" target="_blank"><img src="https://avatars0.githubusercontent.com/u/36831410?s=460&v=4" width="29" style="border-radius: 50%"></a>
+<a href="https://github.com/StaminaWang" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&v=4" width="29" style="border-radius: 50%"></a>
 
 ## license
 
