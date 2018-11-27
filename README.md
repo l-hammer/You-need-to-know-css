@@ -63,6 +63,12 @@ Several quick start options are available:
 
 or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any helpful suggestions are welcomed. :stuck_out_tongue_winking_eye:
 
+## Backers ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
+
+If you find this project useful, you can buy me a coffee ☕, Thank you! 🙏🏻 🙏 🙏🏿
+
+<img src="./static/reward-code.png" width="280">
+
 ## license
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css?ref=badge_small)
