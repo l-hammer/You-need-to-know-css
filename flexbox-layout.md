@@ -178,13 +178,14 @@ flex-wrap: <flex-direction> || <flex-wrap>;
 **作用：**定义项目在主轴上的对齐方式。
 
 ```css
-justify-content: flex-start | flex-end | center | space-between | space-round;
+justify-content: flex-start | flex-end | center | space-between | space-round | space-evenly;
 ```
 > * flex-start：默认值，左对齐
 > * flex-end：右对齐
 > * center：居中
-> * space-between：两端对齐，项目之间间隔相等
+> * space-evenly：每个项目之间及两端的间隔都相等
 > * space-around：每个项目两侧间隔相等
+> * space-between：两端对齐，项目之间间隔相等
 
 <vuep template="#justifyContent"></vuep>
 
@@ -232,8 +233,9 @@ justify-content: flex-start | flex-end | center | space-between | space-round;
           {id: 'flex-start', value: 'flex-start'},
           {id: 'flex-end', value: 'flex-end'},
           {id: 'center', value: 'center'},
-          {id: 'space-between', value: 'space-between'},
+          {id: 'space-evenly', value: 'space-evenly'},
           {id: 'space-around', value: 'space-around'},
+          {id: 'space-between', value: 'space-between'},
         ],
         justifyContent: 'flex-start',
       }
