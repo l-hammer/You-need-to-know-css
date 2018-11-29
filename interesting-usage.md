@@ -2,6 +2,14 @@
 
 收藏一些CSS有趣的项目，欢迎补充完善~
 
+### NES.css
+
+NES红白机风格的 CSS 框架，主要的实现原理是通过将字体 [Press+Start+2P](https://fonts.google.com/specimen/Press+Start+2P) 和 `box-shadow` 巧妙的结合，非常有意思，尤其是icon的实现，强烈建议大家看下源码~ :thumbsup:
+
+[NES.css](https://bcrikko.github.io/NES.css/ ':include :type=iframe width=100% height=429px')
+
+?> **GitHub:** [BcRikko/NES.css](https://github.com/BcRikko/NES.css)
+
 ### Epic Spinners
 
 CSS 加载动画
