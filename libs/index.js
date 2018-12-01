@@ -7,6 +7,9 @@ gitalkConfig = {
   repo: 'You-need-to-know-css',
   owner: 'l-hammer',
   admin: ['l-hammer'],
+  perPage: 20,
+  labels: ['💬Gitalk'],
+  pagerDirection: 'first',
   distractionFreeMode: false
 },
 window.$docsify = {
