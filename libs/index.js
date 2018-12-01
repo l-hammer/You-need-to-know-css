@@ -9,7 +9,7 @@ gitalkConfig = {
   admin: ['l-hammer'],
   perPage: 20,
   labels: ['💬Gitalk'],
-  pagerDirection: 'first',
+  pagerDirection: 'last',
   distractionFreeMode: false
 },
 window.$docsify = {

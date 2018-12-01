@@ -100,10 +100,19 @@ input[type="range"] {
   border-top-color: #b4a078;
 }
 .gt-container .gt-btn {
+  border-color: #b4a078;
   background-color: #b4a078;
 }
-.gt-container .gt-btn:hover {
+.gt-container .gt-btn:not(.gt-btn-preview):hover {
+  border-color: #C3B393;
   background-color: #C3B393;
+}
+.gt-container .gt-btn-preview {
+  color: #b4a078;
+  background-color: white;
+}
+.gt-container .gt-btn-preview:hover {
+  border-color: #b4a078;
 }
 .gt-container .gt-link {
   border-bottom: 1px dotted #b4a078;
