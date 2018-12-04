@@ -16,17 +16,21 @@ window.$docsify = {
   name: 'You-need-to-know-css',
   repo: 'https://github.com/l-hammer/You-need-to-know-css',
   auto2top: true,
+  loadNavbar: true,
   loadSidebar: true,
+  mergeNavbar: true,
   subMaxLevel: 2,
   homepage: 'README.md',
   ga: 'UA-122081516-1',
   search: {
     noData: {
-      '/': '找不到结果!'
+      '/zh-cn/': '找不到结果!',
+      '/': 'No results!',
     },
     paths: 'auto',
     placeholder: {
-      '/': '搜索'
+      '/zh-cn/': '搜索',
+      '/': 'Search',
     }
   },
   plugins: [
@@ -40,7 +44,7 @@ window.$docsify = {
 
       hook.doneEach(function(){
         var label, domObj, main, divEle, gitalk;
-        label = vm.route.path.split('/').join('');
+        label = vm.route.path.split('/').pop();
         domObj = Docsify.dom;
         main = domObj.getNode("#main");
 
