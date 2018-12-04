@@ -1,8 +1,8 @@
-# 关于 CSS Tricks
+# 关于 You-need-to-know-css
 
-作为一名WEB开发者，CSS是我们必须掌握的技术之一。我一直以为我对CSS的掌握已经足够用了，直到前段时间读到了[Lea Verou](http://lea.verou.me/about/)的[《CSS揭秘》](https://item.jd.com/11911279.html)时，我被其优雅的实现方案惊讶到了，为了以后可以更好的粘贴复制，笔者将自己的收获和工作中经常用到的一些CSS技巧总结成这份可以从视觉上直接理解的文档。如果觉得对你有一点帮助，欢迎大家一起来完善:memo:~
+作为一名Web开发者，CSS是必备技能之一，我一直以为自己对CSS的掌握已经够用了，直到读[Lea Verou](http://lea.verou.me/about/)的[《CSS揭秘》](https://item.jd.com/11911279.html)，我发现自己充其量就算个会打CS的选手，书中针对我们常见的网页设计难题从不同的角度提出了多种实用又优雅的解决方案，在这里强烈的推荐给每一位从事前端相关工作和对前端有兴趣的同学，相信你一定会有所收获。
 
-书中针对我们常见的网页设计难题从不同的角度提出了多种实用又优雅的解决方案，是我完整读过的唯一一本关于CSS的书籍（读的书少到可怜），在这里强烈的推荐给每一位从事前端相关的开发者，相信你一定会有所收获。
+为了以后可以更爽的复制粘贴，笔者把自己的收获和工作中常用的一些CSS小样式总结成这份文档，为了有点逼格，且取名为`You-need-to-know-css`，还请大家勿喷🙏，目前文档一共包含43个CSS的小样式（持续更新…）。文档还有很多不足的地方，还请各位多多指教，如果觉得对你有一点帮助，欢迎大家一起来完善:memo:~
 
 在 MDN 中 [CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS) 的定义：
 
@@ -85,5 +85,6 @@ input:focus + .popTips{
 
 为了保持文档中示例的一致性，文档中所有示例配色均参考使用网易严选设计规范。
 
-![color](../static/colors_guide.jpeg)
+![color](static/colors_guide.jpeg)
 
+!> 文档中的示例样式兼没有添加浏览器前缀做兼容，建议使用Chrome，Firefox等主流浏览器访问，在生产环境中请使用[Autoprefixer](https://www.npmjs.com/package/autoprefixer)做兼容处理。
