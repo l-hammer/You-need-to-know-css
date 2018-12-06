@@ -9,9 +9,9 @@
         <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg??colorB=brightgreen"></a>
         <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
         <a href="https://codeclimate.com/github/l-hammer/You-need-to-know-css/maintainability"><img src="https://api.codeclimate.com/v1/badges/dfba02247f296387a1a7/maintainability" /></a>
+        <!-- <a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/You-need-to-know-css/backers/badge.svg" /></a> 
+        <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/You-need-to-know-css/sponsors/badge.svg" /></a> -->
         <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
-        <a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/You-need-to-know-css/backers/badge.svg" /></a> 
-        <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/You-need-to-know-css/sponsors/badge.svg" /></a>
     </p>
     <p align="center">
         CSS tricks web developers need to know<br>
@@ -65,7 +65,7 @@ Several quick start options are available:
 
 or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any helpful suggestions are welcomed. :stuck_out_tongue_winking_eye:
 
-## Backers ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
+## Donate ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
 
 If you find this project useful, you can buy me a coffee ☕, Thank you! 🙏🏻 🙏 🙏🏿
 
@@ -96,15 +96,6 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 <a href="https://opencollective.com/You-need-to-know-css/sponsor/0/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/You-need-to-know-css/sponsor/1/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/2/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/3/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/4/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/5/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/6/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/7/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/8/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/You-need-to-know-css/sponsor/9/website" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/sponsor/9/avatar.svg"></a>
-
 
 
 ## license
