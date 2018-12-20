@@ -22,7 +22,7 @@ CSS 加载动画
 
 用CSS渐变实现的形状
 
-[Shapes generated](https://codepen.io/yuanchuan/full/vVRKRQ/ ':include :type=iframe width=100% height=429px')
+[Shapes generated](https://yuanchuan.name/gradient-shapes/ ':include :type=iframe width=100% height=429px')
 
 ?> **GitHub:** [yuanchuan/gradient-shapes](https://github.com/yuanchuan/gradient-shapes)
 
