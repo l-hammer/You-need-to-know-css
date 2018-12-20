@@ -1,9 +1,9 @@
 
-# 提示气泡
+# Poptip
 
-?> 背景知识：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
+?> Background：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
 
-> `dark`主题
+> `dark` theme
 
 <vuep template="#poptip-dark"></vuep>
 
@@ -165,7 +165,7 @@
 </script>
 </script>
 
-> `light`主题：`filter: drop-shadow()`
+> `light` theme：`filter: drop-shadow()`
 
 <vuep template="#poptip-light"></vuep>
 
@@ -335,11 +335,11 @@
 </script>
 </script>
 
-### 什么是“CSS Filter Effects”？
+### What is "CSS Filter Effects"?
 
 [cinwell website](https://www.bestagencies.com/tools/filter-effects-css-generator/ ':include :type=iframe width=100% height=429px')
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms3d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
 

@@ -1,7 +1,7 @@
 
-# 其他多边形
+# Other polygons
 
-?> 背景知识：:point_right: [box-sizing](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
+?> Background：:point_right: [box-sizing](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 
 > *{ box-sizing: border-box; }
 
@@ -39,7 +39,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css3-boxsizing&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

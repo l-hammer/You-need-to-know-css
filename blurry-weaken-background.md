@@ -1,10 +1,10 @@
-# 通过模糊弱化背景
+# Blurry waken background
 
-?> 背景知识：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
+?> Background：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
 
-<vuep template="#blurry-weaken-background"></vuep>
+<vuep template="#blurry-weaken-background_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="blurry-weaken-background">
+<script v-pre type="text/x-template" id="blurry-weaken-background_tlp">
 <style>
   main {
     width: 100%;
@@ -77,9 +77,9 @@
 </script>
 </script>
 
-> 创造良好的用户体验应当养成一种习惯~
+> Greate user experience should always go first as a habit ~
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

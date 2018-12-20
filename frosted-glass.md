@@ -1,7 +1,7 @@
 
-# 毛玻璃效果
+# Frosted glass effect
 
-?> 背景知识：:point_right: [hsla/rgba](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value)
+?> Background：:point_right: [hsla/rgba](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value)
 
 <vuep template="#frosted-glass"></vuep>
 
@@ -47,7 +47,6 @@
   <main class="main">
     <div>
       "O God, I could be bounded in a nutshell and count myself a king of infinite space, were it not that I have bad dreams."<br>
-      “即使我身处果壳之中，我仍以为自己是宇宙之王”
       <footer>——
         <cite>William Shakespeare</cite>
       </footer>
@@ -58,7 +57,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css3-colors&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
 

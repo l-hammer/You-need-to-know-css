@@ -1,7 +1,7 @@
 
-# 切角效果
+# Cutout corners
 
-?> 背景知识：:point_right: [gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient), [clip-path](https://developer.mozilla.org/zh-CN/docs/Web/CSS/clip-path)
+?> Background：:point_right: [gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient), [clip-path](https://developer.mozilla.org/zh-CN/docs/Web/CSS/clip-path)
 
 <vuep template="#bevel-corners"></vuep>
 
@@ -64,19 +64,19 @@
   <main>
     <div class="bevel-corners">
       <p>① linear-gradient</p>
-      <div>A paragraph of filler text.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.</div>
+      <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in.</div>
     </div>
     <div class="bevel-corners">
       <p>② radial-gradient</p>
-      <div>A paragraph of filler text.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.</div>
+      <div>Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Neque egestas congue quisque egestas. Quis ipsum suspendisse ultrices gravida dictum fusce.</div>
     </div>
     <div class="bevel-corners">
-      <p>③ 内联SVG</p>
-      <div>A paragraph of filler text.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.</div>
+      <p>③ Inline SVG</p>
+      <div>Cras semper auctor neque vitae tempus quam pellentesque nec. Congue quisque egestas diam in arcu. Purus in mollis nunc sed id semper risus in.</div>
     </div>
     <div class="bevel-corners">
       <p>④ clip-path</p>
-      <div>A paragraph of filler text.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.La la la de dah de dah de dah de la.</div>
+      <div>Molestie ac feugiat sed lectus vestibulum. Eu turpis egestas pretium aenean pharetra magna ac. Porttitor eget dolor morbi non arcu risus quis.</div>
     </div>
   </main>
 </template>
@@ -84,7 +84,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

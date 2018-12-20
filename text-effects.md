@@ -1,11 +1,11 @@
 
-# 常见的文字效果
+# Text effects
 
-?> 背景知识：:point_right: [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
+?> Background：:point_right: [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
 
-<vuep template="#text-effects"></vuep>
+<vuep template="#text-effects_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="text-effects">
+<script v-pre type="text/x-template" id="text-effects_tlp">
 <style>
   main {
     width: 100%;
@@ -114,19 +114,19 @@
 <template>
   <main class="main">
     <div>
-      <h5>1️⃣ 浅色底深色字</h5>
+      <h5>1️⃣ Dark-color word with light background</h5>
       <p>You-need-to-know-css-tricks</p>
     </div>
     <div>
-      <h5>2️⃣ 深色底浅色字</h5>
+      <h5>2️⃣ light-color word with dark background</h5>
       <p>You-need-to-know-css-tricks</p>
     </div>
     <div>
-      <h5>3️⃣ 空心字:text-shadow</h5>
+      <h5>3️⃣ hollow word:text-shadow</h5>
       <p>You-need-to-know-css-tricks</p>
     </div>
     <div>
-      <h5>4️⃣ 空心字-SVG</h5>
+      <h5>4️⃣ hollow word-SVG</h5>
       <p>
         <svg width="300px" height="1em">
           <use xlink:href="#css" />
@@ -135,23 +135,23 @@
       </p>
     </div>
     <div>
-      <h5>5️⃣ 外发光文字:text-shadow</h5>
+      <h5>5️⃣ External illuminating text:text-shadow</h5>
       <p><a>You-need-to-know-css-tricks</a></p>
     </div>
     <div>
-      <h5>6️⃣ 模糊文字:text-shadow</h5>
+      <h5>6️⃣ blur words:text-shadow</h5>
       <p><a>You-need-to-know-css-tricks</a></p>
     </div>
     <div>
-      <h5>7️⃣ 模糊文字:filter</h5>
+      <h5>7️⃣ blur words:filter</h5>
       <p><a>You-need-to-know-css-tricks</a></p>
     </div>
     <div>
-      <h5>8️⃣ 文字凸起</h5>
+      <h5>8️⃣ text bump</h5>
       <p>You-need-to-know-css-tricks</p>
     </div>
     <div>
-      <h5>9️⃣ 文字凸起</h5>
+      <h5>9️⃣ text bump</h5>
       <p>You-need-to-know-css-tricks</p>
     </div>
   </main>
@@ -160,8 +160,8 @@
 </script>
 </script>
 
-!> 通过text-shadow实现的模糊效果无法平稳退化~
+!> The blur effect performed by text-shadow cannot be degraded smoothly~
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

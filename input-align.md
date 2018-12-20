@@ -1,9 +1,9 @@
 
-# 输入框完美居中
+# Input align
 
-<vuep template="#input-align"></vuep>
+<vuep template="#input-align_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="input-align">
+<script v-pre type="text/x-template" id="input-align_tlp">
 <style>
   main {
     width: 100%; height: 229px;
@@ -33,7 +33,7 @@
 </style>
 <template>
   <main class="main">
-    <input type="text" placeholder="请填写手机号或姓名">
+    <input type="text" placeholder="Please type phone number or name">
   </main>
 </template>
 <script>

@@ -1,6 +1,6 @@
-# 自定义单选框
+# Custom radios
 
-?> 背景知识：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
+?> Background：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 
 <vuep template="#custom-radio"></vuep>
 
@@ -89,18 +89,18 @@
     <input type="radio" id="radio3" name="radio">
     <label for="radio3">Angular</label>
     <input type="radio" id="radio4" name="radio" disabled>
-    <label for="radio4">禁用</label>
+    <label for="radio4">disable</label>
     <input type="radio" id="radio5" name="radio" disabled class="checked">
-    <label for="radio5">选中禁用</label>
+    <label for="radio5">check disable</label>
   </main>
 </template>
 <script>  
 </script>
 </script>
 
-> 创造良好的用户体验应当养成一种习惯~
+> Greate user experience should always go first as a habit ~
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="493px"></iframe>
 

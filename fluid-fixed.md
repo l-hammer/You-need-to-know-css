@@ -1,9 +1,9 @@
 
-# 全背景下等宽内容居中
+# Full background fixed content
 
-?> 背景知识：:point_right: [calc()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
+?> Background：:point_right: [calc()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
 
-> 将元素左右padding设置为父元素宽度的50%减去等宽内容的一半即可，无需设置width～
+> Set the left and right padding of the element to 50% of the width of the parent element minus half of the content of the equal width. No need to set the width ~
 
 <vuep template="#fluidFixed"></vuep>
 
@@ -38,7 +38,7 @@
         <h2 class="title">You-need-to-know-css-tricks</h2>
     </header>
     <section>
-        <p>A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
     <footer>
         <p>&copy; 2018 LHammer</p>
@@ -50,6 +50,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=calc&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
