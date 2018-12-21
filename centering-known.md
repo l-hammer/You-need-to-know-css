@@ -1,13 +1,13 @@
 
-# 水平垂直居中
+# Centered
 
-?> 背景知识：:point_right: [display](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display), [calc()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc), [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
+?> Background：:point_right: [display](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display), [calc()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc), [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
 
-> “44 年前我们就把人类送上月球了，但现在我们仍然无法在 CSS 中实现垂直居中。”        [——James Anderson](/centering-known)
+> "44 year ago we put a man on the moon,yet we still can't vertically centre things in CSS。"        [——James Anderson](/centering-known)
 
-以下的所有实现方案，笔者都在项目中验证过，每种方法都有自己的利与弊，大家可以根据具体的需求，选择最适合的方案。
+All the practices mentioned in the following part, I have experimented it on my own project. Those practices have both advantages and disadvantages. You guys can pick the most suitable solution according to your preference.
 
-> `display: flex` + `margin: auto` 不限定宽高 :thumbsup:
+> `display: flex` + `margin: auto` no limit to width & height :thumbsup:
 
 <vuep template="#flex"></vuep>
 
@@ -36,7 +36,7 @@
 </script>
 </script>
 
-> `display: grid` 不限定宽高 :thumbsup:
+> `display: grid` no limit to width & height :thumbsup:
 
 <vuep template="#grid"></vuep>
 
@@ -66,7 +66,7 @@
 </script>
 </script>
 
-> 绝对定位 `position: absolute` 限定宽高
+> absolute-positioned `position: absolute` limit the width & height
 
 <vuep template="#position"></vuep>
 
@@ -98,7 +98,7 @@
 </script>
 </script>
 
-> 绝对定位 `position: absolute` + `calc()` 限定宽高
+> absolute-positioned `position: absolute` + `calc()` limit the width & height
 
 <vuep template="#calc"></vuep>
 
@@ -129,7 +129,7 @@
 </script>
 </script>
 
-> 绝对定位 `position: absolute` + `translate` 不限定宽高 :thumbsup:
+> absolute-positioned `position: absolute` + `translate` no limit to width & height :thumbsup:
 
 <vuep template="#translate"></vuep>
 
@@ -160,7 +160,7 @@
 </script>
 </script>
 
-> 仿table布局 `display: table/table-cell` + `vertical-align: middle` 不限定宽高
+> table-like layout `display: table/table-cell` + `vertical-align: middle` no limit to width & height
 
 <vuep template="#table"></vuep>
 
@@ -194,7 +194,7 @@
 </script>
 </script>
 
-> 伪元素 `:after` + `vertical-align:middle` 不限定宽高
+> pseudo-elements `:after` + `vertical-align:middle` no limit to width & height
 
 <vuep template="#after"></vuep>
 
@@ -230,9 +230,9 @@
 </script>
 </script>
 
-使用`vertical-align`实现居中时，居中元素`display`的值，必须为`inline-block/inline`，否则无法垂直居中，这是因为`vertical-align`只能用来指定行内元素`（inline）`或表格单元格`（table-cell）`元素的垂直对齐方式。更多请查看[MDN vertical-align](https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align)
+When you are applying the `vertical-align` to achieve the goal of centering, please remeber to set the value of `display` element to `inline-block/inline`, otherwise, you cannot make it center vertically. The reason is that `vertical-align` is utilized to define the way of vertical alignment only for the inline or the table-cell element. Please click [MDN vertical-align](https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align) for more information.
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=calc&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

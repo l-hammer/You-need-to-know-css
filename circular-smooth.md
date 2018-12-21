@@ -1,13 +1,13 @@
 
-# 延轨迹平滑效果
+# Circular smooth
 
-?> 背景知识：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [animation-delay](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-delay)
+?> Background：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [animation-delay](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-delay)
 
-> “transform-origin 只是一个语法糖而已。实际上你总是可以用 translate() 来代替它。”        [——James Anderson](/Aryeh Gregor)
+> "Transform-origin is just a syntactic sugar. In fact, you can always use translate() instead." [——James Anderson](/Aryeh Gregor)
 
-<vuep template="#circular-smooth"></vuep>
+<vuep template="#circular-smooth_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="circular-smooth">
+<script v-pre type="text/x-template" id="circular-smooth_tlp">
 <style>
   main {
     width: 100%; height: 529px;
@@ -116,9 +116,9 @@
 </script>
 </script>
 
-!> 如有疑问，后续会添加细节的讲解~
+!> If any questions, please keep following the continued explanation.
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

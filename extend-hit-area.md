@@ -1,11 +1,11 @@
 
-# 扩大可点击区域
+# Extend hit area
 
-?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
+?> Background：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
 
-<vuep template="#extend-hit-area"></vuep>
+<vuep template="#extend-hit-area_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="extend-hit-area">
+<script v-pre type="text/x-template" id="extend-hit-area_tlp">
 <style>
   main {
     width: 100%;
@@ -105,9 +105,9 @@
 </script>
 </script>
 
-> 创造良好的用户体验应当养成一种习惯~
+> All the transitions should be animated.
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-filters&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="493px"></iframe>
 

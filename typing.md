@@ -1,11 +1,11 @@
 
-# 打字效果
+# Typing
 
-?> 背景知识：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [animation-timing-function](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-timing-function)
+?> Background：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [animation-timing-function](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-timing-function)
 
-<vuep template="#typing"></vuep>
+<vuep template="#typing_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="typing">
+<script v-pre type="text/x-template" id="typing_tlp">
 <style>
   main {
     width: 100%; height: 229px;
@@ -16,7 +16,7 @@
   span {
     display: inline-block;
     width: 21ch;
-    font: bold 200% Consolas, Monaco, monospace;   /*等宽字体*/
+    font: bold 200% Consolas, Monaco, monospace;   /*Monospaced font*/
     overflow: hidden;
     white-space: nowrap;
     font-weight: 500;
@@ -41,8 +41,8 @@
 </script>
 </script>
 
-!> 此方法仅限**单行等宽**字体~
+!> This method is only for **single line & equal width**
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

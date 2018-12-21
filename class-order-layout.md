@@ -1,17 +1,19 @@
 
-# 类订单布局
+# Class order layout
 
-?> 背景知识：:point_right: [水平垂直居中](/centering-known)
+?> Background：:point_right: [centring horizontally & vertically](/centering-known)
 
-此布局一般的需求为左侧高度不固定，右侧自适应高度并且居中。
+Normaly, this layout do not limit the height of the left side, while right-side should be centred with self-adaptive height.
+
+Requirments for this layout: 
 
 <div align="center" style="border: 1px solid #f5f5f5"><img src="static/interesting-layout-1.jpeg" width="100%" align="center"/></div>
 
-> 伪元素 `:after` + `vertical-align:middle` 方案
+> pseudo element `:after` + `vertical-align:middle` solution
 
-<vuep template="#class-order-layout"></vuep>
+<vuep template="#class-order-layout_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="class-order-layout">
+<script v-pre type="text/x-template" id="class-order-layout_tlp">
 <style>
   main {
     width: 100%;
@@ -73,8 +75,8 @@
       <span class="left">
         <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
       </span>
-      <span class="center">垂直居中<br>垂直居中垂直居中垂直居中</span>
-      <span class="right">垂直居中</span>
+      <span class="center">Vertical centering<br>Vertical centering Vertical centering</span>
+      <span class="right">Vertical centering</span>
     </section>
   </main>
 </template>
@@ -101,11 +103,11 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-sel3&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
 
-> 伪元素 `display: flex` 方案
+> pseudo element `display: flex` solution
 
 <vuep template="#layout-flexbox"></vuep>
 
@@ -155,8 +157,8 @@
       <span class="left">
         <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
       </span>
-      <span class="center">垂直居中<br>垂直居中垂直居中垂直居中</span>
-      <span class="right">垂直居中</span>
+      <span class="center">vertical centering<br>vertical centering</span>
+      <span class="right">vertical centering</span>
     </section>
   </main>
 </template>
@@ -183,11 +185,11 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false" frameborder="0" width="100%" height="418px"></iframe>
 
-> 伪元素 `display: grid` 方案 :thumbsup:
+> pseudo element `display: grid` solution :thumbsup:
 
 <vuep template="#layout-grid"></vuep>
 
@@ -229,8 +231,8 @@
       <span class="left">
         <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
       </span>
-      <span class="center">垂直居中<br>垂直居中垂直居中垂直居中</span>
-      <span class="right">垂直居中</span>
+      <span class="center">vertical centering<br>vertical centering</span>
+      <span class="right">vertical centering</span>
     </section>
   </main>
 </template>
@@ -257,6 +259,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-grid&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false" frameborder="0" width="100%" height="400px" style="height: 418px;"></iframe>

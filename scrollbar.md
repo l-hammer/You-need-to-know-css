@@ -1,6 +1,6 @@
-# 自定义滚动条
+# Custom scrollbar
 
-?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [::-webkit-scrollbar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+?> Background：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [::-webkit-scrollbar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
 
 <vuep template="#scrollbar"></vuep>
 
@@ -28,17 +28,17 @@
     width: 8px;
     background: white;
   }
-  .scrollbar-main::-webkit-scrollbar-corner, /* 滚动条角落 */
+  .scrollbar-main::-webkit-scrollbar-corner, /* Scroll bar corner */
   .scrollbar-main::-webkit-scrollbar-thumb,
   .scrollbar-main::-webkit-scrollbar-track {
     border-radius: 5px;
   }
   .scrollbar-main::-webkit-scrollbar-corner,
-  .scrollbar-main::-webkit-scrollbar-track { /* 滚动条轨道 */
+  .scrollbar-main::-webkit-scrollbar-track { /* Scroll bar track */
     background-color: rgba(180,160,120,.1);
     box-shadow: inset 0 0 1px rgba(180,160,120,.5);
   }
-  .scrollbar-main::-webkit-scrollbar-thumb { /* 滚动条手柄 */
+  .scrollbar-main::-webkit-scrollbar-thumb { /* Scroll bar handle */
     background-color: rgb(180,160,120);
   }
 </style>
@@ -60,8 +60,8 @@
 </script>
 </script>
 
-!> 兼容性很差，并且很多样式不可控，建议在生产环境中采用类似 [perfect-scrollbar](https://github.com/utatti/perfect-scrollbar) 的方案。
+!> Poor compatibility, many styles are uncontrollable, it is recommended to use similar solution like [perfect-scrollbar](https://github.com/utatti/perfect-scrollbar) in production environment
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-scrollbar&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

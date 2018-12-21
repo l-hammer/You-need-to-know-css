@@ -1,10 +1,10 @@
-# Flex 布局
+# Flex layout
 
-?> 背景知识：:point_right: [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex), [flex 布局的基本概念](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+?> Background：:point_right: [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex), [flex layout concept](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
-Flex布局的全称为CSS Flexible Box Layout Module，是W3C提出的一种新型页面布局方案，第一个版本于2009年推出，到现在为止，W3C一共发布了12个版本，[最新版本](https://www.w3.org/TR/css-flexbox-1/)于20171019推出，已经得到了所有主流浏览器的支持，所以请大胆的使用吧~
+The Flex layout is called CSS Flexible Box Layout Module. It is a new page layout solution proposed by W3C. The first version was released in 2009. Up to now, W3C has released 12 versions, [latest version](https://www.w3.org/TR/css-flexbox-1/) was launched in 20171019 and has been supported by all major browsers, so please use it boldly ~
 
-##### 历史版本:
+##### Historic version:
 
 > https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/<br/>
 https://www.w3.org/TR/2016/CR-css-flexbox-1-20160301/<br/>
@@ -18,30 +18,30 @@ https://www.w3.org/TR/2011/WD-css3-flexbox-20111129/<br/>
 https://www.w3.org/TR/2011/WD-css3-flexbox-20110322/<br/>
 https://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
 
-### Flexbox 原理演示
+### Flexbox principle demonstration
 
 [A Visual Guide to CSS3 Flexbox Properties](https://lhammer.cn/Flexbox/ ':include :type=iframe width=100% height=791px')
 
-> **感谢：**以上演示Fork自[xluos](https://github.com/xluos)的[Flexbox演示站](https://xluos.github.io/demo/flexbox/)~
+> **Thank：**The above demo forks from [xluos](https://github.com/xluos)的[Flexbox Demo Station](https://xluos.github.io/demo/flexbox/)~
 
-Flex布局由容器`flex container`和项目`flex item`两部分组成，容器默认存在两根轴：水平的主轴`main axis`和垂直的交叉轴`cross axis`，项目默认以主轴排列。
-Flex属性包括容器属性和项目属性两部分，容器上可设置：`flex-direction`、`flex-wrap`、`flex-grow`、`justify-content`、`align-items`、`align-content`6个属性，项目上同样可设置6个属性，分别为：`order`、`flex-grow`、`flex-shrink`、`flex-basis`、`flex`、`align-self`。示例如下：
+The Flex layout consists of two parts: the container `flex container` and the item `flex item`. The container has two axes by default: the horizontal spindle `main axis` and the vertical cross axis `cross axis`. The iterm defaults to the main axis.
+The Flex property consists of two parts: the container property and the project property. The container can be set to: `flex-direction`, `flex-wrap`, `flex-grow`, `justify-content`, `align-items`, `align-content` 6 attributes, six attributes can also be set on the item: `order`, `flex-grow`, `flex-shrink`, `flex-basis`, `flex`, `align-self`. An example is as follows:
 
-### 容器属性
+### Container properties
 
 ------
 
-#### flex-direction属性
+#### flex-direction property
 
-**作用：**决定主轴的方向。
+**function：** determines the direction of the main axis.
 
 ```css
 flex-direction: row | row-reverse | column | column-reverse;
 ```
-> * row：默认值，主轴为水平方向,表示从左向右排列
-> * row-reverse：主轴为水平方向，从右向左排列
-> * column：主轴为垂直方向，从上向下排列
-> * column-reverse：主轴为垂直方向，从下向上排列
+> * row: The default value, the main axis is horizontal, indicating from left to right
+> * row-reverse: The main axis is horizontal, indicating from right to left
+> * column: The main axis is in the vertical direction, arranged from top to bottom
+> * column-reverse: The spindle is in the vertical direction, arranged from bottom to top
 
 <vuep template="#flexDirection"></vuep>
 
@@ -97,16 +97,16 @@ flex-direction: row | row-reverse | column | column-reverse;
 </script>
 </script>
 
-#### flex-wrap属性
+#### flex-wrap property
 
-**作用：**决定项目在一条轴线排不下时如何换行。
+**function:** Decide how the item will wrap when it is not aligned on one axis.
 
 ```css
 flex-wrap: nowrap | wrap | wrap-reverse;
 ```
-> * nowrap：默认值，不换行
-> * wrap：换行，第一行在上方
-> * row-reverse：换行，第一行在下方
+> * nowrap: default value，not wrap
+> * wrap: wrap, the first line is above
+> * row-reverse: wrap, the first line is below
 
 <vuep template="#flexWrap"></vuep>
 
@@ -162,30 +162,30 @@ flex-wrap: nowrap | wrap | wrap-reverse;
 </script>
 </script>
 
-#### flex-glow属性
+#### flex-glow property
 
-**作用：**`flex-direction`属性和`flex-wrap`属性的简写形式，默认值为row nowrap。
+**function:** The abbreviation of `flex-direction` and `flex-wrap` properties, The default value is row nowrap
 
 ```css
 flex-wrap: <flex-direction> || <flex-wrap>;
 ```
-> * row nowrap：默认值，主轴为水平方向，不换行
-> * `<flex-direction>`：同[flex-direction](/flexbox-layout?id=flex-direction%E5%B1%9E%E6%80%A7)
-> * `<flex-wrap>`：同[flex-wrap](/flexbox-layout?id=flex-wrap%E5%B1%9E%E6%80%A7)
+> * row nowrap: The default value, the main axis is horizontal, not wrap
+> * `<flex-direction>`: see [flex-direction](/flexbox-layout?id=flex-direction%E5%B1%9E%E6%80%A7)
+> * `<flex-wrap>`: see [flex-wrap](/flexbox-layout?id=flex-wrap%E5%B1%9E%E6%80%A7)
 
-#### justify-content属性
+#### justify-content property
 
-**作用：**定义项目在主轴上的对齐方式。
+**function:** Define the alignment of the project on the spindle.
 
 ```css
 justify-content: flex-start | flex-end | center | space-between | space-round | space-evenly;
 ```
-> * flex-start：默认值，左对齐
-> * flex-end：右对齐
-> * center：居中
-> * space-evenly：每个项目之间及两端的间隔都相等
-> * space-around：每个项目两侧间隔相等
-> * space-between：两端对齐，项目之间间隔相等
+> * flex-start: Default value, left aligned
+> * flex-end: Right aligned
+> * center: Centered
+> * space-evenly: The interval between each item and at both ends is equal
+> * space-around: Equal spacing on both sides of each item
+> * space-between: Aligned ends, the items are equally spaced
 
 <vuep template="#justifyContent"></vuep>
 
@@ -249,18 +249,18 @@ justify-content: flex-start | flex-end | center | space-between | space-round | 
 </script>
 </script>
 
-#### align-items属性
+#### align-items property
 
-**作用：**定义项目在交叉轴（默认方向从上到下）上的对齐方式。
+**function:** Defines the alignment of the item on the cross axis (the default direction is from top to bottom).
 
 ```css
 align-items: flex-start | flex-end | center | baseline | stretch;
 ```
-> * flex-start：交叉轴的起点对齐
-> * flex-end：交叉轴的终点对齐
-> * cente：交叉轴的中心对齐
-> * baseline：项目第一行文字的基线对齐
-> * stretch：默认值，项目未设置固定高度时，将占满整个容器
+> * flex-start: Starting point alignment of the cross axis
+> * flex-end: End point alignment of the cross axis
+> * center: center alignment of the cross axis
+> * baseline: Baseline alignment of the first line of text in the project
+> * stretch: The default value, when the item is not set to a fixed height, will fill the entire container
 
 <vuep template="#alignItems"></vuep>
 
@@ -326,19 +326,19 @@ align-items: flex-start | flex-end | center | baseline | stretch;
 </script>
 </script>
 
-#### align-content属性
+#### align-content property
 
-**作用：**定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
+**function:** Defines the alignment of multiple axes. This property does not work if the project has only one axis.
 
 ```css
 align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 ```
-> * flex-start：交叉轴的起点对齐
-> * flex-end：交叉轴的终点对齐
-> * center：交叉轴的中心对齐
-> * space-between：与交叉轴两端对齐，轴线之间的间隔平均分布等
-> * space-around：每根轴线两侧的间隔都相
-> * stretch：默认值，轴线占满整个交叉轴
+> * flex-start: Starting point alignment of the cross axis
+> * flex-end: End point alignment of the cross axis
+> * center: Center alignment of the cross axis
+> * space-between: Aligned with the ends of the cross shaft, the average spacing between the axes, etc.
+> * space-around: The spacing between the sides of each axis is equal
+> * stretch：Default, the axis fills the entire cross axis
 
 <vuep template="#alignContent"></vuep>
 
@@ -405,18 +405,18 @@ align-content: flex-start | flex-end | center | space-between | space-around | s
 </script>
 </script>
 
-### 项目属性
+### Iterm Properties
 
 ------
 
-#### order属性
+#### order property
 
-**作用：**定义项目的排列顺序。
+**function:** Define the order in which the items are arranged.
 
 ```css
 order: <number>;
 ```
-> * `<number>`：值为整数，数值越小，排列越靠前，默认为0
+> * `<number>` : The value is an integer. The smaller the value, the higher the ranking. The default is 0.
 
 <vuep template="#order"></vuep>
 
@@ -474,14 +474,14 @@ order: <number>;
 </script>
 </script>
 
-#### flex-grow属性
+#### flex-grow property
 
-**作用：**定义项目的伸缩比例，按照该比例给项目分配空间。
+**function:** Define the scale of the project and allocate space to the project according to the ratio.
 
 ```css
 flex-grow: <number>;
 ```
-> * `<number>`：值为整数，数值越大，项目占据空间越大，默认为0
+> * `<number>` : The value is an integer. The larger the value, the larger the space occupied by the project. The default is 0.
 
 <vuep template="#flexGrow"></vuep>
 
@@ -539,14 +539,15 @@ flex-grow: <number>;
 </script>
 </script>
 
-#### flex-shrink属性
+#### flex-shrink property
 
-**作用：**定义项目的收缩比例，按照该比例给项目分配空间。
+**function:** Define the contraction ratio of the project and allocate space to the project according to the ratio.
 
 ```css
 flex-shrink: <number>;
 ```
-> * `<number>`：值为整数，数值越大，项目占据空间越小，默认为0
+> * `<number>` : The value is an integer. The larger the value, the smaller the space occupied by the item. The default is 0.
+
 
 <vuep template="#flexShrink"></vuep>
 
@@ -603,14 +604,14 @@ flex-shrink: <number>;
 </script>
 </script>
 
-#### flex-basis属性
+#### flex-basis property
 
-**作用：**定义在分配多余空间之前，项目占据的主轴空间。浏览器根据这个属性，计算主轴是否有多余空间。
+**function:** Defines the spindle space occupied by the project before allocating excess space. Based on this property, the browser calculates whether the spindle has extra space.
 
 ```css
 flex-basis: <length> | auto;
 ```
-> * `<length>`：默认为auto，即项目的原始尺寸；也可设置和width或height属性一样的值（比如329px），则项目将占据固定空间。
+> * `<length>` : The default is auto, which is the original size of the project; you can also set the same value as the width or height properties (such as 329px), the project will occupy a fixed space.
 
 <vuep template="#flexBasis"></vuep>
 
@@ -667,30 +668,29 @@ flex-basis: <length> | auto;
 </script>
 </script>
 
-#### flex属性 :thumbsup:
+#### flex property :thumbsup:
 
-**作用：**是`flex-grow`,`flex-shrink`和`flex-basis`的简写，后两个属性可选。
+**function:** The abbreviation of the `flex-grow`,`flex-shrink` and `flex-basis` properties. The later two properties are optional.
 
 ```css
 flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
 ```
-> * `0 1 auto`：默认值，不伸缩，如果容器空间不足则等比例收缩
-> * `1 1 auto`：对应关键字`auto`，如果容器空间多余，则等比例分配多余空间空间；如果容器空间不足则等比例收缩
-> * `0 0 auto`：对应关键字`none`，按项目原始大小分配空间
+> * `0 1 auto`: default value, no scaling, proportional shrink if container space is insufficient
+> * `1 1 auto`: Corresponding to the keyword `auto`, if the container space is redundant, the extra space is allocated proportionally; if the container space is insufficient, the scale is shrinking.
+> * `0 0 auto`: Corresponding to the keyword `none`, allocate space by the original size of the project
 
-#### align-self属性
+#### align-self property
 
-**作用：**定义单个项目的对齐方式，可覆盖align-items属性。
-
+**function:** Define the alignment of individual items to override the align-items property.
 ```css
 align-self: auto | flex-start | flex-end | center | baseline | stretch;
 ```
-> * auto：默认值，继承父元素的`align-items`属性，如果没有父元素，则等同于stretch
-> * flex-start：交叉轴的起点对齐
-> * flex-end：交叉轴的终点对齐
-> * center：交叉轴的中心对齐
-> * baseline：项目第一行文字的基线对齐
-> * stretch：未设置固定高度是，将占满整个容器
+> * auto: The default value, which inherits the `align-items` attribute of the parent element. If there is no parent element, it is equivalent to the stretch.
+> * flex-start: Starting point alignment of the cross axis
+> * flex-end: End point alignment of the cross axis
+> * center: Center point alignment of the cross axis
+> * baseline: Baseline alignment of the first line of text in the item
+> * stretch: If the fixed height is not set, it will fill the entire container
 
 <vuep template="#alignSelf"></vuep>
 
@@ -759,6 +759,6 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

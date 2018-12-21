@@ -1,13 +1,13 @@
 
-# 圆与椭圆
+# Ellipse
 
-?> 背景知识：:point_right: [border-radius](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-radius)
+?> Background：:point_right: [border-radius](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-radius)
 
-通常我们一般使用`border-radius`来时实现圆角效果，其实`border-radius`是可以单独指定它的半长轴和半短轴，只需要用“/”分割即可。我们可以通过这个属性轻松实现半圆、半椭圆、四分之一圆及四分之一圆等常见的图形。
+Generally speaking, we use the `border-radius` to achieve the rounding effect more often, In fact, `border-radius` is able to specify its semi-major and semi-short axes separately, only need to use "/" to split. We can easily implement common graphics such as semicircles, semi-ellipses, quarter circles, and quarter circles through this property.
 
-<vuep template="#ellipse"></vuep>
+<vuep template="#ellipse_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="ellipse">
+<script v-pre type="text/x-template" id="ellipse_tlp">
 <style>
   main{
     width: 100%;
@@ -59,6 +59,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=border-radius&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>

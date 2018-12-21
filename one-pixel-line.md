@@ -1,13 +1,13 @@
 
-# 1px 线/边
+# One pixel line
 
-?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [@media](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media)
+?> Background：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [@media](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media)
 
-> `box-shadow` + `transform` 实现 1px 线条
+> `box-shadow` + `transform` achieve one pixel line
 
-<vuep template="#one-pixel-line"></vuep>
+<vuep template="#one-pixel-line_tpl"></vuep>
 
-<script v-pre type="text/x-template" id="one-pixel-line">
+<script v-pre type="text/x-template" id="one-pixel-line_tpl">
 <style>
   main {
     width: 100%;
@@ -48,7 +48,7 @@
 </script>
 </script>
 
-> `border` + `伪元素` + `transform` 实现 1px 独立边框 :thumbsup:
+> `border` + `pseudo-element` + `transform` achieve 1px independent border :thumbsup:
 
 <vuep template="#one-pixel-line-border"></vuep>
 
@@ -163,7 +163,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-media-resolution&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="432px"></iframe>
 

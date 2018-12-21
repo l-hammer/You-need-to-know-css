@@ -1,10 +1,10 @@
-# 自定义文字下划线
+# Text underline
 
-?> 背景知识：:point_right: [linear-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/linear-gradient), [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [text-decoration](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-decoration)
+?> Background：:point_right: [linear-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/linear-gradient), [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [text-decoration](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-decoration)
 
-通过`text-decoration: underline`实现的下划线存在很多问题，比如无法控制位置、无法实现避让（`text-decoration-skip`浏览器几乎都不支持）、更重要的是无法满足`强迫症患者`的需求，并且不同语言有不同的对齐习惯，中文以中心对齐，英文以基线对齐，所以建议通过自定义来实现下划线。
+There are many problems with the underscores effect implemented by `text-decoration: underline`, such as the inability to control the location, the inability to avoid (the `text-decoration-skip`, browser is almost unsupported), and more importantly, it really annoys the `obsessive-compulsive disorder`. In addition, different languages ​​have different alignment habits, Chinese is center-aligned, and English is aligned with the baseline, so it is highly recommended to implement customized underscores.
 
-> `box-shadow`模拟下划线效果
+> `box-shadow` simulate underline effect
 
 <vuep template="#underline-solid-cn-shadow"></vuep>
 
@@ -25,14 +25,14 @@
 </style>
 <template>
   <main ref="main">
-    <p><a>请给我添加一条能看能看能看的下划线！</a></p>
+    <p><a>please add beauuuuuuuutiful underline effect</a></p>
   </main>
 </template>
 <script>
 </script>
 </script>
 
-> 伪元素`after`模拟下划线效果
+> pseudo element `after` simulate underline effect
 
 <vuep template="#underline-solid-cn-after"></vuep>
 
@@ -60,14 +60,14 @@
 </style>
 <template>
   <main ref="main">
-    <p><a>请给我添加一条能看能看能看的下划线！</a></p>
+    <p><a>Please add beauuuuuuuutiful underline effect</a></p>
   </main>
 </template>
 <script>
 </script>
 </script>
 
-> `linear-gradient`模拟下划线效果 :thumbsup:
+> `linear-gradient`simulate underline effect :thumbsup:
 
 <vuep template="#underline-solid-cn"></vuep>
 
@@ -105,14 +105,14 @@
 </style>
 <template>
   <main ref="main">
-    <p><a>请给我添加一条能看能看能看的下划线！</a></p>
+    <p><a>please add beauuuuuuuutiful underline effect!</a></p>
   </main>
 </template>
 <script>
 </script>
 </script>
 
-> `linear-gradient` + `text-shadow`模拟`solid`型下划线效果
+> `linear-gradient` + `text-shadow` simulate `solid` underline effect
 
 <vuep template="#underline-solid"></vuep>
 
@@ -131,7 +131,7 @@
     background: linear-gradient(#b4a078, #b4a078) no-repeat;
     background-size: 100% 1px;
     background-position: 0 1em;
-    text-shadow: .05em 0 white, -.05em 0 white; /* 避让超出基线以下的部分*/
+    text-shadow: .05em 0 white, -.05em 0 white; /* avoid parts below the baseline*/
   }
   p > a:hover{
     animation: text-underline-slideInLeft 1.2s linear infinite forwards;
@@ -157,7 +157,7 @@
 </script>
 </script>
 
-> `linear-gradient` + `text-shadow`模拟`dashed`型下划线效果 :thumbsup:
+> `linear-gradient` + `text-shadow` simulate `dashed` underline effect :thumbsup:
 
 <vuep template="#underline-dashed"></vuep>
 
@@ -176,7 +176,7 @@
     background: linear-gradient(90deg, #b4a078 66%, transparent 0) repeat-x;
     background-size: .3em 1px;
     background-position: 0 1em;
-    text-shadow: .05em 0 white, -.05em 0 white; /* 避让超出基线以下的部分*/
+    text-shadow: .05em 0 white, -.05em 0 white; /* avoid parts below the baseline*/
   }
 </style>
 <template>
@@ -188,7 +188,7 @@
 </script>
 </script>
 
-> `linear-gradient` + `text-shadow`模拟`wavy`型下划线效果
+> `linear-gradient` + `text-shadow` simulate `wavy` underline effect
 
 <vuep template="#underline-wavy-gradient"></vuep>
 
@@ -209,7 +209,7 @@
     background-repeat: repeat-x;
     background-size: .3em .15em;
     background-position: 0 1em, .2em 1em;
-    text-shadow: .05em 0 white, -.05em 0 white; /* 避让超出基线以下的部分*/
+    text-shadow: .05em 0 white, -.05em 0 white; /* avoid parts below the baseline*/
   }
 </style>
 <template>
@@ -221,7 +221,7 @@
 </script>
 </script>
 
-> `text-decoration: underline wavy #34495e`实现`wavy`型下划线效果
+> `text-decoration: underline wavy #34495e` achieve `wavy` underline effect
 
 <vuep template="#underline-wavy"></vuep>
 
@@ -249,11 +249,11 @@
 </script>
 </script>
 
-缺点：`text-decoration: underline wavy #34495e`几乎没有得到浏览器支持，并且波浪线大小无法单独控制。
+Cons: Hardly do any browsers support `text-decoration: underline wavy #34495e`, besides, we cannot control the size of wavy line separately.
 
-> 创造良好的用户体验应当养成一种习惯~
+> Greate user experience should always go first as a habit ~
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

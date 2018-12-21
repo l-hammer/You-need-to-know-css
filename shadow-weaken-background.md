@@ -1,10 +1,10 @@
-# 通过阴影弱化背景
+# Shadow weaken background
 
-?> 背景知识：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
+?> Background：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
 
-<vuep template="#shadow-weaken-background"></vuep>
+<vuep template="#shadow-weaken-background_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="shadow-weaken-background">
+<script v-pre type="text/x-template" id="shadow-weaken-background_tlp">
 <style>
   main {
     width: 100%;
@@ -56,7 +56,7 @@
 </style>
 <template>
   <main>
-    <h5>1️⃣ 增加遮罩层方案</h5>
+    <h5>1️⃣  add mask layer scheme</h5>
     <section>
       <p>Bacon ipsum dolor amet consectetur short loin ut tri-tip alcatra ground round jowl beef meatloaf in pork. Elit
           chicken ea spare ribs. Shank andouille ex boudin picanha turkey esse. Do doner fugiat tongue.
@@ -74,7 +74,7 @@
           <div class="lightbox">You-need-to-know-css-tricks</div>
       </div>
     </section>
-    <h5>2️⃣ box-shadow方案</h5>
+    <h5>2️⃣ box-shadow scheme</h5>
     <section>
       <p>Bacon ipsum dolor amet consectetur short loin ut tri-tip alcatra ground round jowl beef meatloaf in pork. Elit
           chicken ea spare ribs. Shank andouille ex boudin picanha turkey esse. Do doner fugiat tongue.
@@ -90,7 +90,7 @@
       </p>
       <div class="lightbox">You-need-to-know-css-tricks</div>
     </section>
-    <h5>3️⃣ backdrop方案</h5>
+    <h5>3️⃣ backdrop scheme</h5>
     <section>
       <button onclick="document.querySelector('#modal').showModal()">Click me</button>
       <dialog id="modal">
@@ -104,9 +104,9 @@
 </script>
 </script>
 
-> 创造良好的用户体验应当养成一种习惯~
+> Greate user experience should always go first as a habit ~
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

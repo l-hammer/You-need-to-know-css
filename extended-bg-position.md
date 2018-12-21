@@ -1,6 +1,6 @@
-# 背景定位
+# Background position
 
-?> 背景知识：:point_right: [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position), [background-origin](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-origin), [calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
+?> Background：:point_right: [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position), [background-origin](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-origin), [calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
 
 <!-- 这个没有什么好说的，我们可以在`background`简写属性增加`bottom right`定位值来提供回退。 -->
 
@@ -27,7 +27,7 @@
   }
   div:nth-of-type(2){
     background-origin: content-box;
-    margin: 29px 0; /* 移动端纵向排列上下间距 */
+    margin: 29px 0; /* Vertical alignment for the mobile */
   }
   div:nth-of-type(3){
     background-position: calc(100% - 29px) calc(100% - 28px);
@@ -35,16 +35,16 @@
 </style>
 <template>
   <main>
-    <div class="block1">background-position方案</div>
-    <div class="block2">background-origin方案</div>
-    <div class="block3">calc方案</div>
+    <div class="block1">background-position scheme</div>
+    <div class="block2">background-origin scheme</div>
+    <div class="block3">calc scheme</div>
   </main>
 </template>
 <script>  
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=calc&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

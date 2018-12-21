@@ -1,7 +1,7 @@
 
-# 不规则投影
+# Irregular shadow
 
-?> 背景知识：:point_right: [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter), [radial-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/radial-gradient), [border-image](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-image)
+?> Background：:point_right: [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter), [radial-gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/radial-gradient), [border-image](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-image)
 
 <vuep template="#irregular-projection"></vuep>
 
@@ -65,7 +65,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-filters&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
 

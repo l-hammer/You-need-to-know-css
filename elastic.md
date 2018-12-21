@@ -1,11 +1,11 @@
 
-# 弹性过度
+# Elastic
 
-?> 背景知识：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)
+?> Background：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)
 
-一切的过度皆应该由动画来完成
+All the transitions should be animated.
 
-> `animation`方案 :thumbsup:
+> `animation`solution :thumbsup:
 
 <vuep template="#elastic-animation"></vuep>
 
@@ -96,6 +96,7 @@
 <template>
   <main class="main">
     <label>
+<<<<<<< Updated upstream
       <input
         required
         type="text"
@@ -104,6 +105,11 @@
         placeholder="请输入内容"
         pattern="^\w+$"/>
       <span class="poptip">仅支持字母、数字和下划线组合！</span>
+=======
+      username:
+      <input id="username" autocomplete="off"/>
+      <span class="poptip">Only letters, numbers, and underscore combinations are supported!</span>
+>>>>>>> Stashed changes
     </label>
   </main>
 </template>
@@ -111,7 +117,7 @@
 </script>
 </script>
 
-> 三次贝塞尔`cubic-bezier` + `transition`方案
+> Bezier Curves `cubic-bezier` + `transition`solution
 
 <vuep template="#elastic-transtion"></vuep>
 
@@ -183,6 +189,7 @@
 <template>
   <main class="main">
     <label>
+<<<<<<< Updated upstream
       <input
         required
         type="text"
@@ -191,6 +198,11 @@
         placeholder="请输入内容"
         pattern="^\w+$"/>
       <span class="poptip">仅支持字母、数字和下划线组合！</span>
+=======
+      username:
+      <input id="username" autocomplete="off"/>
+      <span class="poptip">Only letters, numbers, and underscore combinations are supported!</span>
+>>>>>>> Stashed changes
     </label>
   </main>
 </template>
@@ -198,9 +210,11 @@
 </script>
 </script>
 
-三次贝塞尔曲线`cubic-bezier`主要是为`animation`生成速度曲线的函数，语法是`cubic-bezier(<x1>, <y1>, <x2>, <y2>)`，更多请参考：[Lea Verou](http://lea.verou.me/about/)的图形化工具[cubic-bezier](http://cubic-bezier.com/#)
+Bezier Curves `cubic-bezier` is a function mainly for generating velocity curves for `animation`, usage: `cubic-bezier(<x1>, <y1>, <x2>, <y2>)`, More reference here: the graphical tool [cubic-bezier](http://cubic-bezier.com/#) by [Lea Verou](http://lea.verou.me/about/)
 
-### 浏览器支持
+
+
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
 
