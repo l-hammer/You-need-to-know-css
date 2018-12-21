@@ -96,7 +96,6 @@ All the transitions should be animated.
 <template>
   <main class="main">
     <label>
-<<<<<<< Updated upstream
       <input
         required
         type="text"
@@ -104,12 +103,7 @@ All the transitions should be animated.
         autocomplete="off"
         placeholder="请输入内容"
         pattern="^\w+$"/>
-      <span class="poptip">仅支持字母、数字和下划线组合！</span>
-=======
-      username:
-      <input id="username" autocomplete="off"/>
       <span class="poptip">Only letters, numbers, and underscore combinations are supported!</span>
->>>>>>> Stashed changes
     </label>
   </main>
 </template>
@@ -189,7 +183,6 @@ All the transitions should be animated.
 <template>
   <main class="main">
     <label>
-<<<<<<< Updated upstream
       <input
         required
         type="text"
@@ -197,12 +190,7 @@ All the transitions should be animated.
         autocomplete="off"
         placeholder="请输入内容"
         pattern="^\w+$"/>
-      <span class="poptip">仅支持字母、数字和下划线组合！</span>
-=======
-      username:
-      <input id="username" autocomplete="off"/>
-      <span class="poptip">Only letters, numbers, and underscore combinations are supported!</span>
->>>>>>> Stashed changes
+      <span class="poptip">Only letters, numbers, and underscore combinations are supported！</span>
     </label>
   </main>
 </template>
@@ -211,8 +199,6 @@ All the transitions should be animated.
 </script>
 
 Bezier Curves `cubic-bezier` is a function mainly for generating velocity curves for `animation`, usage: `cubic-bezier(<x1>, <y1>, <x2>, <y2>)`, More reference here: the graphical tool [cubic-bezier](http://cubic-bezier.com/#) by [Lea Verou](http://lea.verou.me/about/)
-
-
 
 ### Browser Support
 

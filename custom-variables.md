@@ -106,11 +106,7 @@ The `var()` function accepts two arguments (e.g. `var(--main-color, gray)`）, t
 </script>
 </script>
 
-<<<<<<< Updated upstream
-!> 如需设置特定的值，直接修改示例中`INITIAL_COLOR`的值即可，**只支持6位16进制的颜色格式**。
-=======
 !> To set specific values, please revise the value of `INITIAL_COLOR` simply in the example. **Only support 6-digit hexadecimal color format**
->>>>>>> Stashed changes
 
 ### Browser Support
 
