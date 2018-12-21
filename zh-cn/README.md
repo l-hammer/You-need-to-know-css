@@ -1,7 +1,7 @@
 
 <p align="center">
     <a href="https://lhammer.cn/You-need-to-know-css/#/">
-        <img src="./static/logo.png" width="152">
+        <img src="https://lhammer.cn/You-need-to-know-css/static/logo.png" width="152">
     </a>
     <h3 align="center">You-need-to-know-css</h3>
     <p align="center">
@@ -63,11 +63,11 @@ Several quick start options are available:
 
 or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any helpful suggestions are welcomed. :stuck_out_tongue_winking_eye:
 
-## Backers ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
+## Donate ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
 
 If you find this project useful, you can buy me a coffee ☕, Thank you! 🙏🏻 🙏 🙏🏿
 
-<img src="./static/reward-code.png" width="280"> <br><br>
+<img src="https://lhammer.cn/You-need-to-know-css/static/reward-code.png" width="280"> <br><br>
 
 If you provide your github in the message, it will show up here with a link to your github.
 
