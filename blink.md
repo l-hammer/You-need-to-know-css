@@ -1,15 +1,14 @@
 
-# 闪烁效果
+# Blink
 
-?> 背景知识：:point_right: [animation-direction](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-direction)
+?> Background：:point_right: [animation-direction](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-direction)
 
-`animation-direction`属性接受的值共有四个，为了你能从视觉上直接理解其作用，我以下图一段从`#FFFFFF`变化到`#b4a078`并循环三次的动画为例，展示了这四个值各自对动画的作用效果。
-
+The `animation-direction` Property has four values can be accepted. For the purpose of understanding its effect visiually and precisely, this document takes the example of the animation that changes from `#FFFFFF` to `#b4a078` and loop three times, which present the different effects of the different four values. See the following diagram.  
 <div align="center"><img src="static/animation-direction.jpeg" width="60%" align="center"/></div><br />
 
-<vuep template="#blink"></vuep>
+<vuep template="#blink_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="blink">
+<script v-pre type="text/x-template" id="blink_tlp">
 <style>
   main {
     width: 100%; height: 329px;
@@ -54,17 +53,20 @@
 </style>
 <template>
   <main class="main">
-    <span>animation-direction: 默认<code>normal</code></span><p>info~</p>
-    <span>animation-direction: 反向<code>alternate</code></span><p>warning~ warning~</p>
-    <span>animation-direction: 反向交替<code>alternate-reverse</code></span><p>error~ error~ error~</p>
+    <span>animation-direction: default
+    <code>normal</code></span><p>info~</p>
+    <span>animation-direction: Reverse
+    <code>alternate</code></span><p>warning~ warning~</p>
+    <span>animation-direction: Reverse alternating
+    <code>alternate-reverse</code></span><p>error~ error~ error~</p>
   </main>
 </template>
 <script>
 </script>
 </script>
 
-> 一切的过度皆应该由动画来完成
+> All the transitions should be animated.
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

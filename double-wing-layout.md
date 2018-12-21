@@ -1,11 +1,11 @@
 
-# 双飞翼布局
+# Double wing layout
 
-此布局的需求同[圣杯布局](https://lhammer.cn/You-need-to-know-css/#/holy-grail-layout)一样，都为两边等宽，中间自适应的三栏布局，源自淘宝UED
+The requirements of this layout are the same as [Holy grail layout](https://lhammer.cn/You-need-to-know-css/#/holy-grail-layout) : three-column with two sides are equally wide and the adaptive middle part. Soucring from Taobao UED. 
 
-<vuep template="#double-wing-layout"></vuep>
+<vuep template="#double-wing-layout_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="double-wing-layout">
+<script v-pre type="text/x-template" id="double-wing-layout_tlp">
 <style>
   main {
     width: 100%;
@@ -84,15 +84,15 @@
 </script>
 </script>
 
-### 圣杯布局和双飞翼布局的区别
+### The differences between Holy-grial double-wing layout
 
-圣杯布局和双飞翼布局解决问题的方案在前一半是相同的，也就是三栏全部float浮动，但左右两栏加上负margin让其跟中间栏div并排，以形成三栏布局。
+The solution for solving the problem between the Holy Grail layout and the double-wing layout is the same in the first half, that is, all three `float` floats, but the left and right columns plus the negative `margin` are arranged side by side with the middle column `div` to form a three-column layout.
 
-不同在于解决”中间栏div内容不被遮挡“问题的思路不一样：圣杯布局，为了中间div内容不被遮挡，将中间div设置了左右padding-left和padding-right后，将左右两个div用相对布局position: relative并分别配合right和left属性，以便左右两栏div移动后不遮挡中间div。
+The difference lies in the scheme that solve the problem of "the middle column div content". The Holy grail layout, in order to prevent the middle `div` content from being occluded, it sets the `div` in the middle to the left and right `padding-left` and `padding-right`, and for the left and right `div`s are relative layout position: `relative` and respectively match the , so that it won't obstruct the middle `div` after moving `right` and `left` properties .
 
-双飞翼布局，为了中间div内容不被遮挡，直接在中间div内部创建子div用于放置内容，在该子div里用margin-left和margin-right为左右两栏div留出位置。多了1个div，少用大致4个css属性（圣杯布局中间divpadding-left和padding-right这2个属性，加上左右两个div用相对布局position: relative及对应的right和left共4个属性，一共6个；而双飞翼布局子div里用margin-left和margin-right共2个属性，6-2=4），个人感觉比圣杯布局思路更直接和简洁一点。
+The double-wing layout, in order to prevent the middle `div` content from being occluded, directly creates a sub-div inside the middle `div` for placing content, and uses `margin-left` and `margin-right` to set a position for the left and right `div`s in the sub-div. One more div, less than roughly four css attributes (the two properties of the `padding-left` and `padding-right` for the middle `div` of the holy grial layout, plus the left and right `div`s with relative layout position: relative and corresponding right and left total of 4 attributes, so its 6 in total; While the double-wing layout sub-div uses total of two attributes : `margin-left` and `margin-right`, 6-2=4). Personaly speaking, double-wing layout is more direct and concise than the holy-grail layout.
 
-?> 作者：吕延庆<br>
-链接：https://www.zhihu.com/question/21504052/answer/50053054<br>
-来源：知乎<br>
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+?> Author：Yanqing Lv<br>
+Link：https://www.zhihu.com/question/21504052/answer/50053054<br>
+Source：zhihu<br>
+Copyright is owned by the author. For commercial reprint, please contact the author for authorization. For non-commercial reprint, please indicate the source.

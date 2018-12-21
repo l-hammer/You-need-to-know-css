@@ -1,7 +1,7 @@
 
-# 简易饼图
+# Pie charts
 
-?> 背景知识：:point_right: [gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient), [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)
+?> Background：:point_right: [gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient), [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation), [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)
 
 <!-- !> stroke-dashoffset = percentage | length | inherit <br> stroke-dasharray = dasharray | inherit -->
 
@@ -135,21 +135,21 @@
       <div class="pie"></div>
     </div>
     <div class="chart">
-      <p>② css动画</p>
+      <p>② css animation</p>
       <div class="pie"></div>
     </div>
     <div class="chart">
-      <p>④ 从指定位置开始动画</p>
+      <p>④ start animation from the specified location</p>
       <div class="pie"></div>
     </div>
     <div class="chart">
-      <p>⑤ SVG 将dasharray转化为百分比</p>
+      <p>⑤ SVG change dasharray to percentage</p>
       <svg viewBox="0 0 32 32">
           <circle r="16" cx="16" cy="16"></circle>
       </svg>
     </div>
     <div class="chart">
-      <p>⑥ SVG 添加多种颜色</p>
+      <p>⑥ SVG add multiple colors</p>
       <svg viewBox="0 0 32 32">
           <circle r="16" cx="16" cy="16"></circle>
           <circle r="16" cx="16" cy="16"></circle>
@@ -162,7 +162,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
 

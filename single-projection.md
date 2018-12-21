@@ -1,7 +1,7 @@
 
-# 常见投影
+# Common shadows
 
-?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow)
+?> Background：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow)
 
 <vuep template="#single-projection"></vuep>
 
@@ -57,23 +57,23 @@
 <template>
   <main>
     <div class="projection">
-      <p>① 无偏移投影</p>
+      <p>① Offset projection</p>
       <div></div>
     </div>
     <div class="projection">
-      <p>② 单侧投影</p>
+      <p>② One-sided projection</p>
       <div></div>
     </div>
     <div class="projection">
-      <p>③ 邻边投影</p>
+      <p>③ Adjacent edge projection</p>
       <div></div>
     </div>
     <div class="projection">
-      <p>④ 两侧投影</p>
+      <p>④ Projection on both sides</p>
       <div></div>
     </div>
     <div class="projection">
-      <p>⑤ 1px投影</p>
+      <p>⑤ 1px projection</p>
       <div></div>
     </div>
   </main>
@@ -82,6 +82,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

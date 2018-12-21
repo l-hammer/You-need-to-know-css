@@ -1,11 +1,11 @@
 
-# 环形文字
+# Circular text
 
-?> 背景知识：:point_right: [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)
+?> Background：:point_right: [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG), [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)
 
-<vuep template="#circular-text"></vuep>
+<vuep template="#circular-text_tlp"></vuep>
 
-<script v-pre type="text/x-template" id="circular-text">
+<script v-pre type="text/x-template" id="circular-text_tlp">
 <style>
   main {
     width: 289px; height: 289px;
@@ -45,6 +45,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>

@@ -1,9 +1,9 @@
 
-# parallel四边形
+# Parallelograms
 
-?> 背景知识：:point_right: [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [clip-path](https://developer.mozilla.org/zh-CN/docs/Web/CSS/clip-path)
+?> Background：:point_right: [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform), [clip-path](https://developer.mozilla.org/zh-CN/docs/Web/CSS/clip-path)
 
-<!-- 某些情况下，为了避免标签嵌套过多，我们使用伪元素给元素增加背景、边框等样式会方便很多。比如下方的这张图，需要文字左对齐，划过时每一项背景的内边距`padding`相同，这是
+<!-- In some cases, in order to avoid too many nesting of labels, it is much more convenient to use pseudo-elements to add backgrounds, borders, etc. to the elements. For example, in the picture below, you need to align the text to the left. When you cross the background, the padding of each background is the same as `padding`. This is
 
 <div align="center" class="orderoptions"><img src="static/orderoptions.jpeg" width="100%" align="center"/></div> -->
 
@@ -77,11 +77,11 @@
 <template>
   <main>
     <div class="diamond">
-      <p>① 嵌套元素</p>
+      <p>① nested element</p>
       <div><span>diamond</span></div>
     </div>
     <div class="diamond">
-      <p>② 伪元素(推荐)</p>
+      <p>② pseudo element (recommended)</p>
       <div>diamond</div>
     </div>
     <div class="diamond">
@@ -94,7 +94,7 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
 

@@ -1,9 +1,9 @@
 
-# 抖动效果
+# Shake
 
-?> 背景知识：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation)
+?> Background：:point_right: [animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation)
 
-> See [百度](https://www.baidu.com/s?wd=%E6%8A%96%E5%8A%A8&rsv_spt=1&rsv_iqid=0xe9f337870004f38a&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=11&rsv_sug1=15&rsv_sug7=101&rsv_sug2=0&inputT=3789&rsv_sug4=4507)
+> See [Baidu](https://www.baidu.com/s?wd=%E6%8A%96%E5%8A%A8&rsv_spt=1&rsv_iqid=0xe9f337870004f38a&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=11&rsv_sug1=15&rsv_sug7=101&rsv_sug2=0&inputT=3789&rsv_sug4=4507)
 
 <vuep template="#shakeBaidu"></vuep>
 
@@ -133,6 +133,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Suport
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

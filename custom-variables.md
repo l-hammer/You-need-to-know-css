@@ -1,17 +1,19 @@
 
-# ⚗️ 自定义变量
+# ⚗️ Custom variables
 
-?> 背景知识：:point_right: [CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)，[var()](https://developer.mozilla.org/en-US/docs/Web/CSS/var)
+?> Background：:point_right: [CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)，[var()](https://developer.mozilla.org/en-US/docs/Web/CSS/var)
 
-CSS变量类似于我们在SCSS、LESS中定义的变量，但前者支持通过JS来控制变量的值，以`--`开头，(e.g. `--main-color: #b4a078`)，通过`var(--main-color)`来引用。`var()`函数接受两个参数（e.g. `var(--main-color, gray)`），第一个参数为自定义属性名，第二个参数用作缺省值。
+CSS variables are similar to the variables we defined in SCSS and LESS. The difference is that CSS supports for inserting the values of CSS variable through JS. Variable's name represented by an identifier that starts with two dashes `--` (e.g. `--main-color: #b4a078`), then use the `var(--main-color)` function to reference it. 
 
-> 以下示例演示了通过JS [setProperty](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty) 方法改变CSS变量，从而控制元素甚至伪元素的样式~
+The `var()` function accepts two arguments (e.g. `var(--main-color, gray)`）, the first argument is the name of the custom property to be substituted, the optional second argument to the function serves as a fallback value.  
+ 
+> The following example presents how to adjust the style of elements or even pseudo elements by JS [setProperty](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty) 
 
 <vuep template="#custom-variables"></vuep>
 
 <script v-pre type="text/x-template" id="custom-variables">
 <style>
-  /* 全局 custom-variables */
+  /* global custom-variables */
   /* :root {
     --r: 51;
     --g: 51;
@@ -104,8 +106,12 @@ CSS变量类似于我们在SCSS、LESS中定义的变量，但前者支持通过
 </script>
 </script>
 
+<<<<<<< Updated upstream
 !> 如需设置特定的值，直接修改示例中`INITIAL_COLOR`的值即可，**只支持6位16进制的颜色格式**。
+=======
+!> To set specific values, please revise the value of `INITIAL_COLOR` simply in the example. **Only support 6-digit hexadecimal color format**
+>>>>>>> Stashed changes
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-variables&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

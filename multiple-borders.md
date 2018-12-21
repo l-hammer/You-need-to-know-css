@@ -1,13 +1,14 @@
-# 多重边框
+# Multiple borders
 
-?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [outline](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline),[outline-offset](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline-offset)
+?> Background：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [outline](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline),[outline-offset](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline-offset)
 
-`box-shadow`相信很多人都已经用透了，可用来给元素添加各种阴影效果，反过来，也只有我们需要实现阴影时才会想起它，其实，`box-shadow`还接受第四个参数作为阴影扩张半径，当我们只设置扩张半径时，零偏移，零模糊，产生的效果其实相当于一条实线“**边框**”。
+It is believed that many people have used `box-shadow` widely, it can be used to add various shadow effects to the elements. Conversely, it is brought back to our mind only when we need to implement shadows. Actually, `box-shadow` also accepts the fourth argument serve as shadow expansion radius. When we want to set the expansion radius only, zero offset, zero blur, its effect is actually equivalent to a solid line "**border**".
 
-`box-shadow`只能模拟实线边框效果，某些情况下，我们可能需要生成虚线的边框效果，我们可以通过类似于`border`的描边`outline`和对应的描边偏移`outline-offset`来实现。
-<vuep template="#multiple-borders"></vuep>
+`box-shadow` can only simulate solid border effects. In some cases, we may need to generate a dashed border effect. We can use the stroke `outline` similar to `border` and the corresponding stroke offset `outline-offset` to achieve.
 
-<script v-pre type="text/x-template" id="multiple-borders">
+<vuep template="#multiple-borders_tpl"></vuep>
+
+<script v-pre type="text/x-template" id="multiple-borders_tpl">
 <style>
   main{
     width: 100%;
@@ -46,6 +47,6 @@
 </script>
 </script>
 
-### 浏览器支持
+### Browser Support
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>

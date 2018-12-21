@@ -1,10 +1,10 @@
-# 🎢 一些有趣的项目
+# 🎢 Interesting usage
 
-收藏一些CSS有趣的项目，欢迎补充完善~
+Some intersting CSS project here, welcome to contribute~ 
 
 ### NES.css
 
-NES红白机风格的 CSS 框架，主要的实现原理是通过将字体 [Press+Start+2P](https://fonts.google.com/specimen/Press+Start+2P) 和 `box-shadow` 巧妙的结合，非常有意思，尤其是icon的实现，强烈建议大家看下源码~ :thumbsup:
+NES red and white style CSS framework, the main implementation principle is through the clever combination of font [Press+Start+2P](https://fonts.google.com/specimen/Press+Start+2P) and `box-shadow`, which is very interesting, especially the implementation of icon. The source code is highly recommended ~ :thumbsup:
 
 [NES.css](https://bcrikko.github.io/NES.css/ ':include :type=iframe width=100% height=429px')
 
@@ -12,7 +12,7 @@ NES红白机风格的 CSS 框架，主要的实现原理是通过将字体 [Pres
 
 ### Epic Spinners
 
-CSS 加载动画
+CSS animation loading
 
 [Epic Spinners](https://epic-spinners.epicmax.co/#/ ':include :type=iframe width=100% height=429px')
 
@@ -20,7 +20,7 @@ CSS 加载动画
 
 ### Shapes generated
 
-用CSS渐变实现的形状
+Shapes implemented with CSS gradients
 
 [Shapes generated](https://yuanchuan.name/gradient-shapes/ ':include :type=iframe width=100% height=429px')
 
@@ -28,7 +28,7 @@ CSS 加载动画
 
 ### CSS file icons
 
-纯CSS实现的文件Icon
+File icon implementated by pure CSS
 
 [CSS file icons](https://colorswall.github.io/CSS-file-icons/ ':include :type=iframe width=100% height=429px')
 
@@ -36,15 +36,15 @@ CSS 加载动画
 
 <!-- ### THE COLOUR CLOCK
 
-颜色时钟
+clour clock
 
 [THE COLOUR CLOCK](http://thecolourclock.co.uk/ ':include :type=iframe width=100% height=429px')
 
-?> 与之类似还有一个[hex color clock](http://www.jacopocolo.com/hexclock/), **GitHub:** [jacopocolo/Hex-clock](https://github.com/jacopocolo/Hex-clock) -->
+?> similar with it [hex color clock](http://www.jacopocolo.com/hexclock/), **GitHub:** [jacopocolo/Hex-clock](https://github.com/jacopocolo/Hex-clock) -->
 
 ### magic
 
-CSS动画特效
+CSS animation effects
 
 [magic](https://minimamente.com/example/magic_animations/ ':include :type=iframe width=100% height=429px')
 
@@ -52,7 +52,7 @@ CSS动画特效
 
 ### A Single Div
 
-只用一个HTML元素实现的CSS的绘图
+CSS drawing with only one HTML element
 
 [A Single Div](https://a.singlediv.com/ ':include :type=iframe width=100% height=429px')
 
