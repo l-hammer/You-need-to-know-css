@@ -25,7 +25,8 @@ The falling of ball is a typical Free Fall motion, in the [timing function](http
     padding: 20px;
     border-radius: 50%;
     background: #b4a078 radial-gradient(at 30% 30%, #f7f5f1, #b4a078);
-    animation: bounce 2s cubic-bezier(.1,.25,1,.25) forwards; /* when the animation is complete, keep the last frame */
+    /* when the animation is complete, keep the last frame */
+    animation: bounce 2s cubic-bezier(.1,.25,1,.25) forwards;
   }
   @keyframes bounce {
     40%,
@@ -48,13 +49,13 @@ The falling of ball is a typical Free Fall motion, in the [timing function](http
 </style>
 <template>
   <main>
-    <div class="ball" :style="{animationName: animationName}"></div>
-    <a href="javascript: void(0);" class="btn" @click="reset">🔄</a>
-    <a href="javascript: void(0);" class="btn" @click="play">▶️</a>
+    <div class="ball" :style="{animationName}"></div>
+    <a class="btn" @click="reset">🔄</a>
+    <a class="btn" @click="play">▶️</a>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         animationName: 'bounce',
@@ -74,6 +75,16 @@ The falling of ball is a typical Free Fall motion, in the [timing function](http
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="432px"></iframe>
+<iframe
+  width="100%"
+  height="432px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

@@ -71,15 +71,20 @@
   <main class="main">
     <section>
       <span class="left">
-        <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
+        <div
+          v-for="ele in elements"
+          @click="handleClick"
+          class="item">
+          {{symbol}}
+        </div>
       </span>
-      <span class="center">垂直居中<br>垂直居中垂直居中垂直居中</span>
-      <span class="right">垂直居中</span>
+      <span class="center">Vertical centering<br>Vertical centering Vertical centering</span>
+      <span class="right">Vertical centering</span>
     </section>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: Array(2).fill(1),
@@ -103,7 +108,12 @@
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-sel3&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
+<iframe
+  width="100%"
+  height="453px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-sel3&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
 > 伪元素 `display: flex` 方案
 
@@ -153,15 +163,20 @@
   <main class="main">
     <section>
       <span class="left">
-        <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
+        <div
+          v-for="ele in elements"
+          @click="handleClick"
+          class="item">
+          {{symbol}}
+        </div>
       </span>
-      <span class="center">垂直居中<br>垂直居中垂直居中垂直居中</span>
-      <span class="right">垂直居中</span>
+      <span class="center">vertical centering<br>vertical centering</span>
+      <span class="right">vertical centering</span>
     </section>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: Array(2).fill(1),
@@ -185,7 +200,12 @@
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false" frameborder="0" width="100%" height="418px"></iframe>
+<iframe
+  width="100%"
+  height="418px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false">
+</iframe>
 
 > 伪元素 `display: grid` 方案 :thumbsup:
 
@@ -227,15 +247,20 @@
   <main class="main">
     <section>
       <span class="left">
-        <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
+        <div
+          v-for="ele in elements"
+          @click="handleClick"
+          class="item">
+          {{symbol}}
+        </div>
       </span>
-      <span class="center">垂直居中<br>垂直居中垂直居中垂直居中</span>
-      <span class="right">垂直居中</span>
+      <span class="center">vertical centering<br>vertical centering</span>
+      <span class="right">vertical centering</span>
     </section>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: Array(2).fill(1),
@@ -259,4 +284,9 @@
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-grid&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false" frameborder="0" width="100%" height="400px" style="height: 418px;"></iframe>
+<iframe
+  width="100%"
+  height="418px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-grid&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false">
+</iframe>

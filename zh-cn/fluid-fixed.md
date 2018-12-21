@@ -35,21 +35,26 @@
 <template>
   <main class="main">
     <header>
-        <h2 class="title">You-need-to-know-css-tricks</h2>
+      <h2 class="title">You-need-to-know-css-tricks</h2>
     </header>
     <section>
-        <p>A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.</p>
+      <p>A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.A paragraph of filler text. La la la de dah de dah de dah de la.</p>
     </section>
     <footer>
-        <p>&copy; 2018 LHammer</p>
-        <p>CSS Tricks need to know for web developer.</p>
+      <p>&copy; 2018 LHammer</p>
+      <p>CSS Tricks need to know for web developer.</p>
     </footer>
   </main>
 </template>
-<script>  
+<script>
 </script>
 </script>
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=calc&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=calc&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

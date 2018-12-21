@@ -39,6 +39,9 @@ By default, the color of the background will reach the lower layer of the border
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=background-img-opts&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
-
-
+<iframe
+  width="100%"
+  height="458px"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=background-img-opts&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false"
+  frameborder="0">
+</iframe>

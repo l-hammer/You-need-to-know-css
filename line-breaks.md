@@ -50,4 +50,9 @@ In [Unicode](http://www.ssec.wisc.edu/~tomw/java/unicode.html), the character `0
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gencontent&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="431px"></iframe>
+<iframe
+  width="100%"
+  height="431px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gencontent&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

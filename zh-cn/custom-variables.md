@@ -108,4 +108,9 @@ CSS变量类似于我们在SCSS、LESS中定义的变量，但前者支持通过
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-variables&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-variables&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

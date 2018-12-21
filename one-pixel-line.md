@@ -65,10 +65,13 @@
     width: 229px; height: 229px;
     position: relative;
   }
-  span.one-pixel-line.right, span.one-pixel-line.bottom, span.one-pixel-line.left {
+  span.one-pixel-line.right,
+  span.one-pixel-line.bottom,
+  span.one-pixel-line.left {
     margin-left: -229px;
   }
-  span.one-pixel-line::before, span.one-pixel-line::after {
+  span.one-pixel-line::before,
+  span.one-pixel-line::after {
     content: "";
     display: block;
     position: absolute;
@@ -165,8 +168,23 @@
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-media-resolution&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="432px"></iframe>
+<iframe
+  width="100%"
+  height="432px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-media-resolution&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="409px"></iframe>
+<iframe
+  width="100%"
+  height="409px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms3d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
+<iframe
+  width="100%"
+  height="453px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms3d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

@@ -1,3 +1,4 @@
+
 # 自定义滚动条
 
 ?> 背景知识：:point_right: [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow), [::-webkit-scrollbar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
@@ -50,10 +51,10 @@
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     computed: {
       rows: function () {
-        return Array.from({length: 56}).map((v, i) => Array(99).fill(i + 11).join(' '));
+        return Array.from({ length: 56 }).map((v, i) => Array(99).fill(i + 11).join(' '));
       }
     }
   }
@@ -64,4 +65,9 @@
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-scrollbar&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-scrollbar&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

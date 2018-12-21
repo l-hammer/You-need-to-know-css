@@ -71,7 +71,8 @@
     transform: rotate(45deg) scale(1);
     transition: all .2s ease-in-out;
   }
-  input[type="checkbox"]:disabled + label::before, input[type="checkbox"]:disabled.checked + label::before{
+  input[type="checkbox"]:disabled + label::before,
+  input[type="checkbox"]:disabled.checked + label::before{
     background-color: #f2f2f2;
   }
   input[type="checkbox"]:disabled.checked + label::after{
@@ -101,6 +102,16 @@
 
 ### 浏览器支持
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="493px"></iframe>
+<iframe
+  width="100%"
+  height="493px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="493px"></iframe>
+<iframe
+  width="100%"
+  height="493px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

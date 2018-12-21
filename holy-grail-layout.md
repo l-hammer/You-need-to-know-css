@@ -56,7 +56,7 @@ General requirments fot this layout is that three-column with two sides are equa
 <template>
   <main class="main">
     <input ref="range" type="range" value="100">
-    <section :style="{width: width + '%'}">
+    <section :style="{ width }">
       <div class="center">Nam aliquam sem et tortor. Neque interdum consectetur libero id.</div>
       <div class="left">left</div>
       <div class="right">right</div>
@@ -64,16 +64,15 @@ General requirments fot this layout is that three-column with two sides are equa
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
-        width: 100
+        width: "100%"
       }
     },
     mounted() {
-      const self = this;
-      this.$refs.range.oninput = function () {
-        self.width = 60 + this.value * .4;
+      this.$refs.range.oninput = ({ target: { value } }) => {
+        this.width = `${60 + value * .4}%`;
       }
     }
   }

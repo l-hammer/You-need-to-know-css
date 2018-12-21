@@ -38,13 +38,15 @@
     color: #b4a078;
     font-weight: 900;
   }
-  .cell[class*=poptip--]::before, .cell[class*=poptip--]::after {
+  .cell[class*=poptip--]::before,
+  .cell[class*=poptip--]::after {
     visibility: hidden;
     opacity: 0;
     transform: translate3d(0,0,0);
     transition: all .3s ease .05s;
   }
-  .cell[class*=poptip--]:hover::before, .cell[class*=poptip--]:hover::after {
+  .cell[class*=poptip--]:hover::before,
+  .cell[class*=poptip--]:hover::after {
     visibility: visible;
     opacity: 1;
   }
@@ -80,10 +82,12 @@
     border-left-color: inherit;
   }
   /* top && bottom */
-  .cell[class*=poptip--top]::before, .cell[class*=poptip--bottom]::before {
+  .cell[class*=poptip--top]::before,
+  .cell[class*=poptip--bottom]::before {
     left: calc(50% - 6px);
   }
-  .cell[class*=poptip--top]::after, .cell[class*=poptip--bottom]::after {
+  .cell[class*=poptip--top]::after,
+  .cell[class*=poptip--bottom]::after {
     left: 50%;
     transform: translateX(-50%);
   }
@@ -114,10 +118,12 @@
     transform: translateX(-50%) translateY(10px);
   }
   /* left && right */
-  .cell[class*=poptip--right]::before, .cell[class*=poptip--left]::before {
+  .cell[class*=poptip--right]::before,
+  .cell[class*=poptip--left]::before {
     top: calc(50% - 6px);
   }
-  .cell[class*=poptip--right]::after, .cell[class*=poptip--left]::after {
+  .cell[class*=poptip--right]::after,
+  .cell[class*=poptip--left]::after {
     top: 50%;
     transform: translateY(-50%);
   }
@@ -203,14 +209,16 @@
   .cell[class*=poptip--] {
     
   }
-  .cell[class*=poptip--]::before, .cell[class*=poptip--]::after {
+  .cell[class*=poptip--]::before,
+  .cell[class*=poptip--]::after {
     visibility: hidden;
     opacity: 0;
     transform: translate3d(0,0,0);
     transition: all .3s ease .05s;
 
   }
-  .cell[class*=poptip--]:hover::before, .cell[class*=poptip--]:hover::after {
+  .cell[class*=poptip--]:hover::before,
+  .cell[class*=poptip--]:hover::after {
     visibility: visible;
     opacity: 1;
   }
@@ -250,10 +258,12 @@
     filter: drop-shadow(1px 0px .5px rgba(180,160,120,.4));
   }
   /* top && bottom */
-  .cell[class*=poptip--top]::before, .cell[class*=poptip--bottom]::before {
+  .cell[class*=poptip--top]::before,
+  .cell[class*=poptip--bottom]::before {
     left: calc(50% - 6px);
   }
-  .cell[class*=poptip--top]::after, .cell[class*=poptip--bottom]::after {
+  .cell[class*=poptip--top]::after,
+  .cell[class*=poptip--bottom]::after {
     left: 50%;
     transform: translateX(-50%);
   }
@@ -284,10 +294,12 @@
     transform: translateX(-50%) translateY(10px);
   }
   /* left && right */
-  .cell[class*=poptip--right]::before, .cell[class*=poptip--left]::before {
+  .cell[class*=poptip--right]::before,
+  .cell[class*=poptip--left]::before {
     top: calc(50% - 6px);
   }
-  .cell[class*=poptip--right]::after, .cell[class*=poptip--left]::after {
+  .cell[class*=poptip--right]::after,
+  .cell[class*=poptip--left]::after {
     top: 50%;
     transform: translateY(-50%);
   }
@@ -341,8 +353,23 @@
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms3d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
+<iframe
+  width="100%"
+  height="453px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms3d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="432px"></iframe>
+<iframe
+  width="100%"
+  height="432px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-transitions&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-filters&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="432px"></iframe>
+<iframe
+  width="100%"
+  height="432px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-filters&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

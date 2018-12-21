@@ -66,24 +66,34 @@ flex-direction: row | row-reverse | column | column-reverse;
 <template>
   <main>
     <span class="radio-wrap" v-for="radio in radios">
-      <input type="radio" :id="radio.id" :value="radio.value" v-model="flexDirection">
-      <label :for="radio.id" @click="handleSelected(radio.id)">{{radio.value}}</label>
+      <input 
+        type="radio"
+        :id="radio.id"
+        :value="radio.value"
+        v-model="flexDirection">
+      <label :for="radio.id" @click="handleSelected(radio.id)">
+        {{ radio.value }}
+      </label>
     </span>
-    <div class="container" :style="{ flexDirection: flexDirection}">
-      <span class="item" v-for="$ in elements" :style="{ opacity: 1 - $ / 10 }"></span>
+    <div class="container" :style="{ flexDirection }">
+      <span
+        class="item"
+        v-for="$ in elements"
+        :style="{ opacity: 1 - $ / 10 }">
+      </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
-    data () {
+  export default {
+    data() {
       return {
-        elements: Array.from({length: 5}).map((v, i) => i + 1),
+        elements: Array.from({ length: 5 }).map((v, i) => i + 1),
         radios: [
-          {id: 'row', value: 'row'},
-          {id: 'row-reverse', value: 'row-reverse'},
-          {id: 'column', value: 'column'},
-          {id: 'column-reverse', value: 'column-reverse'},
+          { id: 'row', value: 'row' },
+          { id: 'row-reverse', value: 'row-reverse' },
+          { id: 'column', value: 'column' },
+          { id: 'column-reverse', value: 'column-reverse' },
         ],
         flexDirection: 'row',
       }
@@ -132,23 +142,33 @@ flex-wrap: nowrap | wrap | wrap-reverse;
 <template>
   <main>
     <span class="radio-wrap" v-for="radio in radios">
-      <input type="radio" :id="radio.id" :value="radio.value" v-model="flexWrap">
-      <label :for="radio.id" @click="handleSelected(radio.id)">{{radio.value}}</label>
+      <input
+        type="radio"
+        :id="radio.id"
+        :value="radio.value"
+        v-model="flexWrap">
+      <label :for="radio.id" @click="handleSelected(radio.id)">
+        {{ radio.value }}
+      </label>
     </span>
-    <div class="container" :style="{ flexWrap: flexWrap}">
-      <span class="item" v-for="$ in elements" :style="{ opacity: 1 - $ / 10 }"></span>
+    <div class="container" :style="{ flexWrap }">
+      <span
+        class="item"
+        v-for="$ in elements"
+        :style="{ opacity: 1 - $ / 10 }">
+      </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
-    data () {
+  export default {
+    data() {
       return {
-        elements: Array.from({length: 6}).map((v, i) => i + 1),
+        elements: Array.from({ length: 6 }).map((v, i) => i + 1),
         radios: [
-          {id: 'nowrap', value: 'nowrap'},
-          {id: 'wrap', value: 'wrap'},
-          {id: 'wrap-reverse', value: 'wrap-reverse'},
+          { id: 'nowrap', value: 'nowrap' },
+          { id: 'wrap', value: 'wrap' },
+          { id: 'wrap-reverse', value: 'wrap-reverse' },
         ],
         flexWrap: 'nowrap',
       }
@@ -210,32 +230,36 @@ justify-content: flex-start | flex-end | center | space-between | space-round | 
 <template>
   <main>
     <span class="radio-wrap" v-for="radio in radios">
-      <input type="radio" 
+      <input
+        type="radio" 
         :id="'justifyContent' + radio.id" 
         :value="radio.value" 
         v-model="justifyContent">
-      <label 
-        :for="'justifyContent' + radio.id" 
-        @click="handleSelected(radio.id)">{{radio.value}}
+      <label :for="'justifyContent' + radio.id" @click="handleSelected(radio.id)">
+        {{ radio.value }}
       </label>
     </span>
-    <div class="container" :style="{ justifyContent: justifyContent}">
-      <span class="item" v-for="$ in elements" :style="{ opacity: 1 - $ / 10 }"></span>
+    <div class="container" :style="{ justifyContent }">
+      <span
+        class="item"
+        v-for="$ in elements"
+        :style="{ opacity: 1 - $ / 10 }">
+      </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
-        elements: Array.from({length: 3}).map((v, i) => i + 1),
+        elements: Array.from({ length: 3 }).map((v, i) => i + 1),
         radios: [
-          {id: 'flex-start', value: 'flex-start'},
-          {id: 'flex-end', value: 'flex-end'},
-          {id: 'center', value: 'center'},
-          {id: 'space-evenly', value: 'space-evenly'},
-          {id: 'space-around', value: 'space-around'},
-          {id: 'space-between', value: 'space-between'},
+          { id: 'flex-start', value: 'flex-start' },
+          { id: 'flex-end', value: 'flex-end' },
+          { id: 'center', value: 'center' },
+          { id: 'space-evenly', value: 'space-evenly' },
+          { id: 'space-around', value: 'space-around' },
+          { id: 'space-between', value: 'space-between' },
         ],
         justifyContent: 'flex-start',
       }
@@ -285,17 +309,18 @@ align-items: flex-start | flex-end | center | baseline | stretch;
 <template>
   <main>
     <span class="radio-wrap" v-for="radio in radios">
-      <input type="radio" 
-        :id="'alignItems' + radio.id" 
-        :value="radio.value" 
+      <input
+        type="radio"
+        :id="'alignItems' + radio.id"
+        :value="radio.value"
         v-model="alignItems">
-      <label 
-        :for="'alignItems' + radio.id" 
-        @click="handleSelected(radio.id)">{{radio.value}}
+      <label :for="'alignItems' + radio.id" @click="handleSelected(radio.id)">
+        {{ radio.value }}
       </label>
     </span>
-    <div class="container" :style="{ alignItems: alignItems}">
-      <span class="item" 
+    <div class="container" :style="{ alignItems }">
+      <span
+        class="item" 
         v-for="$ in elements" 
         :style="{ opacity: 1 - $ / 10, height: 29 * ($ * .6 + .4) + 'px' }">
       </span>
@@ -303,16 +328,16 @@ align-items: flex-start | flex-end | center | baseline | stretch;
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
-        elements: Array.from({length: 5}).map((v, i) => i + 1),
+        elements: Array.from({ length: 5 }).map((v, i) => i + 1),
         radios: [
-          {id: 'flex-start', value: 'flex-start'},
-          {id: 'flex-end', value: 'flex-end'},
-          {id: 'center', value: 'center'},
-          {id: 'baseline', value: 'baseline'},
-          {id: 'stretch', value: 'stretch'},
+          { id: 'flex-start', value: 'flex-start' },
+          { id: 'flex-end', value: 'flex-end' },
+          { id: 'center', value: 'center' },
+          { id: 'baseline', value: 'baseline' },
+          { id: 'stretch', value: 'stretch' },
         ],
         alignItems: 'stretch',
       }
@@ -366,32 +391,36 @@ align-content: flex-start | flex-end | center | space-between | space-around | s
 <template>
   <main>
     <span class="radio-wrap" v-for="radio in radios">
-      <input type="radio" 
+      <input
+        type="radio" 
         :id="'alignContent' + radio.id" 
         :value="radio.value" 
         v-model="alignContent">
-      <label 
-        :for="'alignContent' + radio.id" 
-        @click="handleSelected(radio.id)">{{radio.value}}
+      <label :for="'alignContent' + radio.id" @click="handleSelected(radio.id)">
+        {{ radio.value }}
       </label>
     </span>
-    <div class="container" :style="{ alignContent: alignContent}">
-      <span class="item" v-for="$ in elements" :style="{ opacity: 1 - ($ * .6) / 10 }"></span>
+    <div class="container" :style="{ alignContent }">
+      <span
+        class="item"
+        v-for="$ in elements"
+        :style="{ opacity: 1 - ($ * .6) / 10 }">
+      </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
-        elements: Array.from({length: 15}).map((v, i) => i + 1),
+        elements: Array.from({ length: 15 }).map((v, i) => i + 1),
         radios: [
-          {id: 'flex-start', value: 'flex-start'},
-          {id: 'flex-end', value: 'flex-end'},
-          {id: 'center', value: 'center'},
-          {id: 'space-between', value: 'space-between'},
-          {id: 'space-around', value: 'space-around'},
-          {id: 'stretch', value: 'stretch'},
+          { id: 'flex-start', value: 'flex-start' },
+          { id: 'flex-end', value: 'flex-end' },
+          { id: 'center', value: 'center' },
+          { id: 'space-between', value: 'space-between' },
+          { id: 'space-around', value: 'space-around' },
+          { id: 'stretch', value: 'stretch' },
         ],
         alignContent: 'stretch',
       }
@@ -442,24 +471,27 @@ order: <number>;
 </style>
 <template>
   <main>
-    <a href="javascript: void(0);" @click="shuffle">👉🏿🔀: {{res}}</a>
+    <a @click="shuffle">👉🏿🔀: {{ res }}</a>
     <div class="container">
-      <span class="item" v-for="$ in elements" 
-        :style="{ order: $.order, opacity: 1 - $.id / 10 }">order: {{$.order}}
+      <span
+        class="item"
+        v-for="$ in elements" 
+        :style="{ order: $.order, opacity: 1 - $.id / 10 }">
+        order: {{ $.order }}
       </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
-    data () {
+  export default {
+    data() {
       return {
         elements: [
-          {id: 1, order: 1},
-          {id: 2, order: 2},
-          {id: 3, order: 3},
-          {id: 4, order: 4},
-          {id: 5, order: 5},
+          { id: 1, order: 1 },
+          { id: 2, order: 2 },
+          { id: 3, order: 3 },
+          { id: 4, order: 4 },
+          { id: 5, order: 5 },
         ],
         res: 0,
       }
@@ -507,24 +539,27 @@ flex-grow: <number>;
 </style>
 <template>
   <main>
-    <a href="javascript: void(0);" @click="shuffle">👉🏿🔀: {{res}}</a>
+    <a @click="shuffle">👉🏿🔀: {{ res }}</a>
     <div class="container">
-      <span class="item" v-for="$ in elements" 
-        :style="{ flexGrow: $.flexGrow, opacity: 1 - $.id / 10 }">flexGrow: {{$.flexGrow}}
+      <span
+        class="item"
+        v-for="$ in elements"
+        :style="{ flexGrow: $.flexGrow, opacity: 1 - $.id / 10 }">
+        flexGrow: {{ $.flexGrow }}
       </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
-    data () {
+  export default {
+    data() {
       return {
         elements: [
-          {id: 1, flexGrow: 1},
-          {id: 2, flexGrow: 1},
-          {id: 3, flexGrow: 1},
-          {id: 4, flexGrow: 1},
-          {id: 5, flexGrow: 1},
+          { id: 1, flexGrow: 1 },
+          { id: 2, flexGrow: 1 },
+          { id: 3, flexGrow: 1 },
+          { id: 4, flexGrow: 1 },
+          { id: 5, flexGrow: 1 },
         ],
         res: 1,
       }
@@ -547,7 +582,6 @@ flex-grow: <number>;
 flex-shrink: <number>;
 ```
 > * `<number>` : The value is an integer. The larger the value, the smaller the space occupied by the item. The default is 0.
-
 
 <vuep template="#flexShrink"></vuep>
 
@@ -573,23 +607,25 @@ flex-shrink: <number>;
 </style>
 <template>
   <main>
-    <a href="javascript: void(0);" @click="shuffle">👉🏿🔀: {{res}}</a>
+    <a @click="shuffle">👉🏿🔀: {{ res }}</a>
     <div class="container">
-      <span class="item" v-for="$ in elements" 
-        :style="{ flexShrink: $.flexShrink, opacity: 1 - $.id / 10 }"
-        >flexShrink: {{$.flexShrink}}
+      <span
+        class="item"
+        v-for="$ in elements" 
+        :style="{ flexShrink: $.flexShrink, opacity: 1 - $.id / 10 }">
+        flexShrink: {{ $.flexShrink }}
       </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: [
-          {id: 1, flexShrink: 0},
-          {id: 2, flexShrink: 1},
-          {id: 3, flexShrink: 2},
+          { id: 1, flexShrink: 0 },
+          { id: 2, flexShrink: 1 },
+          { id: 3, flexShrink: 2 },
         ],
         res: 1,
       }
@@ -637,23 +673,25 @@ flex-basis: <length> | auto;
 </style>
 <template>
   <main>
-    <a href="javascript: void(0);" @click="shuffle">👉🏿🔀: {{res}}</a>
+    <a @click="shuffle">👉🏿🔀: {{ res }}</a>
     <div class="container">
-      <span class="item" v-for="$ in elements" 
-        :style="{ flexBasis: $.flexBasis + 'px', opacity: 1 - $.id / 10 }"
-        >flexBasis: {{$.flexBasis}}
+      <span
+        class="item"
+        v-for="$ in elements" 
+        :style="{ flexBasis: $.flexBasis + 'px', opacity: 1 - $.id / 10 }">
+        flexBasis: {{ $.flexBasis }}
       </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: [
-          {id: 1, flexBasis: 'auto'},
-          {id: 2, flexBasis: 'auto'},
-          {id: 3, flexBasis: 'auto'},
+          { id: 1, flexBasis: 'auto' },
+          { id: 2, flexBasis: 'auto' },
+          { id: 3, flexBasis: 'auto' },
         ],
         res: 1,
       }
@@ -682,6 +720,7 @@ flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
 #### align-self property
 
 **function:** Define the alignment of individual items to override the align-items property.
+
 ```css
 align-self: auto | flex-start | flex-end | center | baseline | stretch;
 ```
@@ -717,35 +756,41 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 <template>
   <main>
     <span class="radio-wrap" v-for="radio in radios">
-      <input type="radio" 
+      <input
+        type="radio" 
         :id="'alignSelf' + radio.id" 
         :value="radio.value" 
         v-model="alignSelf">
-      <label 
-        :for="'alignSelf' + radio.id" 
-        @click="handleSelected(radio.id)">{{radio.value}}
+      <label :for="'alignSelf' + radio.id" @click="handleSelected(radio.id)">
+        {{radio.value}}
       </label>
     </span>
     <div class="container">
-      <span class="item" v-for="$ in elements" 
-        :style="{ alignSelf: alignSelf, opacity: 1 - $ / 10, fontSize: 15 + 12 * $ + 'px' }"
+      <span
+        class="item"
+        v-for="$ in elements" 
+        :style="{ 
+          alignSelf: alignSelf,
+          opacity: 1 - $ / 10,
+          fontSize: 15 + 12 * $ + 'px'
+        }"
         >{{$}}
       </span>
     </div>
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: [3, 1, 5, 4, 2],
         radios: [
-          {id: 'auto', value: 'auto'},
-          {id: 'flex-start', value: 'flex-start'},
-          {id: 'flex-end', value: 'flex-end'},
-          {id: 'center', value: 'center'},
-          {id: 'baseline', value: 'baseline'},
-          {id: 'stretch', value: 'stretch'},
+          { id: 'auto', value: 'auto' },
+          { id: 'flex-start', value: 'flex-start' },
+          { id: 'flex-end', value: 'flex-end' },
+          { id: 'center', value: 'center' },
+          { id: 'baseline', value: 'baseline' },
+          { id: 'stretch', value: 'stretch' },
         ],
         alignSelf: 'auto',
       }
@@ -761,4 +806,9 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

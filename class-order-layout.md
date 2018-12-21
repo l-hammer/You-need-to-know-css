@@ -73,7 +73,12 @@ Requirments for this layout:
   <main class="main">
     <section>
       <span class="left">
-        <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
+        <div
+          v-for="ele in elements"
+          @click="handleClick"
+          class="item">
+          {{symbol}}
+        </div>
       </span>
       <span class="center">Vertical centering<br>Vertical centering Vertical centering</span>
       <span class="right">Vertical centering</span>
@@ -81,7 +86,7 @@ Requirments for this layout:
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: Array(2).fill(1),
@@ -105,7 +110,12 @@ Requirments for this layout:
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-sel3&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="453px"></iframe>
+<iframe
+  width="100%"
+  height="453px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-sel3&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
 > pseudo element `display: flex` solution
 
@@ -155,7 +165,12 @@ Requirments for this layout:
   <main class="main">
     <section>
       <span class="left">
-        <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
+        <div
+          v-for="ele in elements"
+          @click="handleClick"
+          class="item">
+          {{symbol}}
+        </div>
       </span>
       <span class="center">vertical centering<br>vertical centering</span>
       <span class="right">vertical centering</span>
@@ -163,7 +178,7 @@ Requirments for this layout:
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: Array(2).fill(1),
@@ -187,7 +202,12 @@ Requirments for this layout:
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false" frameborder="0" width="100%" height="418px"></iframe>
+<iframe
+  width="100%"
+  height="418px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false">
+</iframe>
 
 > pseudo element `display: grid` solution :thumbsup:
 
@@ -229,7 +249,12 @@ Requirments for this layout:
   <main class="main">
     <section>
       <span class="left">
-        <div v-for="ele in elements" @click="handleClick" class="item">{{symbol}}</div>
+        <div
+          v-for="ele in elements"
+          @click="handleClick"
+          class="item">
+          {{symbol}}
+        </div>
       </span>
       <span class="center">vertical centering<br>vertical centering</span>
       <span class="right">vertical centering</span>
@@ -237,7 +262,7 @@ Requirments for this layout:
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
         elements: Array(2).fill(1),
@@ -261,4 +286,9 @@ Requirments for this layout:
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-grid&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false" frameborder="0" width="100%" height="400px" style="height: 418px;"></iframe>
+<iframe
+  width="100%"
+  height="418px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-grid&amp;periods=future_1,current,past_1,past_2&amp;accessible-colours=false">
+</iframe>

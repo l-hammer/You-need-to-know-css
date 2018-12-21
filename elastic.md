@@ -44,12 +44,12 @@ All the transitions should be animated.
   input:valid + .poptip {
     color: unset;
   }
-  input:not(:focus) + .poptip{
+  input:not(:focus) + .poptip {
     transform: scale(0);
     animation: elastic-dec .25s;
   }
   
-  input:focus + .poptip{
+  input:focus + .poptip {
     transform: scale(1);
     animation: elastic-grow .45s;
   }
@@ -74,7 +74,7 @@ All the transitions should be animated.
     border-bottom-color: #fafafa;
     border-top-width: 0;
   }
-  @keyframes elastic-grow{
+  @keyframes elastic-grow {
     from {
         transform: scale(0);
     }
@@ -83,7 +83,7 @@ All the transitions should be animated.
         animation-timing-function: cubic-bezier(.1, .25, .1, .25);
     }
   }
-  @keyframes elastic-dec{
+  @keyframes elastic-dec {
     from {
         transform: scale(1);
     }
@@ -202,6 +202,16 @@ Bezier Curves `cubic-bezier` is a function mainly for generating velocity curves
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="458px"></iframe>
+<iframe
+  width="100%"
+  height="458px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-animation&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

@@ -198,6 +198,16 @@
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css3-cursors&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="493px"></iframe>
+<iframe
+  width="100%"
+  height="493px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css3-cursors&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css3-cursors-newer&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="471px"></iframe>
+<iframe
+  width="100%"
+  height="471px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css3-cursors-newer&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

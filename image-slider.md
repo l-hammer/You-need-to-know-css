@@ -1,3 +1,4 @@
+
 # Image contrast widget
 
 ?> Background：:point_right: [resize](https://developer.mozilla.org/zh-CN/docs/Web/CSS/resize), HTML < [input[type=range]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range) >
@@ -82,7 +83,7 @@
       <h5>1️⃣ resize solution</h5>
       <div class="image-slider">
         <div>
-            <img src="./static/south-china-sea2015.jpg" alt="Before" />
+          <img src="./static/south-china-sea2015.jpg" alt="Before" />
         </div>
         <img src="./static/south-china-sea2006.jpg" alt="After" />
       </div>
@@ -97,17 +98,18 @@
   </main>
 </template>
 <script>
-  module.exports = {
-    mounted: function () {
-      var div = document.createElement('div');
-      var range = document.createElement('input'); 
-      this.$refs.slider.insertBefore(div, this.$refs.sliderImg);
-      div.appendChild(this.$refs.sliderImg);
+  export default {
+    mounted() {
+      let div = document.createElement('div');
+      let range = document.createElement('input'); 
+      const { slider, sliderImg } = this.$refs;
+      slider.insertBefore(div, sliderImg);
+      div.appendChild(sliderImg);
       range.type = 'range';
-      range.oninput = function () {
-          div.style.width = this.value + '%';
+      range.oninput = ({ target: { value } }) => {
+          div.style.width = `${value}%`;
       };
-      this.$refs.slider.appendChild(range);
+      slider.appendChild(range);
     }
   }
 </script>
@@ -117,6 +119,16 @@
 
 ### Browser Support 
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-resize&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="449px"></iframe>
+<iframe
+  width="100%"
+  height="449px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-resize&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=input-range&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=input-range&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

@@ -1,3 +1,4 @@
+
 # Shadow weaken background
 
 ?> Background：:point_right: [css-boxshadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/css-boxshadow), HTML < [dialog](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dialog) >
@@ -71,7 +72,7 @@
           Non minim picanha, ad in occaecat fugiat veniam dolor deserunt.
       </p>
       <div class="overlay">
-          <div class="lightbox">You-need-to-know-css-tricks</div>
+        <div class="lightbox">You-need-to-know-css-tricks</div>
       </div>
     </section>
     <h5>2️⃣ box-shadow scheme</h5>
@@ -100,7 +101,7 @@
     </section>
   </main>
 </template>
-<script>  
+<script>
 </script>
 </script>
 
@@ -108,6 +109,16 @@
 
 ### Browser Support
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+<iframe
+  width="100%"
+  height="436px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-boxshadow&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
 
-<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=dialog&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="528px"></iframe>
+<iframe
+  width="100%"
+  height="528px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=dialog&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>

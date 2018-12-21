@@ -58,7 +58,7 @@
 <template>
   <main class="main">
     <input ref="range" type="range" value="100">
-    <section :style="{width: width + '%'}">
+    <section :style="{ width }">
       <div class="center">
         <div class="center-inner">A paragraph of filler text. La la la de dah de dah de dah de la.</div>
       </div>
@@ -68,16 +68,15 @@
   </main>
 </template>
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
-        width: 100
+        width: "100%"
       }
     },
     mounted() {
-      const self = this;
-      this.$refs.range.oninput = function () {
-        self.width = 60 + this.value * .4;
+      this.$refs.range.oninput = ({ target: { value } }) => {
+        this.width = `${60 + value * .4}%`;
       }
     }
   }
