@@ -40,22 +40,22 @@ a[juejinminibook]::after {
   left: 50%;
   width: 92px;
   height: 92px;
-  background: url("/static/5bc844166fb9a05cd676ebca.png") no-repeat center / 100%; 
+  background: url("https://lhammer.cn/You-need-to-know-css/static/5bc844166fb9a05cd676ebca.png") no-repeat center / 100%; 
   opacity: 0;
   transform: translateX(-50%) translateY(-50%) scale3d(0, 0, 0);
   transition:display .3s, opacity .3s, transform .3s;
 }
 a[juejinminibook*="5ba42844f265da0a8a6aa5e9"]::after {
-  background-image: url("/static/5ba42844f265da0a8a6aa5e9.png");
+  background-image: url("https://lhammer.cn/You-need-to-know-css/static/5ba42844f265da0a8a6aa5e9.png");
 }
 a[juejinminibook*="5bdc715fe51d454e755f75ef"]::after {
-  background-image: url("/static/5bdc715fe51d454e755f75ef.png");
+  background-image: url("https://lhammer.cn/You-need-to-know-css/static/5bdc715fe51d454e755f75ef.png");
 }
 a[juejinminibook*="5afc2e5f6fb9a07a9b362527"]::after {
-  background-image: url("/static/5afc2e5f6fb9a07a9b362527.png");
+  background-image: url("https://lhammer.cn/You-need-to-know-css/static/5afc2e5f6fb9a07a9b362527.png");
 }
 a[juejinminibook*="5a124b29f265da431d3c472e"]::after {
-  background-image: url("/static/5a124b29f265da431d3c472e.png");
+  background-image: url("https://lhammer.cn/You-need-to-know-css/static/5a124b29f265da431d3c472e.png");
 }
 a[juejinminibook]:hover > img {
   transition: filter .3s;
