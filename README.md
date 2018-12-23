@@ -65,6 +65,11 @@ Several quick start options are available:
 
 or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any helpful suggestions are welcomed. :stuck_out_tongue_winking_eye:
 
+------
+
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/l-hammer/You-need-to-know-css/graphs/contributors"><img src="https://opencollective.com/You-need-to-know-css/contributors.svg?width=890&button=false" /></a>
+
 ## Donate ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
 
 If you find this project useful, you can buy me a coffee ☕, Thank you! 🙏🏻 🙏 🙏🏿
@@ -77,18 +82,11 @@ If you provide your github in the message, it will show up here with a link to y
 <a href="https://github.com/ElivesHuangGit" target="_blank"><img src="https://avatars0.githubusercontent.com/u/36831410?s=460&v=4" width="29" style="border-radius: 50%"></a>
 <a href="https://github.com/StaminaWang" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&v=4" width="29" style="border-radius: 50%"></a>
 
-## Contributors
-
-This project exists thanks to all the people who contribute. 
-<a href="https://github.com/l-hammer/You-need-to-know-css/graphs/contributors"><img src="https://opencollective.com/You-need-to-know-css/contributors.svg?width=890&button=false" /></a>
-
-
 ## Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/You-need-to-know-css#backer)]
 
 <a href="https://opencollective.com/You-need-to-know-css#backers" target="_blank"><img src="https://opencollective.com/You-need-to-know-css/backers.svg?width=890"></a>
-
 
 ## Sponsors
 

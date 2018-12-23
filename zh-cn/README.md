@@ -12,27 +12,27 @@
         <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
     </p>
     <p align="center">
-        CSS tricks web developers need to know<br>
+        Web开发者应该掌握的CSS tricks<br>
     </p>
 </p>
 
 
-## View online
+## 在线查看
 
 🌏 [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/)
 
 
-## Quick start
+## 快速开始
 
-Several quick start options are available:
+一些可以帮助你快速启动本项目的操作：
 
-- Clone the repo: `https://github.com/l-hammer/You-need-to-know-css.git`
-- Install docsify with [docsify](https://docsify.js.org/#/): `npm install docsify-cli -g (or yarn global add docsify-cli)`
-- Development run `docsify serve`
-- Open `http://localhost:3000` in your browser.
+- clone 这个仓库: `https://github.com/l-hammer/You-need-to-know-css.git`
+- 用yarn 或者 npm全局安装 [docsify-cli](https://docsify.js.org/#/): `npm install docsify-cli -g (or yarn global add docsify-cli)`
+- 在终端运行命令 `docsify serve`
+- 打开 `http://localhost:3000` 在你的浏览器
 
 
-## What's included
+## 包括什么
 
 | [![translucent-borders](https://img.shields.io/badge/translucent%20borders-%E5%8D%8A%E9%80%8F%E6%98%8E%E8%BE%B9%E6%A1%86-b4a078.svg)](https://lhammer.cn/You-need-to-know-css/#/translucent-borders) | [![multiple-borders](https://img.shields.io/badge/multiple%20borders-%E5%A4%9A%E9%87%8D%E8%BE%B9%E6%A1%86-b4a078.svg)](https://lhammer.cn/You-need-to-know-css/#/multiple-borders) | [![inner-rounding](https://img.shields.io/badge/inner%20rounding-%E8%BE%B9%E6%A1%86%E5%86%85%E5%9C%86%E8%A7%92-b4a078.svg)](https://lhammer.cn/You-need-to-know-css/#/inner-rounding)|
 |:--|:--|:--|
@@ -52,28 +52,54 @@ Several quick start options are available:
 |[![插入换行](https://img.shields.io/badge/line%20breaks-%E6%8F%92%E5%85%A5%E6%8D%A2%E8%A1%8C-b4a078.svg)](https://lhammer.cn/You-need-to-know-css/#/line-breaks) | [![自定义变量](https://img.shields.io/badge/custom%20variables-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8F-b4a078.svg)](https://lhammer.cn/You-need-to-know-css/#/custom-variables) | [![有趣的项目](https://img.shields.io/badge/interesting-%E6%9C%89%E8%B6%A3%E7%9A%84%E9%A1%B9%E7%9B%AE-b4a078.svg)](https://lhammer.cn/You-need-to-know-css/#/interesting-usage) |
 
 
-## Contributing ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true&style=flat-square)
+## 贡献 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true&style=flat-square)
 
-- :fork_and_knife:Fork it!
-- :twisted_rightwards_arrows:Create your branch: `git checkout -b new-branch`
-- :wrench:Make your changes
-- :memo:Commit your changes: `git commit -am 'Add some feature'`
-- :rocket:Push to the branch: `git push origin new-branch`
-- :tada:Submit a pull request
+- :fork_and_knife:Fork 这个项目并clone到本地
+- :twisted_rightwards_arrows:新建一个分支: `git checkout -b new-branch`
+- :wrench:增加新特性或者解决一些bug
+- :memo:提交你的改变: `git commit -am 'Add some feature'`
+- :rocket:推送你的分支: `git push origin new-branch`
+- :tada:提交Pull Request
 
-or submit an [issue](https://github.com/l-hammer/You-need-to-know-css/issues) - any helpful suggestions are welcomed. :stuck_out_tongue_winking_eye:
+或者提交一个[issue](https://github.com/l-hammer/You-need-to-know-css/issues) - 欢迎任何有帮助性的建议:stuck_out_tongue_winking_eye:
 
-## Donate ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
+------
 
-If you find this project useful, you can buy me a coffee ☕, Thank you! 🙏🏻 🙏 🙏🏿
+感谢以下所有的贡献者:rose:
+
+<a href="https://github.com/l-hammer/You-need-to-know-css/graphs/contributors"><img src="https://opencollective.com/You-need-to-know-css/contributors.svg?width=890&button=false" /></a>
+
+## 捐赠 ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
+
+如果你觉得本项目对你有帮助，或者想对我微小的工作表示一点资瓷，你可以请我喝一杯咖啡，感谢! 🙏🏻 🙏 🙏🏿
 
 <img src="https://lhammer.cn/You-need-to-know-css/static/reward-code.png" width="280"> <br><br>
 
-If you provide your github in the message, it will show up here with a link to your github.
+如果你在留言备注了你的github地址，将会显示在这里🤠
 
 <a href="https://github.com/fqs617" target="_blank"><img src="https://avatars3.githubusercontent.com/u/23302051?s=460&v=4" width="29" style="border-radius: 50%"></a>
 <a href="https://github.com/ElivesHuangGit" target="_blank"><img src="https://avatars0.githubusercontent.com/u/36831410?s=460&v=4" width="29" style="border-radius: 50%"></a>
 <a href="https://github.com/StaminaWang" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&v=4" width="29" style="border-radius: 50%"></a>
+
+------
+
+通过购买掘金优质小册赞助:thumbsup:
+
+<a juejinminibook="5bc844166fb9a05cd676ebca">
+  <img src="https://user-gold-cdn.xitu.io/2018/12/18/167c119a41e444d5" width="129">
+</a>
+<a juejinminibook="5ba42844f265da0a8a6aa5e9">
+  <img src="https://user-gold-cdn.xitu.io/2018/12/4/16779ed4b21a9fa5" width="129">
+</a>
+<a juejinminibook="5bdc715fe51d454e755f75ef">
+  <img author="yck" src="https://user-gold-cdn.xitu.io/2018/12/22/167d684d4276ac62" width="129">
+</a>
+<a juejinminibook="5afc2e5f6fb9a07a9b362527">
+  <img author="老錢" src="https://user-gold-cdn.xitu.io/2018/7/30/164ea7de07b7f79e" width="129">
+</a>
+<a juejinminibook="5a124b29f265da431d3c472e">
+  <img author="扔物线" src="https://user-gold-cdn.xitu.io/2017/11/27/15ffbb05174a57f8" width="129">
+</a>
 
 ## license
 
