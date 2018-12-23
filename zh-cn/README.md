@@ -85,21 +85,11 @@
 
 通过购买掘金优质小册赞助:thumbsup:
 
-<a juejinminibook="5bc844166fb9a05cd676ebca">
-  <img src="https://user-gold-cdn.xitu.io/2018/12/18/167c119a41e444d5" width="129">
-</a>
-<a juejinminibook="5ba42844f265da0a8a6aa5e9">
-  <img src="https://user-gold-cdn.xitu.io/2018/12/4/16779ed4b21a9fa5" width="129">
-</a>
-<a juejinminibook="5bdc715fe51d454e755f75ef">
-  <img author="yck" src="https://user-gold-cdn.xitu.io/2018/12/22/167d684d4276ac62" width="129">
-</a>
-<a juejinminibook="5afc2e5f6fb9a07a9b362527">
-  <img author="老錢" src="https://user-gold-cdn.xitu.io/2018/7/30/164ea7de07b7f79e" width="129">
-</a>
-<a juejinminibook="5a124b29f265da431d3c472e">
-  <img author="扔物线" src="https://user-gold-cdn.xitu.io/2017/11/27/15ffbb05174a57f8" width="129">
-</a>
+<a juejinminibook="5bc844166fb9a05cd676ebca"><img src="https://user-gold-cdn.xitu.io/2018/12/18/167c119a41e444d5" width="129"></a>
+<a juejinminibook="5ba42844f265da0a8a6aa5e9"><img src="https://user-gold-cdn.xitu.io/2018/12/4/16779ed4b21a9fa5" width="129"></a>
+<a juejinminibook="5bdc715fe51d454e755f75ef"><img src="https://user-gold-cdn.xitu.io/2018/12/22/167d684d4276ac62" width="129"></a>
+<a juejinminibook="5afc2e5f6fb9a07a9b362527"><img src="https://user-gold-cdn.xitu.io/2018/7/30/164ea7de07b7f79e" width="129"></a>
+<a juejinminibook="5a124b29f265da431d3c472e"><img src="https://user-gold-cdn.xitu.io/2017/11/27/15ffbb05174a57f8" width="129"></a>
 
 ## license
 
