@@ -75,7 +75,7 @@
 
 <img src="https://lhammer.cn/You-need-to-know-css/static/reward-code.png" width="280"> <br><br>
 
-如果你在留言备注了你的github地址，将会显示在这里🤠
+如果你在留言中备注了你的Github的ID，将会显示在这里🤠
 
 <a href="https://github.com/fqs617" target="_blank"><img src="https://avatars3.githubusercontent.com/u/23302051?s=460&v=4" width="29" style="border-radius: 50%"></a>
 <a href="https://github.com/ElivesHuangGit" target="_blank"><img src="https://avatars0.githubusercontent.com/u/36831410?s=460&v=4" width="29" style="border-radius: 50%"></a>
@@ -83,7 +83,7 @@
 
 ------
 
-通过购买掘金优质小册赞助:thumbsup:
+通过购买掘金优质小册资瓷:thumbsup:
 
 <a juejinminibook="5bc844166fb9a05cd676ebca"><img src="https://user-gold-cdn.xitu.io/2018/12/18/167c119a41e444d5" width="129"></a>
 <a juejinminibook="5ba42844f265da0a8a6aa5e9"><img src="https://user-gold-cdn.xitu.io/2018/12/4/16779ed4b21a9fa5" width="129"></a>
