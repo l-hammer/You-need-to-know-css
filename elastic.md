@@ -101,7 +101,7 @@ All the transitions should be animated.
         type="text"
         id="username"
         autocomplete="off"
-        placeholder="请输入内容"
+        placeholder="Please input something"
         pattern="^\w+$"/>
       <span class="poptip">Only letters, numbers, and underscore combinations are supported!</span>
     </label>
@@ -188,9 +188,9 @@ All the transitions should be animated.
         type="text"
         id="username"
         autocomplete="off"
-        placeholder="请输入内容"
+        placeholder="Please input something"
         pattern="^\w+$"/>
-      <span class="poptip">Only letters, numbers, and underscore combinations are supported！</span>
+      <span class="poptip">Only letters, numbers, and underscore combinations are supported!</span>
     </label>
   </main>
 </template>
