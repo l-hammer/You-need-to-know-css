@@ -1,7 +1,7 @@
 
 # Text effects
 
-?> Background：:point_right: [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
+?> Background：:point_right: [text-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow), [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter), [-webkit-text-fill-color](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color), [-webkit-text-stroke](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
 
 <vuep template="#text-effects_tlp"></vuep>
 
@@ -102,6 +102,12 @@
     text-shadow:  1px 1px hsl(40, 28.57% , 28.82%), 2px 2px hsl(40, 28.57% , 28.82%),
                   3px 3px hsl(40, 28.57% , 28.82%), 4px 4px hsl(40, 28.57% , 28.82%);
   }
+  main > div:nth-of-type(10) > p {
+    background: linear-gradient(90deg, #b4a078, #333);
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
+  }
   @keyframes text-blink-effect {
     50% {
       text-shadow: 0 0 .1em, 0 0 .3em;
@@ -154,6 +160,10 @@
       <h5>9️⃣ text bump</h5>
       <p>You-need-to-know-css-tricks</p>
     </div>
+    <div>
+      <h5>⬇️ text gradient</h5>
+      <p>You-need-to-know-css-tricks</p>
+    </div>
   </main>
 </template>
 <script>
@@ -166,7 +176,13 @@
 
 <iframe
   width="100%"
-  height="436px"
+  height="378px"
   frameborder="0"
-  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2&accessible-colours=false">
+</iframe>
+<iframe
+  width="100%"
+  height="378px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=text-stroke&periods=future_1,current,past_1,past_2&accessible-colours=false">
 </iframe>
