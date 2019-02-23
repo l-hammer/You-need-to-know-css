@@ -51,5 +51,6 @@
 	- [Circular smooth](/circular-smooth.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
 - **Other**
+	- [Code snippets](/common-snippets.md)
 	- [Custom variables](/custom-variables.md)
 	- [Interesting usage](/interesting-usage.md)

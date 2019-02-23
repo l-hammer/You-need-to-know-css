@@ -52,5 +52,6 @@
 	- [延轨迹平滑效果](zh-cn/circular-smooth.md)
 	<!-- - [掘金沸点点赞效果](hotspot-like) -->
 - **其他**
+	- [常用片段](zh-cn/common-snippets.md)
 	- [自定义变量](zh-cn/custom-variables.md)
 	- [有趣的项目](zh-cn/interesting-usage.md)
