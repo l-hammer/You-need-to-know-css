@@ -20,6 +20,7 @@
 	- [毛玻璃效果](zh-cn/frosted-glass.md)
 	- [斑马条纹](zh-cn/zebra-stripes.md)
 	- [文字特效](zh-cn/text-effects.md)
+	- [文本截断](zh-cn/text-truncate.md)
 	- [环形文字](zh-cn/circular-text.md)
 	- [插入换行](zh-cn/line-breaks.md)
 	- [图片对比控件](zh-cn/image-slider.md)
