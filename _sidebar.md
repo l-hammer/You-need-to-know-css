@@ -28,6 +28,7 @@
 	- [Extend hit area](/extend-hit-area.md)
 	- [Custom checkboxes](/custom-checkbox.md)
 	- [Custom radios](/custom-radio.md)
+	- [Custom switch](/custom-switch.md)
 	- [Input align](/input-align.md)
 	- [Shadow weaken background](/shadow-weaken-background.md)
 	- [Blurry weaken background](/blurry-weaken-background.md)
