@@ -29,7 +29,7 @@
 	- [扩大可点击区域](zh-cn/extend-hit-area.md)
 	- [自定义复选框](zh-cn/custom-checkbox.md)
 	- [自定义单选框](zh-cn/custom-radio.md)
-	- [自定义开关按钮](zh-cn/custom-switch.md)
+	- [自定义开关选择器](zh-cn/custom-switch.md)
 	- [输入框完美居中](zh-cn/input-align.md)
 	- [通过阴影弱化背景](zh-cn/shadow-weaken-background.md)
 	- [通过模糊弱化背景](zh-cn/blurry-weaken-background.md)

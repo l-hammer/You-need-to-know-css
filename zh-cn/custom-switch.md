@@ -1,5 +1,9 @@
 
-### 自定义开发按钮
+### 自定义开关选择器
+
+?> 背景知识：:point_right: [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition), [伪元素](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#%E4%BC%AA%E5%85%83%E7%B4%A0)
+
+同自定义复选框或自定义单选框类似，都是利用一个隐藏的`input(:checked)`元素 + 一个关联的`label`元素，通过`label`元素及其伪元素模拟switch选择器，通过`input`的`:checked`属性来模拟`switch`状态是否开启。
 
 <vuep template="#custom-radio"></vuep>
 
@@ -67,7 +71,7 @@
 </style>
 <template>
   <main>
-    <input type="checkbox" id="switch" hidden>
+    <input type="checkbox" id="switch" checked hidden>
     <label for="switch"></label>
     <input type="checkbox" id="switch-disabled" disabled hidden>
     <label for="switch-disabled" disabled></label>
@@ -78,3 +82,12 @@
 <script>  
 </script>
 </script>
+
+### 浏览器支持
+
+<iframe
+  width="100%"
+  height="493px"
+  frameborder="0"
+  src="https://caniuse.bitsofco.de/embed/index.html?feat=transforms2d&amp;periods=future_2,future_1,current,past_1,past_2,past_3&amp;accessible-colours=false">
+</iframe>
