@@ -1,21 +1,20 @@
 
 <p align="center">
-    <a href="https://lhammer.cn/You-need-to-know-css/#/">
-        <img src="./static/logo.png" width="152">
-    </a>
-    <h3 align="center">You-need-to-know-css</h3>
-    <p align="center">
-        <a href="https://gitter.im/You-need-to-know-css/Lobby"> <img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
-        <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg??colorB=brightgreen"></a>
-        <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
-        <a href="https://codeclimate.com/github/l-hammer/You-need-to-know-css/maintainability"><img src="https://api.codeclimate.com/v1/badges/dfba02247f296387a1a7/maintainability" /></a>
-        <!-- <a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/You-need-to-know-css/backers/badge.svg" /></a> 
-        <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/You-need-to-know-css/sponsors/badge.svg" /></a> -->
-        <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
-    </p>
-    <p align="center">
-        CSS tricks web developers need to know<br>
-    </p>
+  <a href="https://lhammer.cn/You-need-to-know-css/#/">
+    <img src="./static/logo.png" width="152">
+  </a>
+  <h3 align="center">You-need-to-know-css</h3>
+  <p align="center">
+    <a href="https://gitter.im/You-need-to-know-css/Lobby"> <img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
+    <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-NPL%20(The%20996%20Prohibited%20License)-blue.svg"></a>
+    <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
+    <a href="https://codeclimate.com/github/l-hammer/You-need-to-know-css/maintainability"><img src="https://api.codeclimate.com/v1/badges/dfba02247f296387a1a7/maintainability" /></a>
+    <a href="http://hits.dwyl.io/l-hammer/You-need-to-know-css" alt="hit count"><img src="http://hits.dwyl.io/l-hammer/You-need-to-know-css.svg" /></a> 
+    <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
+  </p>
+  <p align="center">
+    CSS tricks web developers need to know<br>
+  </p>
 </p>
 
 
@@ -100,4 +99,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css?ref=badge_small)
 
-[MIT](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE) © 2017-present, LHammer
+[996ICU](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE) © 2017-present, LHammer
