@@ -24,7 +24,8 @@ Shapes implemented with CSS gradients
 
 Generate basic CSS Grid code to make dynamic layouts!
 
-[CSS Grid Generator](https://cssgrid-generator.netlify.com/ ':include :type=iframe width=100% height=429px')
+<!-- [CSS Grid Generator](https://cssgrid-generator.netlify.com/ ':include :type=iframe width=100% height=429px') -->
+<iframe src="https://cssgrid-generator.netlify.com/" width="100%" height="429px"></iframe>
 
 ?> **GitHub:** [sdras/cssgridgenerator](https://github.com/sdras/cssgridgenerator)
 
@@ -32,7 +33,8 @@ Generate basic CSS Grid code to make dynamic layouts!
 
 CSS animation loading
 
-[Epic Spinners](https://epic-spinners.epicmax.co/#/ ':include :type=iframe width=100% height=429px')
+<!-- [Epic Spinners](https://epic-spinners.epicmax.co/#/ ':include :type=iframe width=100% height=429px') -->
+<iframe src="https://epic-spinners.epicmax.co" width="100%" height="429px"></iframe>
 
 ?> **GitHub:** [epicmaxco/epic-spinners](https://github.com/epicmaxco/epic-spinners)
 

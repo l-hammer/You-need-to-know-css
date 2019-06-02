@@ -61,7 +61,7 @@ element {
 }
 ```
 
-# 常用的 SCSS 片段
+# SCSS 片段
 
 ```scss
 @mixin block($b) {
