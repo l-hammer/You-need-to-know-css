@@ -64,40 +64,90 @@ element {
 # SCSS 片段
 
 ```scss
-@mixin block($b) {
-  $self: #{$namespace}-#{$b} !global;
-  .#{$self} {
+$M_E: 'null';
+
+/* @params $block 为模块名称（最高作用域）
+---------------------------- */
+@mixin block($block) {
+  $B: $block !global;
+  .#{$block} {
+    $rootblock: & !global;
     @content;
   }
 }
 
-@mixin b($block) {
-  @include block($block) {
-    @content;
-  }
-}
-
-@mixin e($element, $parent: 'root') {
-  @if $parent == 'root' {
+/* @params $element 为元素名称
+/* @params $base 用于替换默认的父元素名称（基本上不会用到）
+/* @prop $M_E 解决在 m() 使用时的受 & 限制的问题
+---------------------------- */
+@mixin e($element, $base: 'base') {
+  $E: $element !global;
+  @if $M_E != 'null' {
+    @if $M_E == $rootblock {
+      & .#{$element} {
+        @content;
+      }
+    } @else {
+      & #{$M_E}__#{$element} {
+        @content;
+      }
+    }
+  } @else if & == $rootblock {
+    & .#{$element} {
+      @content;
+    }
+  } @else if $base == 'base' {
     &__#{$element} {
       @content;
     }
-  } @else {
-    & #{$parent}__#{$element} {
-      @content;
-    }
   }
 }
 
-@mixin m($modifier, $parent: 'root') {
-  @if $parent == 'root' {
-    &--#{$modifier} {
-      @content;
+/* @params $elements 多个class，用于多个class有公用的样式时
+/* @mixin block(tpl) { e-each(title desc href) }
+/* $rootblock 输出：.tpl .title, .tpl .desc, .tpl .href
+/* 非 $rootblock 输出：.tpl__title, .tpl__desc, .tpl__href
+---------------------------- */
+@mixin e-each($elements) {
+  $selector: "";
+
+  @each $ele in $elements {
+    @if & == $rootblock {
+      $selector: #{$selector + & + " ." + $ele + ", "};
+    } @else {
+      $selector: #{$selector + & + "__" + $ele + ", "};
     }
-  } @else {
-    & #{$parent}--#{$modifier} {
-      @content;
-    }
+  }
+
+  @at-root #{$selector} {
+    @content;
+  }
+}
+
+/* @params $modifier 元素修饰符
+/* @params $inherit 嵌套 e() 是否继承父选择器
+/* .hp-menu
+/* .hp-menu__item
+/* .hp-menu--vertical
+/* .hp-menu--vertical__item (❌)
+/* .hp-menu--vertical .hp-menu__item（✅）
+---------------------------- */
+@mixin m($modifier, $inherit: 'true') {
+  @if $inherit == 'true' {
+    $M_E: & !global;
+  }
+  &--#{$modifier} {
+    @content;
+  }
+  $M_E: 'null' !global; // 清空当前修饰的元素
+}
+
+/* 全局样式，自动增加 global- 前缀，以更好的区分样式类型
+---------------------------- */
+@mixin global($name) {
+  $cls: global-#{$name};
+  @at-root .#{$cls} {
+    @content;
   }
 }
 
@@ -108,17 +158,14 @@ element {
   @if $type == 'svg' {
     background-image: url('#{$bg}.svg');
   } @else {
-    background-image: url('#{$bg}.png');
-    @media (min-resolution: 2dppx) {
-      background-image: url('#{$bg}@2x.png');
-    }
+    background-image: url('#{$bg}@2x.png');
     @media (min-resolution: 3dppx) {
       background-image: url('#{$bg}@3x.png');
     }
   }
 }
 
-@mixin one-pix-line($pos: 'bottom', $style: solid, $color) {
+@mixin one-pix-line($pos: 'bottom', $color: $--border-color, $style: solid) {
   $prop: border-#{$pos};
   @if $pos == 'all' {
     $prop: border;
@@ -135,6 +182,22 @@ element {
   }
 }
 
+/* @include positon($t: 0); => position: absolute; top: 0;
+/* @include positon($t: 0, $l: 100%); => position: absolute; top: 0; left: 100%;
+/* @include positon($v: 0); => position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+---------------------------- */
+@mixin position($p: absolute, $t: null, $r: null, $b: null, $l: null, $v: null) {
+  $t: $v or $t;
+  $r: $v or $r;
+  $b: $v or $b;
+  $l: $v or $l;
+  position: $p;
+  @if $t { top: $t; }
+  @if $r { right: $r; }
+  @if $b { bottom: $b; }
+  @if $l { left: $l; }
+}
+
 @mixin text-ellipsis($width: 100%) {
   width: $width;
   overflow: hidden;
@@ -148,86 +211,11 @@ element {
   word-wrap: break-word;
 }
 
-@mixin center--x() {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  @content;
-}
-
-@mixin center--y() {
+@mixin center() {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  @content;
-}
-
-@mixin position--t--r($p: absolute, $t: 0, $r: 0) {
-  position: $p;
-  top: $t;
-  right: $r;
-  @content;
-}
-
-@mixin position--t--b($p: absolute, $t: 0, $b: 0) {
-  position: $p;
-  top: $t;
-  bottom: $b;
-  @content;
-}
-
-@mixin position--t--l($p: absolute, $t: 0, $l: 0) {
-  position: $p;
-  top: $t;
-  left: $l;
-  @content;
-}
-
-@mixin position--b--r($p: absolute, $b: 0, $r: 0) {
-  position: $p;
-  right: $r;
-  bottom: $b;
-  @content;
-}
-
-@mixin position--b--l($p: absolute, $b: 0, $l: 0) {
-  position: $p;
-  bottom: $b;
-  left: $l;
-  @content;
-}
-
-@mixin position--r--l($p: absolute, $r: 0, $l: 0) {
-  position: $p;
-  right: $r;
-  left: $l;
-  @content;
-}
-
-@mixin position--overlay($p: absolute) {
-  position: $p;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-@mixin flex-box {
-  display: flex;
-  & > * {
-    flex: 0 0 auto;
-  }
-}
-
-@mixin h-box {
-  @include flex-box;
-  flex-direction: row;
-  @content;
-}
-
-@mixin v-box {
-  @include flex-box;
-  flex-direction: column;
+  left: 50%;
+  transform: translate(-50%, -50%);
   @content;
 }
 
