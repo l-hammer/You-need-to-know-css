@@ -581,7 +581,7 @@ flex-grow: <number>;
 ```css
 flex-shrink: <number>;
 ```
-> * `<number>` : The value is an integer. The larger the value, the smaller the space occupied by the item. The default is 0.
+> * `<number>` : The value is an integer. The larger the value, the smaller the space occupied by the item. The default is 1.
 
 <vuep template="#flexShrink"></vuep>
 

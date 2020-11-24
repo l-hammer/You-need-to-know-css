@@ -581,7 +581,7 @@ flex-grow: <number>;
 ```css
 flex-shrink: <number>;
 ```
-> * `<number>`：值为整数，数值越大，项目占据空间越小，默认为0
+> * `<number>`：值为整数，数值越大，项目占据空间越小，默认为1
 
 <vuep template="#flexShrink"></vuep>
 
