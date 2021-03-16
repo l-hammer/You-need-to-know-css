@@ -1,9 +1,9 @@
 
 # About You-need-to-know-css
 
-As a Web developer, I believe CSS is one of our necessary skills. I always thought that I've had enough mastery of CSS until I read [Lea Verou](http://lea.verou.me/about/)'s [CSS Secrets](https://item.jd.com/11911279.html), when I found myself merely a so-so CS player. The book offers a variety of practical and elegant solutions from different perspectives for our common web design problems. Here, I strongly recommend it to everyone who is working in front-end or interested in it. I am sure you will gain something from it.
+As a Web developer, I believe CSS is one of our necessary skills. I always thought that I've had enough mastery of CSS until I read [Lea Verou](http://lea.verou.me/about/)'s [CSS Secrets](https://item.jd.com/11911279.html), when I found myself merely a so-so CSS player. The book offers a variety of practical and elegant solutions from different perspectives for our common web design problems. Here, I strongly recommend it to everyone who is working in front-end or interested in it. I am sure you will gain something from it.
 
-For the convenience of future CTRL+ C/V, I summarized some small CSS styles that I collected or frequently used at work into this document. And for the sake of zhuangbility (Chinese slang, meaning prentending to be smarter), I titled the document `You-need-to-know-css`. So please, don't be too critical of it. Currently, there are in total 43 small CSS styles in this document (to be continued ...). Besides, since the document is still far from being flawless, any of your advices and suggestions would be much appreciated. If you find it somewhat helpful to you, you are welcome to improve it together with me:memo:~
+For the convenience of future CTRL+ C/V, I summarized some small CSS styles that I collected or frequently used at work into this document. And for the sake of zhuangbility (Chinese slang, meaning pretending to be smarter), I titled the document `You-need-to-know-css`. So please, don't be too critical of it. Currently, there are in total 43 small CSS styles in this document (to be continued ...). Besides, since the document is still far from being flawless, any of your advices and suggestions would be much appreciated. If you find it somewhat helpful to you, you are welcome to improve it together with me. :memo:
 
 The definition of [CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS) in MDN:
 
@@ -51,7 +51,7 @@ div {
 /* good~good~good~ */
 
 div {
-  border-width: 2px; 
+  border-width: 2px;
   border-left-width: 0;
 }
 ```
