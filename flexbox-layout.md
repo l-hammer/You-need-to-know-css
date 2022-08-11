@@ -6,30 +6,20 @@ The Flex layout is called CSS Flexible Box Layout Module. It is a new page layou
 
 ##### Historic version:
 
-> https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/<br/>
-https://www.w3.org/TR/2016/CR-css-flexbox-1-20160301/<br/>
-https://www.w3.org/TR/2015/WD-css-flexbox-1-20150514/<br/>
-https://www.w3.org/TR/2014/WD-css-flexbox-1-20140925/<br/>
-https://www.w3.org/TR/2014/WD-css-flexbox-1-20140325/<br/>
-https://www.w3.org/TR/2012/CR-css3-flexbox-20120918/<br/>
-https://www.w3.org/TR/2012/WD-css3-flexbox-20120612/<br/>
-https://www.w3.org/TR/2012/WD-css3-flexbox-20120322/<br/>
-https://www.w3.org/TR/2011/WD-css3-flexbox-20111129/<br/>
-https://www.w3.org/TR/2011/WD-css3-flexbox-20110322/<br/>
-https://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
+> https://www.w3.org/TR/2016/CR-css-flexbox-1-20160526/<br/> > https://www.w3.org/TR/2016/CR-css-flexbox-1-20160301/<br/> > https://www.w3.org/TR/2015/WD-css-flexbox-1-20150514/<br/> > https://www.w3.org/TR/2014/WD-css-flexbox-1-20140925/<br/> > https://www.w3.org/TR/2014/WD-css-flexbox-1-20140325/<br/> > https://www.w3.org/TR/2012/CR-css3-flexbox-20120918/<br/> > https://www.w3.org/TR/2012/WD-css3-flexbox-20120612/<br/> > https://www.w3.org/TR/2012/WD-css3-flexbox-20120322/<br/> > https://www.w3.org/TR/2011/WD-css3-flexbox-20111129/<br/> > https://www.w3.org/TR/2011/WD-css3-flexbox-20110322/<br/> > https://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
 
 ### Flexbox principle demonstration
 
-[A Visual Guide to CSS3 Flexbox Properties](https://lhammer.cn/Flexbox/ ':include :type=iframe width=100% height=791px')
+[A Visual Guide to CSS3 Flexbox Properties](https://lhammer.cn/Flexbox/ ":include :type=iframe width=100% height=791px")
 
 > **Thank：**The above demo forks from [xluos](https://github.com/xluos)的[Flexbox Demo Station](https://xluos.github.io/demo/flexbox/)~
 
 The Flex layout consists of two parts: the container `flex container` and the item `flex item`. The container has two axes by default: the horizontal spindle `main axis` and the vertical cross axis `cross axis`. The iterm defaults to the main axis.
-The Flex property consists of two parts: the container property and the project property. The container can be set to: `flex-direction`, `flex-wrap`, `flex-grow`, `justify-content`, `align-items`, `align-content` 6 attributes, six attributes can also be set on the item: `order`, `flex-grow`, `flex-shrink`, `flex-basis`, `flex`, `align-self`. An example is as follows:
+The Flex property consists of two parts: the container property and the project property. The container can be set to: `flex-direction`, `flex-wrap`, `flex-flow`, `justify-content`, `align-items`, `align-content` 6 attributes, six attributes can also be set on the item: `order`, `flex-grow`, `flex-shrink`, `flex-basis`, `flex`, `align-self`. An example is as follows:
 
 ### Container properties
 
-------
+---
 
 #### flex-direction property
 
@@ -38,10 +28,11 @@ The Flex property consists of two parts: the container property and the project 
 ```css
 flex-direction: row | row-reverse | column | column-reverse;
 ```
-> * row: The default value, the main axis is horizontal, indicating from left to right
-> * row-reverse: The main axis is horizontal, indicating from right to left
-> * column: The main axis is in the vertical direction, arranged from top to bottom
-> * column-reverse: The spindle is in the vertical direction, arranged from bottom to top
+
+> - row: The default value, the main axis is horizontal, indicating from left to right
+> - row-reverse: The main axis is horizontal, indicating from right to left
+> - column: The main axis is in the vertical direction, arranged from top to bottom
+> - column-reverse: The spindle is in the vertical direction, arranged from bottom to top
 
 <vuep template="#flexDirection"></vuep>
 
@@ -114,9 +105,10 @@ flex-direction: row | row-reverse | column | column-reverse;
 ```css
 flex-wrap: nowrap | wrap | wrap-reverse;
 ```
-> * nowrap: default value，not wrap
-> * wrap: wrap, the first line is above
-> * row-reverse: wrap, the first line is below
+
+> - nowrap: default value，not wrap
+> - wrap: wrap, the first line is above
+> - row-reverse: wrap, the first line is below
 
 <vuep template="#flexWrap"></vuep>
 
@@ -182,30 +174,33 @@ flex-wrap: nowrap | wrap | wrap-reverse;
 </script>
 </script>
 
-#### flex-glow property
+#### flex-flow property
 
 **function:** The abbreviation of `flex-direction` and `flex-wrap` properties, The default value is row nowrap
 
 ```css
-flex-wrap: <flex-direction> || <flex-wrap>;
+flex-flow: <flex-direction> || <flex-wrap>;
 ```
-> * row nowrap: The default value, the main axis is horizontal, not wrap
-> * `<flex-direction>`: see [flex-direction](/flexbox-layout?id=flex-direction%E5%B1%9E%E6%80%A7)
-> * `<flex-wrap>`: see [flex-wrap](/flexbox-layout?id=flex-wrap%E5%B1%9E%E6%80%A7)
+
+> - row nowrap: The default value, the main axis is horizontal, not wrap
+> - `<flex-direction>`: see [flex-direction](/flexbox-layout?id=flex-direction%E5%B1%9E%E6%80%A7)
+> - `<flex-wrap>`: see [flex-wrap](/flexbox-layout?id=flex-wrap%E5%B1%9E%E6%80%A7)
 
 #### justify-content property
 
 **function:** Define the alignment of the project on the spindle.
 
 ```css
-justify-content: flex-start | flex-end | center | space-between | space-round | space-evenly;
+justify-content: flex-start | flex-end | center | space-between | space-round |
+  space-evenly;
 ```
-> * flex-start: Default value, left aligned
-> * flex-end: Right aligned
-> * center: Centered
-> * space-evenly: The interval between each item and at both ends is equal
-> * space-around: Equal spacing on both sides of each item
-> * space-between: Aligned ends, the items are equally spaced
+
+> - flex-start: Default value, left aligned
+> - flex-end: Right aligned
+> - center: Centered
+> - space-evenly: The interval between each item and at both ends is equal
+> - space-around: Equal spacing on both sides of each item
+> - space-between: Aligned ends, the items are equally spaced
 
 <vuep template="#justifyContent"></vuep>
 
@@ -280,11 +275,12 @@ justify-content: flex-start | flex-end | center | space-between | space-round | 
 ```css
 align-items: flex-start | flex-end | center | baseline | stretch;
 ```
-> * flex-start: Starting point alignment of the cross axis
-> * flex-end: End point alignment of the cross axis
-> * center: center alignment of the cross axis
-> * baseline: Baseline alignment of the first line of text in the project
-> * stretch: The default value, when the item is not set to a fixed height, will fill the entire container
+
+> - flex-start: Starting point alignment of the cross axis
+> - flex-end: End point alignment of the cross axis
+> - center: center alignment of the cross axis
+> - baseline: Baseline alignment of the first line of text in the project
+> - stretch: The default value, when the item is not set to a fixed height, will fill the entire container
 
 <vuep template="#alignItems"></vuep>
 
@@ -356,14 +352,16 @@ align-items: flex-start | flex-end | center | baseline | stretch;
 **function:** Defines the alignment of multiple axes. This property does not work if the project has only one axis.
 
 ```css
-align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+align-content: flex-start | flex-end | center | space-between | space-around |
+  stretch;
 ```
-> * flex-start: Starting point alignment of the cross axis
-> * flex-end: End point alignment of the cross axis
-> * center: Center alignment of the cross axis
-> * space-between: Aligned with the ends of the cross shaft, the average spacing between the axes, etc.
-> * space-around: The spacing between the sides of each axis is equal
-> * stretch：Default, the axis fills the entire cross axis
+
+> - flex-start: Starting point alignment of the cross axis
+> - flex-end: End point alignment of the cross axis
+> - center: Center alignment of the cross axis
+> - space-between: Aligned with the ends of the cross shaft, the average spacing between the axes, etc.
+> - space-around: The spacing between the sides of each axis is equal
+> - stretch：Default, the axis fills the entire cross axis
 
 <vuep template="#alignContent"></vuep>
 
@@ -436,7 +434,7 @@ align-content: flex-start | flex-end | center | space-between | space-around | s
 
 ### Iterm Properties
 
-------
+---
 
 #### order property
 
@@ -445,7 +443,8 @@ align-content: flex-start | flex-end | center | space-between | space-around | s
 ```css
 order: <number>;
 ```
-> * `<number>` : The value is an integer. The smaller the value, the higher the ranking. The default is 0.
+
+> - `<number>` : The value is an integer. The smaller the value, the higher the ranking. The default is 0.
 
 <vuep template="#order"></vuep>
 
@@ -513,7 +512,8 @@ order: <number>;
 ```css
 flex-grow: <number>;
 ```
-> * `<number>` : The value is an integer. The larger the value, the larger the space occupied by the project. The default is 0.
+
+> - `<number>` : The value is an integer. The larger the value, the larger the space occupied by the project. The default is 0.
 
 <vuep template="#flexGrow"></vuep>
 
@@ -581,7 +581,8 @@ flex-grow: <number>;
 ```css
 flex-shrink: <number>;
 ```
-> * `<number>` : The value is an integer. The larger the value, the smaller the space occupied by the item. The default is 1.
+
+> - `<number>` : The value is an integer. The larger the value, the smaller the space occupied by the item. The default is 1.
 
 <vuep template="#flexShrink"></vuep>
 
@@ -647,7 +648,8 @@ flex-shrink: <number>;
 ```css
 flex-basis: <length> | auto;
 ```
-> * `<length>` : The default is auto, which is the original size of the project; you can also set the same value as the width or height properties (such as 329px), the project will occupy a fixed space.
+
+> - `<length>` : The default is auto, which is the original size of the project; you can also set the same value as the width or height properties (such as 329px), the project will occupy a fixed space.
 
 <vuep template="#flexBasis"></vuep>
 
@@ -711,11 +713,12 @@ flex-basis: <length> | auto;
 **function:** The abbreviation of the `flex-grow`,`flex-shrink` and `flex-basis` properties. The later two properties are optional.
 
 ```css
-flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
+flex: none | [ < "flex-grow" > < "flex-shrink" >? || < "flex-basis" > ];
 ```
-> * `0 1 auto`: default value, no scaling, proportional shrink if container space is insufficient
-> * `1 1 auto`: Corresponding to the keyword `auto`, if the container space is redundant, the extra space is allocated proportionally; if the container space is insufficient, the scale is shrinking.
-> * `0 0 auto`: Corresponding to the keyword `none`, allocate space by the original size of the project
+
+> - `0 1 auto`: default value, no scaling, proportional shrink if container space is insufficient
+> - `1 1 auto`: Corresponding to the keyword `auto`, if the container space is redundant, the extra space is allocated proportionally; if the container space is insufficient, the scale is shrinking.
+> - `0 0 auto`: Corresponding to the keyword `none`, allocate space by the original size of the project
 
 #### align-self property
 
@@ -724,12 +727,13 @@ flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
 ```css
 align-self: auto | flex-start | flex-end | center | baseline | stretch;
 ```
-> * auto: The default value, which inherits the `align-items` attribute of the parent element. If there is no parent element, it is equivalent to the stretch.
-> * flex-start: Starting point alignment of the cross axis
-> * flex-end: End point alignment of the cross axis
-> * center: Center point alignment of the cross axis
-> * baseline: Baseline alignment of the first line of text in the item
-> * stretch: If the fixed height is not set, it will fill the entire container
+
+> - auto: The default value, which inherits the `align-items` attribute of the parent element. If there is no parent element, it is equivalent to the stretch.
+> - flex-start: Starting point alignment of the cross axis
+> - flex-end: End point alignment of the cross axis
+> - center: Center point alignment of the cross axis
+> - baseline: Baseline alignment of the first line of text in the item
+> - stretch: If the fixed height is not set, it will fill the entire container
 
 <vuep template="#alignSelf"></vuep>
 
