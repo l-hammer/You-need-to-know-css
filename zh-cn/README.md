@@ -86,8 +86,8 @@
 
 轻松系列小程序推荐
 
-<img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-sgz.jpeg" width="120">
-<img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-jsk.jpeg" width="120">
+<img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-sgz.png" width="120">
+<img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-jsk.png" width="120">
 
 ## license
 
