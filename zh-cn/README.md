@@ -76,17 +76,17 @@
 
 <img src="https://lhammer.cn/You-need-to-know-css/static/reward-code.png" width="280"> <br><br>
 
-如果你在留言中备注了你的Github的ID，将会显示在这里🤠
+<!-- 如果你在留言中备注了你的Github的ID，将会显示在这里🤠
 
 <a href="https://github.com/fqs617" target="_blank"><img src="https://avatars3.githubusercontent.com/u/23302051?s=460&v=4" width="29" style="border-radius: 50%"></a>
 <a href="https://github.com/ElivesHuangGit" target="_blank"><img src="https://avatars0.githubusercontent.com/u/36831410?s=460&v=4" width="29" style="border-radius: 50%"></a>
-<a href="https://github.com/StaminaWang" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&v=4" width="29" style="border-radius: 50%"></a>
+<a href="https://github.com/StaminaWang" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&v=4" width="29" style="border-radius: 50%"></a> -->
 
-------
 
-轻松系列小程序推荐
+## 实用小程序推荐
 
 <img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-sgz.png" width="120">
+<a href="javascript:void(0);" style="display:inline-block;width:30px"></a>
 <img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-jsk.png" width="120">
 
 ## license
